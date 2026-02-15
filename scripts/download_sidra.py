@@ -152,11 +152,10 @@ def download_censo_1991_rural_urbana(municipios_codes: list):
     return all_data
 
 
-def download_censo_2022_populacao(municipios_codes: list):
+def download_censo_2022_rural_urbana(municipios_codes: list):
     """
-    Tabela 4714 - População residente
-    Censo 2022 - dados por município
-    (Nota: 2022 pode não ter breakdown rural/urbana na API ainda)
+    Tabela 9923 - População residente por situação do domicílio
+    Censo 2022 - dados por município com rural/urbano
     """
     all_data = []
     batch_size = 50
@@ -165,10 +164,11 @@ def download_censo_2022_populacao(municipios_codes: list):
         batch = municipios_codes[i:i + batch_size]
         codes = ",".join(batch)
 
-        # Tabela 4714: população censo 2022
-        url = f"{BASE_URL}/t/4714/n6/{codes}/v/93/p/2022"
+        # Tabela 9923: população por situação do domicílio (rural/urbana) 2022
+        # c1 = situação (0=total, 1=urbana, 2=rural)
+        url = f"{BASE_URL}/t/9923/n6/{codes}/v/93/p/2022/c1/0,1,2"
 
-        data = fetch_sidra(url, f"Censo 2022 - Lote {i // batch_size + 1}")
+        data = fetch_sidra(url, f"Censo 2022 Rural/Urbana - Lote {i // batch_size + 1}")
         all_data.extend(data)
         time.sleep(1)
 
@@ -237,7 +237,7 @@ def process_rural_urbana(data_list: list, ano: int) -> pd.DataFrame:
 
 def process_censo_2022(data_list: list) -> pd.DataFrame:
     """
-    Processa dados do censo 2022 (apenas total)
+    Processa dados do censo 2022 com rural/urbano
     """
     if not data_list:
         return pd.DataFrame()
@@ -247,9 +247,19 @@ def process_censo_2022(data_list: list) -> pd.DataFrame:
         try:
             cod_mun = row.get("D1C", "")
             nome_mun = row.get("D1N", "")
+            situacao_cod = row.get("D4C", "")
+            situacao = row.get("D4N", "")
             valor = row.get("V", "0")
 
-            if valor == "-" or valor == "...":
+            # Mapear código para situação
+            if situacao_cod == "0" or situacao == "":
+                situacao = "Total"
+            elif situacao_cod == "1":
+                situacao = "Urbana"
+            elif situacao_cod == "2":
+                situacao = "Rural"
+
+            if valor == "-" or valor == "..." or valor == "":
                 valor = 0
             else:
                 valor = int(float(valor))
@@ -258,7 +268,7 @@ def process_censo_2022(data_list: list) -> pd.DataFrame:
                 "cod_municipio": cod_mun,
                 "municipio": nome_mun,
                 "ano": 2022,
-                "situacao": "Total",
+                "situacao": situacao,
                 "populacao": valor,
             })
         except (ValueError, TypeError):
@@ -301,9 +311,9 @@ def download_all():
     df_2010 = process_rural_urbana(data_2010, 2010)
     print()
 
-    # 5. Censo 2022
+    # 5. Censo 2022 (com rural/urbano - tabela 9923)
     print("-" * 40)
-    data_2022 = download_censo_2022_populacao(municipios_codes)
+    data_2022 = download_censo_2022_rural_urbana(municipios_codes)
     df_2022 = process_censo_2022(data_2022)
     print()
 
