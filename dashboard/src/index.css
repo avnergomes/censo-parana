@@ -74,9 +74,36 @@ body {
 }
 
 .tab-button.active {
-  @apply bg-primary-600 text-white;
+  @apply bg-accent-600 text-white;
 }
 
 .tab-button:not(.active) {
   @apply text-dark-600 hover:bg-dark-100;
+}
+
+/* Loading spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Recharts custom styles */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #e5e7eb;
+}
+
+.recharts-tooltip-wrapper {
+  @apply !z-50;
+}
+
+/* Focus styles */
+button:focus-visible,
+a:focus-visible {
+  @apply outline-none ring-2 ring-accent-500 ring-offset-2;
 }

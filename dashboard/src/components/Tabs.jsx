@@ -23,7 +23,7 @@ export default function Tabs({ tabs, activeTab, onChange }) {
               flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm
               transition-all duration-200
               ${isActive
-                ? 'bg-primary-600 text-white shadow-md'
+                ? 'bg-accent-600 text-white shadow-md'
                 : 'bg-white text-dark-600 hover:bg-dark-100 border border-dark-200'
               }
             `}
