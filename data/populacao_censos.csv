@@ -1,0 +1,3991 @@
+cod_municipio,municipio,ano,situacao,populacao
+4100103,Abatiá (PR),1991,Total,10238
+4100103,Abatiá (PR),1991,Urbana,5109
+4100103,Abatiá (PR),1991,Rural,5129
+4100202,Adrianópolis (PR),1991,Total,8935
+4100202,Adrianópolis (PR),1991,Urbana,1589
+4100202,Adrianópolis (PR),1991,Rural,7346
+4100301,Agudos do Sul (PR),1991,Total,6076
+4100301,Agudos do Sul (PR),1991,Urbana,779
+4100301,Agudos do Sul (PR),1991,Rural,5297
+4100400,Almirante Tamandaré (PR),1991,Total,66159
+4100400,Almirante Tamandaré (PR),1991,Urbana,59080
+4100400,Almirante Tamandaré (PR),1991,Rural,7079
+4100459,Altamira do Paraná (PR),1991,Total,7437
+4100459,Altamira do Paraná (PR),1991,Urbana,1821
+4100459,Altamira do Paraná (PR),1991,Rural,5616
+4100509,Altônia (PR),1991,Total,24589
+4100509,Altônia (PR),1991,Urbana,11925
+4100509,Altônia (PR),1991,Rural,12664
+4100608,Alto Paraná (PR),1991,Total,12047
+4100608,Alto Paraná (PR),1991,Urbana,8359
+4100608,Alto Paraná (PR),1991,Rural,3688
+4100707,Alto Piquiri (PR),1991,Total,17229
+4100707,Alto Piquiri (PR),1991,Urbana,11582
+4100707,Alto Piquiri (PR),1991,Rural,5647
+4100806,Alvorada do Sul (PR),1991,Total,9685
+4100806,Alvorada do Sul (PR),1991,Urbana,5922
+4100806,Alvorada do Sul (PR),1991,Rural,3763
+4100905,Amaporã (PR),1991,Total,3948
+4100905,Amaporã (PR),1991,Urbana,3087
+4100905,Amaporã (PR),1991,Rural,861
+4101002,Ampére (PR),1991,Total,13213
+4101002,Ampére (PR),1991,Urbana,6037
+4101002,Ampére (PR),1991,Rural,7176
+4101051,Anahy (PR),1991,Total,0
+4101051,Anahy (PR),1991,Urbana,0
+4101051,Anahy (PR),1991,Rural,0
+4101101,Andirá (PR),1991,Total,19584
+4101101,Andirá (PR),1991,Urbana,17114
+4101101,Andirá (PR),1991,Rural,2470
+4101150,Ângulo (PR),1991,Total,0
+4101150,Ângulo (PR),1991,Urbana,0
+4101150,Ângulo (PR),1991,Rural,0
+4101200,Antonina (PR),1991,Total,17070
+4101200,Antonina (PR),1991,Urbana,14018
+4101200,Antonina (PR),1991,Rural,3052
+4101309,Antônio Olinto (PR),1991,Total,7733
+4101309,Antônio Olinto (PR),1991,Urbana,618
+4101309,Antônio Olinto (PR),1991,Rural,7115
+4101408,Apucarana (PR),1991,Total,95064
+4101408,Apucarana (PR),1991,Urbana,86079
+4101408,Apucarana (PR),1991,Rural,8985
+4101507,Arapongas (PR),1991,Total,64556
+4101507,Arapongas (PR),1991,Urbana,60025
+4101507,Arapongas (PR),1991,Rural,4531
+4101606,Arapoti (PR),1991,Total,20603
+4101606,Arapoti (PR),1991,Urbana,11413
+4101606,Arapoti (PR),1991,Rural,9190
+4101655,Arapuã (PR),1991,Total,0
+4101655,Arapuã (PR),1991,Urbana,0
+4101655,Arapuã (PR),1991,Rural,0
+4101705,Araruna (PR),1991,Total,12387
+4101705,Araruna (PR),1991,Urbana,5858
+4101705,Araruna (PR),1991,Rural,6529
+4101804,Araucária (PR),1991,Total,61889
+4101804,Araucária (PR),1991,Urbana,54262
+4101804,Araucária (PR),1991,Rural,7627
+4101853,Ariranha do Ivaí (PR),1991,Total,0
+4101853,Ariranha do Ivaí (PR),1991,Urbana,0
+4101853,Ariranha do Ivaí (PR),1991,Rural,0
+4101903,Assaí (PR),1991,Total,20325
+4101903,Assaí (PR),1991,Urbana,12964
+4101903,Assaí (PR),1991,Rural,7361
+4102000,Assis Chateaubriand (PR),1991,Total,39737
+4102000,Assis Chateaubriand (PR),1991,Urbana,28835
+4102000,Assis Chateaubriand (PR),1991,Rural,10902
+4102109,Astorga (PR),1991,Total,22458
+4102109,Astorga (PR),1991,Urbana,18534
+4102109,Astorga (PR),1991,Rural,3924
+4102208,Atalaia (PR),1991,Total,4129
+4102208,Atalaia (PR),1991,Urbana,2841
+4102208,Atalaia (PR),1991,Rural,1288
+4102307,Balsa Nova (PR),1991,Total,7515
+4102307,Balsa Nova (PR),1991,Urbana,2430
+4102307,Balsa Nova (PR),1991,Rural,5085
+4102406,Bandeirantes (PR),1991,Total,34310
+4102406,Bandeirantes (PR),1991,Urbana,24422
+4102406,Bandeirantes (PR),1991,Rural,9888
+4102505,Barbosa Ferraz (PR),1991,Total,18389
+4102505,Barbosa Ferraz (PR),1991,Urbana,10872
+4102505,Barbosa Ferraz (PR),1991,Rural,7517
+4102604,Barracão (PR),1991,Total,14692
+4102604,Barracão (PR),1991,Urbana,4491
+4102604,Barracão (PR),1991,Rural,10201
+4102703,Barra do Jacaré (PR),1991,Total,3151
+4102703,Barra do Jacaré (PR),1991,Urbana,1390
+4102703,Barra do Jacaré (PR),1991,Rural,1761
+4102752,Bela Vista da Caroba (PR),1991,Total,0
+4102752,Bela Vista da Caroba (PR),1991,Urbana,0
+4102752,Bela Vista da Caroba (PR),1991,Rural,0
+4102802,Bela Vista do Paraíso (PR),1991,Total,15098
+4102802,Bela Vista do Paraíso (PR),1991,Urbana,13070
+4102802,Bela Vista do Paraíso (PR),1991,Rural,2028
+4102901,Bituruna (PR),1991,Total,12852
+4102901,Bituruna (PR),1991,Urbana,5575
+4102901,Bituruna (PR),1991,Rural,7277
+4103008,Boa Esperança (PR),1991,Total,6954
+4103008,Boa Esperança (PR),1991,Urbana,2639
+4103008,Boa Esperança (PR),1991,Rural,4315
+4103024,Boa Esperança do Iguaçu (PR),1991,Total,0
+4103024,Boa Esperança do Iguaçu (PR),1991,Urbana,0
+4103024,Boa Esperança do Iguaçu (PR),1991,Rural,0
+4103040,Boa Ventura de São Roque (PR),1991,Total,0
+4103040,Boa Ventura de São Roque (PR),1991,Urbana,0
+4103040,Boa Ventura de São Roque (PR),1991,Rural,0
+4103057,Boa Vista da Aparecida (PR),1991,Total,10370
+4103057,Boa Vista da Aparecida (PR),1991,Urbana,3228
+4103057,Boa Vista da Aparecida (PR),1991,Rural,7142
+4103107,Bocaiúva do Sul (PR),1991,Total,10657
+4103107,Bocaiúva do Sul (PR),1991,Urbana,3242
+4103107,Bocaiúva do Sul (PR),1991,Rural,7415
+4103156,Bom Jesus do Sul (PR),1991,Total,0
+4103156,Bom Jesus do Sul (PR),1991,Urbana,0
+4103156,Bom Jesus do Sul (PR),1991,Rural,0
+4103206,Bom Sucesso (PR),1991,Total,7116
+4103206,Bom Sucesso (PR),1991,Urbana,4588
+4103206,Bom Sucesso (PR),1991,Rural,2528
+4103222,Bom Sucesso do Sul (PR),1991,Total,0
+4103222,Bom Sucesso do Sul (PR),1991,Urbana,0
+4103222,Bom Sucesso do Sul (PR),1991,Rural,0
+4103305,Borrazópolis (PR),1991,Total,11481
+4103305,Borrazópolis (PR),1991,Urbana,5480
+4103305,Borrazópolis (PR),1991,Rural,6001
+4103354,Braganey (PR),1991,Total,8069
+4103354,Braganey (PR),1991,Urbana,3017
+4103354,Braganey (PR),1991,Rural,5052
+4103370,Brasilândia do Sul (PR),1991,Total,0
+4103370,Brasilândia do Sul (PR),1991,Urbana,0
+4103370,Brasilândia do Sul (PR),1991,Rural,0
+4103404,Cafeara (PR),1991,Total,2398
+4103404,Cafeara (PR),1991,Urbana,1603
+4103404,Cafeara (PR),1991,Rural,795
+4103453,Cafelândia (PR),1991,Total,8093
+4103453,Cafelândia (PR),1991,Urbana,5185
+4103453,Cafelândia (PR),1991,Rural,2908
+4103479,Cafezal do Sul (PR),1991,Total,0
+4103479,Cafezal do Sul (PR),1991,Urbana,0
+4103479,Cafezal do Sul (PR),1991,Rural,0
+4103503,Califórnia (PR),1991,Total,7329
+4103503,Califórnia (PR),1991,Urbana,4525
+4103503,Califórnia (PR),1991,Rural,2804
+4103602,Cambará (PR),1991,Total,21343
+4103602,Cambará (PR),1991,Urbana,16491
+4103602,Cambará (PR),1991,Rural,4852
+4103701,Cambé (PR),1991,Total,73842
+4103701,Cambé (PR),1991,Urbana,66817
+4103701,Cambé (PR),1991,Rural,7025
+4103800,Cambira (PR),1991,Total,9793
+4103800,Cambira (PR),1991,Urbana,3868
+4103800,Cambira (PR),1991,Rural,5925
+4103909,Campina da Lagoa (PR),1991,Total,20506
+4103909,Campina da Lagoa (PR),1991,Urbana,12677
+4103909,Campina da Lagoa (PR),1991,Rural,7829
+4103958,Campina do Simão (PR),1991,Total,0
+4103958,Campina do Simão (PR),1991,Urbana,0
+4103958,Campina do Simão (PR),1991,Rural,0
+4104006,Campina Grande do Sul (PR),1991,Total,19343
+4104006,Campina Grande do Sul (PR),1991,Urbana,12722
+4104006,Campina Grande do Sul (PR),1991,Rural,6621
+4104055,Campo Bonito (PR),1991,Total,5059
+4104055,Campo Bonito (PR),1991,Urbana,1479
+4104055,Campo Bonito (PR),1991,Rural,3580
+4104105,Campo do Tenente (PR),1991,Total,5241
+4104105,Campo do Tenente (PR),1991,Urbana,2043
+4104105,Campo do Tenente (PR),1991,Rural,3198
+4104204,Campo Largo (PR),1991,Total,72523
+4104204,Campo Largo (PR),1991,Urbana,53892
+4104204,Campo Largo (PR),1991,Rural,18631
+4104253,Campo Magro (PR),1991,Total,0
+4104253,Campo Magro (PR),1991,Urbana,0
+4104253,Campo Magro (PR),1991,Rural,0
+4104303,Campo Mourão (PR),1991,Total,82318
+4104303,Campo Mourão (PR),1991,Urbana,72335
+4104303,Campo Mourão (PR),1991,Rural,9983
+4104402,Cândido de Abreu (PR),1991,Total,21607
+4104402,Cândido de Abreu (PR),1991,Urbana,3958
+4104402,Cândido de Abreu (PR),1991,Rural,17649
+4104428,Candói (PR),1991,Total,0
+4104428,Candói (PR),1991,Urbana,0
+4104428,Candói (PR),1991,Rural,0
+4104451,Cantagalo (PR),1991,Total,25497
+4104451,Cantagalo (PR),1991,Urbana,5690
+4104451,Cantagalo (PR),1991,Rural,19807
+4104501,Capanema (PR),1991,Total,19368
+4104501,Capanema (PR),1991,Urbana,7936
+4104501,Capanema (PR),1991,Rural,11432
+4104600,Capitão Leônidas Marques (PR),1991,Total,17843
+4104600,Capitão Leônidas Marques (PR),1991,Urbana,7783
+4104600,Capitão Leônidas Marques (PR),1991,Rural,10060
+4104659,Carambeí (PR),1991,Total,0
+4104659,Carambeí (PR),1991,Urbana,0
+4104659,Carambeí (PR),1991,Rural,0
+4104709,Carlópolis (PR),1991,Total,12357
+4104709,Carlópolis (PR),1991,Urbana,6519
+4104709,Carlópolis (PR),1991,Rural,5838
+4104808,Cascavel (PR),1991,Total,192990
+4104808,Cascavel (PR),1991,Urbana,177766
+4104808,Cascavel (PR),1991,Rural,15224
+4104907,Castro (PR),1991,Total,64058
+4104907,Castro (PR),1991,Urbana,39125
+4104907,Castro (PR),1991,Rural,24933
+4105003,Catanduvas (PR),1991,Total,9821
+4105003,Catanduvas (PR),1991,Urbana,3712
+4105003,Catanduvas (PR),1991,Rural,6109
+4105102,Centenário do Sul (PR),1991,Total,14269
+4105102,Centenário do Sul (PR),1991,Urbana,9990
+4105102,Centenário do Sul (PR),1991,Rural,4279
+4105201,Cerro Azul (PR),1991,Total,21073
+4105201,Cerro Azul (PR),1991,Urbana,3599
+4105201,Cerro Azul (PR),1991,Rural,17474
+4105300,Céu Azul (PR),1991,Total,10586
+4105300,Céu Azul (PR),1991,Urbana,5831
+4105300,Céu Azul (PR),1991,Rural,4755
+4105409,Chopinzinho (PR),1991,Total,24587
+4105409,Chopinzinho (PR),1991,Urbana,8282
+4105409,Chopinzinho (PR),1991,Rural,16305
+4105508,Cianorte (PR),1991,Total,49846
+4105508,Cianorte (PR),1991,Urbana,37850
+4105508,Cianorte (PR),1991,Rural,11996
+4105607,Cidade Gaúcha (PR),1991,Total,8472
+4105607,Cidade Gaúcha (PR),1991,Urbana,6522
+4105607,Cidade Gaúcha (PR),1991,Rural,1950
+4105706,Clevelândia (PR),1991,Total,18057
+4105706,Clevelândia (PR),1991,Urbana,13347
+4105706,Clevelândia (PR),1991,Rural,4710
+4105805,Colombo (PR),1991,Total,117767
+4105805,Colombo (PR),1991,Urbana,110273
+4105805,Colombo (PR),1991,Rural,7494
+4105904,Colorado (PR),1991,Total,18972
+4105904,Colorado (PR),1991,Urbana,15616
+4105904,Colorado (PR),1991,Rural,3356
+4106001,Congonhinhas (PR),1991,Total,7773
+4106001,Congonhinhas (PR),1991,Urbana,4044
+4106001,Congonhinhas (PR),1991,Rural,3729
+4106100,Conselheiro Mairinck (PR),1991,Total,3493
+4106100,Conselheiro Mairinck (PR),1991,Urbana,2226
+4106100,Conselheiro Mairinck (PR),1991,Rural,1267
+4106209,Contenda (PR),1991,Total,8941
+4106209,Contenda (PR),1991,Urbana,4823
+4106209,Contenda (PR),1991,Rural,4118
+4106308,Corbélia (PR),1991,Total,22813
+4106308,Corbélia (PR),1991,Urbana,13926
+4106308,Corbélia (PR),1991,Rural,8887
+4106407,Cornélio Procópio (PR),1991,Total,46644
+4106407,Cornélio Procópio (PR),1991,Urbana,40036
+4106407,Cornélio Procópio (PR),1991,Rural,6608
+4106456,Coronel Domingos Soares (PR),1991,Total,0
+4106456,Coronel Domingos Soares (PR),1991,Urbana,0
+4106456,Coronel Domingos Soares (PR),1991,Rural,0
+4106506,Coronel Vivida (PR),1991,Total,25140
+4106506,Coronel Vivida (PR),1991,Urbana,12339
+4106506,Coronel Vivida (PR),1991,Rural,12801
+4106555,Corumbataí do Sul (PR),1991,Total,6642
+4106555,Corumbataí do Sul (PR),1991,Urbana,1762
+4106555,Corumbataí do Sul (PR),1991,Rural,4880
+4106571,Cruzeiro do Iguaçu (PR),1991,Total,0
+4106571,Cruzeiro do Iguaçu (PR),1991,Urbana,0
+4106571,Cruzeiro do Iguaçu (PR),1991,Rural,0
+4106605,Cruzeiro do Oeste (PR),1991,Total,23660
+4106605,Cruzeiro do Oeste (PR),1991,Urbana,16754
+4106605,Cruzeiro do Oeste (PR),1991,Rural,6906
+4106704,Cruzeiro do Sul (PR),1991,Total,5006
+4106704,Cruzeiro do Sul (PR),1991,Urbana,2715
+4106704,Cruzeiro do Sul (PR),1991,Rural,2291
+4106803,Cruz Machado (PR),1991,Total,16568
+4106803,Cruz Machado (PR),1991,Urbana,2473
+4106803,Cruz Machado (PR),1991,Rural,14095
+4106852,Cruzmaltina (PR),1991,Total,0
+4106852,Cruzmaltina (PR),1991,Urbana,0
+4106852,Cruzmaltina (PR),1991,Rural,0
+4106902,Curitiba (PR),1991,Total,1315035
+4106902,Curitiba (PR),1991,Urbana,1315035
+4106902,Curitiba (PR),1991,Rural,0
+4107009,Curiúva (PR),1991,Total,10503
+4107009,Curiúva (PR),1991,Urbana,3989
+4107009,Curiúva (PR),1991,Rural,6514
+4107108,Diamante do Norte (PR),1991,Total,7604
+4107108,Diamante do Norte (PR),1991,Urbana,4537
+4107108,Diamante do Norte (PR),1991,Rural,3067
+4107124,Diamante do Sul (PR),1991,Total,0
+4107124,Diamante do Sul (PR),1991,Urbana,0
+4107124,Diamante do Sul (PR),1991,Rural,0
+4107157,Diamante D'Oeste (PR),1991,Total,9253
+4107157,Diamante D'Oeste (PR),1991,Urbana,2876
+4107157,Diamante D'Oeste (PR),1991,Rural,6377
+4107207,Dois Vizinhos (PR),1991,Total,40267
+4107207,Dois Vizinhos (PR),1991,Urbana,22202
+4107207,Dois Vizinhos (PR),1991,Rural,18065
+4107256,Douradina (PR),1991,Total,6578
+4107256,Douradina (PR),1991,Urbana,3248
+4107256,Douradina (PR),1991,Rural,3330
+4107306,Doutor Camargo (PR),1991,Total,5942
+4107306,Doutor Camargo (PR),1991,Urbana,4379
+4107306,Doutor Camargo (PR),1991,Rural,1563
+4107405,Enéas Marques (PR),1991,Total,12396
+4107405,Enéas Marques (PR),1991,Urbana,2115
+4107405,Enéas Marques (PR),1991,Rural,10281
+4107504,Engenheiro Beltrão (PR),1991,Total,14671
+4107504,Engenheiro Beltrão (PR),1991,Urbana,8378
+4107504,Engenheiro Beltrão (PR),1991,Rural,6293
+4107520,Esperança Nova (PR),1991,Total,0
+4107520,Esperança Nova (PR),1991,Urbana,0
+4107520,Esperança Nova (PR),1991,Rural,0
+4107538,Entre Rios do Oeste (PR),1991,Total,0
+4107538,Entre Rios do Oeste (PR),1991,Urbana,0
+4107538,Entre Rios do Oeste (PR),1991,Rural,0
+4107546,Espigão Alto do Iguaçu (PR),1991,Total,0
+4107546,Espigão Alto do Iguaçu (PR),1991,Urbana,0
+4107546,Espigão Alto do Iguaçu (PR),1991,Rural,0
+4107553,Farol (PR),1991,Total,0
+4107553,Farol (PR),1991,Urbana,0
+4107553,Farol (PR),1991,Rural,0
+4107603,Faxinal (PR),1991,Total,19926
+4107603,Faxinal (PR),1991,Urbana,11108
+4107603,Faxinal (PR),1991,Rural,8818
+4107652,Fazenda Rio Grande (PR),1991,Total,0
+4107652,Fazenda Rio Grande (PR),1991,Urbana,0
+4107652,Fazenda Rio Grande (PR),1991,Rural,0
+4107702,Fênix (PR),1991,Total,5983
+4107702,Fênix (PR),1991,Urbana,4016
+4107702,Fênix (PR),1991,Rural,1967
+4107736,Fernandes Pinheiro (PR),1991,Total,0
+4107736,Fernandes Pinheiro (PR),1991,Urbana,0
+4107736,Fernandes Pinheiro (PR),1991,Rural,0
+4107751,Figueira (PR),1991,Total,9585
+4107751,Figueira (PR),1991,Urbana,7180
+4107751,Figueira (PR),1991,Rural,2405
+4107801,Floraí (PR),1991,Total,5500
+4107801,Floraí (PR),1991,Urbana,4240
+4107801,Floraí (PR),1991,Rural,1260
+4107850,Flor da Serra do Sul (PR),1991,Total,0
+4107850,Flor da Serra do Sul (PR),1991,Urbana,0
+4107850,Flor da Serra do Sul (PR),1991,Rural,0
+4107900,Floresta (PR),1991,Total,4527
+4107900,Floresta (PR),1991,Urbana,3469
+4107900,Floresta (PR),1991,Rural,1058
+4108007,Florestópolis (PR),1991,Total,11998
+4108007,Florestópolis (PR),1991,Urbana,8545
+4108007,Florestópolis (PR),1991,Rural,3453
+4108106,Flórida (PR),1991,Total,2096
+4108106,Flórida (PR),1991,Urbana,1652
+4108106,Flórida (PR),1991,Rural,444
+4108205,Formosa do Oeste (PR),1991,Total,15196
+4108205,Formosa do Oeste (PR),1991,Urbana,7227
+4108205,Formosa do Oeste (PR),1991,Rural,7969
+4108304,Foz do Iguaçu (PR),1991,Total,190123
+4108304,Foz do Iguaçu (PR),1991,Urbana,186385
+4108304,Foz do Iguaçu (PR),1991,Rural,3738
+4108320,Francisco Alves (PR),1991,Total,9205
+4108320,Francisco Alves (PR),1991,Urbana,4313
+4108320,Francisco Alves (PR),1991,Rural,4892
+4108403,Francisco Beltrão (PR),1991,Total,61272
+4108403,Francisco Beltrão (PR),1991,Urbana,45622
+4108403,Francisco Beltrão (PR),1991,Rural,15650
+4108452,Foz do Jordão (PR),1991,Total,0
+4108452,Foz do Jordão (PR),1991,Urbana,0
+4108452,Foz do Jordão (PR),1991,Rural,0
+4108502,General Carneiro (PR),1991,Total,11287
+4108502,General Carneiro (PR),1991,Urbana,6078
+4108502,General Carneiro (PR),1991,Rural,5209
+4108551,Godoy Moreira (PR),1991,Total,5294
+4108551,Godoy Moreira (PR),1991,Urbana,1262
+4108551,Godoy Moreira (PR),1991,Rural,4032
+4108601,Goioerê (PR),1991,Total,45131
+4108601,Goioerê (PR),1991,Urbana,29840
+4108601,Goioerê (PR),1991,Rural,15291
+4108650,Goioxim (PR),1991,Total,0
+4108650,Goioxim (PR),1991,Urbana,0
+4108650,Goioxim (PR),1991,Rural,0
+4108700,Grandes Rios (PR),1991,Total,12156
+4108700,Grandes Rios (PR),1991,Urbana,4332
+4108700,Grandes Rios (PR),1991,Rural,7824
+4108809,Guaíra (PR),1991,Total,30000
+4108809,Guaíra (PR),1991,Urbana,22790
+4108809,Guaíra (PR),1991,Rural,7210
+4108908,Guairaçá (PR),1991,Total,5556
+4108908,Guairaçá (PR),1991,Urbana,3129
+4108908,Guairaçá (PR),1991,Rural,2427
+4108957,Guamiranga (PR),1991,Total,0
+4108957,Guamiranga (PR),1991,Urbana,0
+4108957,Guamiranga (PR),1991,Rural,0
+4109005,Guapirama (PR),1991,Total,3806
+4109005,Guapirama (PR),1991,Urbana,2410
+4109005,Guapirama (PR),1991,Rural,1396
+4109104,Guaporema (PR),1991,Total,2290
+4109104,Guaporema (PR),1991,Urbana,1116
+4109104,Guaporema (PR),1991,Rural,1174
+4109203,Guaraci (PR),1991,Total,5549
+4109203,Guaraci (PR),1991,Urbana,4059
+4109203,Guaraci (PR),1991,Rural,1490
+4109302,Guaraniaçu (PR),1991,Total,26012
+4109302,Guaraniaçu (PR),1991,Urbana,8623
+4109302,Guaraniaçu (PR),1991,Rural,17389
+4109401,Guarapuava (PR),1991,Total,159634
+4109401,Guarapuava (PR),1991,Urbana,116210
+4109401,Guarapuava (PR),1991,Rural,43424
+4109500,Guaraqueçaba (PR),1991,Total,7762
+4109500,Guaraqueçaba (PR),1991,Urbana,1742
+4109500,Guaraqueçaba (PR),1991,Rural,6020
+4109609,Guaratuba (PR),1991,Total,17998
+4109609,Guaratuba (PR),1991,Urbana,14019
+4109609,Guaratuba (PR),1991,Rural,3979
+4109658,Honório Serpa (PR),1991,Total,0
+4109658,Honório Serpa (PR),1991,Urbana,0
+4109658,Honório Serpa (PR),1991,Rural,0
+4109708,Ibaiti (PR),1991,Total,26026
+4109708,Ibaiti (PR),1991,Urbana,15245
+4109708,Ibaiti (PR),1991,Rural,10781
+4109757,Ibema (PR),1991,Total,6106
+4109757,Ibema (PR),1991,Urbana,3795
+4109757,Ibema (PR),1991,Rural,2311
+4109807,Ibiporã (PR),1991,Total,35168
+4109807,Ibiporã (PR),1991,Urbana,30728
+4109807,Ibiporã (PR),1991,Rural,4440
+4109906,Icaraíma (PR),1991,Total,11970
+4109906,Icaraíma (PR),1991,Urbana,6711
+4109906,Icaraíma (PR),1991,Rural,5259
+4110003,Iguaraçu (PR),1991,Total,5691
+4110003,Iguaraçu (PR),1991,Urbana,4029
+4110003,Iguaraçu (PR),1991,Rural,1662
+4110052,Iguatu (PR),1991,Total,0
+4110052,Iguatu (PR),1991,Urbana,0
+4110052,Iguatu (PR),1991,Rural,0
+4110078,Imbaú (PR),1991,Total,0
+4110078,Imbaú (PR),1991,Urbana,0
+4110078,Imbaú (PR),1991,Rural,0
+4110102,Imbituva (PR),1991,Total,25621
+4110102,Imbituva (PR),1991,Urbana,7874
+4110102,Imbituva (PR),1991,Rural,17747
+4110201,Inácio Martins (PR),1991,Total,13776
+4110201,Inácio Martins (PR),1991,Urbana,2513
+4110201,Inácio Martins (PR),1991,Rural,11263
+4110300,Inajá (PR),1991,Total,2642
+4110300,Inajá (PR),1991,Urbana,2026
+4110300,Inajá (PR),1991,Rural,616
+4110409,Indianópolis (PR),1991,Total,6742
+4110409,Indianópolis (PR),1991,Urbana,2862
+4110409,Indianópolis (PR),1991,Rural,3880
+4110508,Ipiranga (PR),1991,Total,12590
+4110508,Ipiranga (PR),1991,Urbana,3214
+4110508,Ipiranga (PR),1991,Rural,9376
+4110607,Iporã (PR),1991,Total,26032
+4110607,Iporã (PR),1991,Urbana,15412
+4110607,Iporã (PR),1991,Rural,10620
+4110656,Iracema do Oeste (PR),1991,Total,0
+4110656,Iracema do Oeste (PR),1991,Urbana,0
+4110656,Iracema do Oeste (PR),1991,Rural,0
+4110706,Irati (PR),1991,Total,47854
+4110706,Irati (PR),1991,Urbana,31278
+4110706,Irati (PR),1991,Rural,16576
+4110805,Iretama (PR),1991,Total,15814
+4110805,Iretama (PR),1991,Urbana,6522
+4110805,Iretama (PR),1991,Rural,9292
+4110904,Itaguajé (PR),1991,Total,5054
+4110904,Itaguajé (PR),1991,Urbana,3473
+4110904,Itaguajé (PR),1991,Rural,1581
+4110953,Itaipulândia (PR),1991,Total,0
+4110953,Itaipulândia (PR),1991,Urbana,0
+4110953,Itaipulândia (PR),1991,Rural,0
+4111001,Itambaracá (PR),1991,Total,9717
+4111001,Itambaracá (PR),1991,Urbana,6070
+4111001,Itambaracá (PR),1991,Rural,3647
+4111100,Itambé (PR),1991,Total,6169
+4111100,Itambé (PR),1991,Urbana,4711
+4111100,Itambé (PR),1991,Rural,1458
+4111209,Itapejara d'Oeste (PR),1991,Total,9045
+4111209,Itapejara d'Oeste (PR),1991,Urbana,3909
+4111209,Itapejara d'Oeste (PR),1991,Rural,5136
+4111258,Itaperuçu (PR),1991,Total,0
+4111258,Itaperuçu (PR),1991,Urbana,0
+4111258,Itaperuçu (PR),1991,Rural,0
+4111308,Itaúna do Sul (PR),1991,Total,4555
+4111308,Itaúna do Sul (PR),1991,Urbana,3050
+4111308,Itaúna do Sul (PR),1991,Rural,1505
+4111407,Ivaí (PR),1991,Total,11454
+4111407,Ivaí (PR),1991,Urbana,2958
+4111407,Ivaí (PR),1991,Rural,8496
+4111506,Ivaiporã (PR),1991,Total,45564
+4111506,Ivaiporã (PR),1991,Urbana,27928
+4111506,Ivaiporã (PR),1991,Rural,17636
+4111555,Ivaté (PR),1991,Total,0
+4111555,Ivaté (PR),1991,Urbana,0
+4111555,Ivaté (PR),1991,Rural,0
+4111605,Ivatuba (PR),1991,Total,2508
+4111605,Ivatuba (PR),1991,Urbana,1779
+4111605,Ivatuba (PR),1991,Rural,729
+4111704,Jaboti (PR),1991,Total,4376
+4111704,Jaboti (PR),1991,Urbana,1863
+4111704,Jaboti (PR),1991,Rural,2513
+4111803,Jacarezinho (PR),1991,Total,40858
+4111803,Jacarezinho (PR),1991,Urbana,30111
+4111803,Jacarezinho (PR),1991,Rural,10747
+4111902,Jaguapitã (PR),1991,Total,10613
+4111902,Jaguapitã (PR),1991,Urbana,7474
+4111902,Jaguapitã (PR),1991,Rural,3139
+4112009,Jaguariaíva (PR),1991,Total,25149
+4112009,Jaguariaíva (PR),1991,Urbana,19241
+4112009,Jaguariaíva (PR),1991,Rural,5908
+4112108,Jandaia do Sul (PR),1991,Total,18574
+4112108,Jandaia do Sul (PR),1991,Urbana,15340
+4112108,Jandaia do Sul (PR),1991,Rural,3234
+4112207,Janiópolis (PR),1991,Total,10614
+4112207,Janiópolis (PR),1991,Urbana,4237
+4112207,Janiópolis (PR),1991,Rural,6377
+4112306,Japira (PR),1991,Total,4834
+4112306,Japira (PR),1991,Urbana,1842
+4112306,Japira (PR),1991,Rural,2992
+4112405,Japurá (PR),1991,Total,8115
+4112405,Japurá (PR),1991,Urbana,4253
+4112405,Japurá (PR),1991,Rural,3862
+4112504,Jardim Alegre (PR),1991,Total,20446
+4112504,Jardim Alegre (PR),1991,Urbana,8580
+4112504,Jardim Alegre (PR),1991,Rural,11866
+4112603,Jardim Olinda (PR),1991,Total,1405
+4112603,Jardim Olinda (PR),1991,Urbana,1041
+4112603,Jardim Olinda (PR),1991,Rural,364
+4112702,Jataizinho (PR),1991,Total,10428
+4112702,Jataizinho (PR),1991,Urbana,8390
+4112702,Jataizinho (PR),1991,Rural,2038
+4112751,Jesuítas (PR),1991,Total,12841
+4112751,Jesuítas (PR),1991,Urbana,5537
+4112751,Jesuítas (PR),1991,Rural,7304
+4112801,Joaquim Távora (PR),1991,Total,9875
+4112801,Joaquim Távora (PR),1991,Urbana,6287
+4112801,Joaquim Távora (PR),1991,Rural,3588
+4112900,Jundiaí do Sul (PR),1991,Total,4223
+4112900,Jundiaí do Sul (PR),1991,Urbana,2238
+4112900,Jundiaí do Sul (PR),1991,Rural,1985
+4112959,Juranda (PR),1991,Total,8796
+4112959,Juranda (PR),1991,Urbana,3582
+4112959,Juranda (PR),1991,Rural,5214
+4113007,Jussara (PR),1991,Total,6046
+4113007,Jussara (PR),1991,Urbana,4753
+4113007,Jussara (PR),1991,Rural,1293
+4113106,Kaloré (PR),1991,Total,6568
+4113106,Kaloré (PR),1991,Urbana,2815
+4113106,Kaloré (PR),1991,Rural,3753
+4113205,Lapa (PR),1991,Total,40150
+4113205,Lapa (PR),1991,Urbana,19472
+4113205,Lapa (PR),1991,Rural,20678
+4113254,Laranjal (PR),1991,Total,0
+4113254,Laranjal (PR),1991,Urbana,0
+4113254,Laranjal (PR),1991,Rural,0
+4113304,Laranjeiras do Sul (PR),1991,Total,54102
+4113304,Laranjeiras do Sul (PR),1991,Urbana,21994
+4113304,Laranjeiras do Sul (PR),1991,Rural,32108
+4113403,Leópolis (PR),1991,Total,4761
+4113403,Leópolis (PR),1991,Urbana,2248
+4113403,Leópolis (PR),1991,Rural,2513
+4113429,Lidianópolis (PR),1991,Total,0
+4113429,Lidianópolis (PR),1991,Urbana,0
+4113429,Lidianópolis (PR),1991,Rural,0
+4113452,Lindoeste (PR),1991,Total,6877
+4113452,Lindoeste (PR),1991,Urbana,938
+4113452,Lindoeste (PR),1991,Rural,5939
+4113502,Loanda (PR),1991,Total,17757
+4113502,Loanda (PR),1991,Urbana,14305
+4113502,Loanda (PR),1991,Rural,3452
+4113601,Lobato (PR),1991,Total,3762
+4113601,Lobato (PR),1991,Urbana,2827
+4113601,Lobato (PR),1991,Rural,935
+4113700,Londrina (PR),1991,Total,390100
+4113700,Londrina (PR),1991,Urbana,366676
+4113700,Londrina (PR),1991,Rural,23424
+4113734,Luiziana (PR),1991,Total,9103
+4113734,Luiziana (PR),1991,Urbana,3187
+4113734,Luiziana (PR),1991,Rural,5916
+4113759,Lunardelli (PR),1991,Total,7530
+4113759,Lunardelli (PR),1991,Urbana,2872
+4113759,Lunardelli (PR),1991,Rural,4658
+4113809,Lupionópolis (PR),1991,Total,4459
+4113809,Lupionópolis (PR),1991,Urbana,3677
+4113809,Lupionópolis (PR),1991,Rural,782
+4113908,Mallet (PR),1991,Total,11808
+4113908,Mallet (PR),1991,Urbana,5528
+4113908,Mallet (PR),1991,Rural,6280
+4114005,Mamborê (PR),1991,Total,16032
+4114005,Mamborê (PR),1991,Urbana,8314
+4114005,Mamborê (PR),1991,Rural,7718
+4114104,Mandaguaçu (PR),1991,Total,14697
+4114104,Mandaguaçu (PR),1991,Urbana,11122
+4114104,Mandaguaçu (PR),1991,Rural,3575
+4114203,Mandaguari (PR),1991,Total,28086
+4114203,Mandaguari (PR),1991,Urbana,21250
+4114203,Mandaguari (PR),1991,Rural,6836
+4114302,Mandirituba (PR),1991,Total,38336
+4114302,Mandirituba (PR),1991,Urbana,26237
+4114302,Mandirituba (PR),1991,Rural,12099
+4114351,Manfrinópolis (PR),1991,Total,0
+4114351,Manfrinópolis (PR),1991,Urbana,0
+4114351,Manfrinópolis (PR),1991,Rural,0
+4114401,Mangueirinha (PR),1991,Total,25604
+4114401,Mangueirinha (PR),1991,Urbana,4982
+4114401,Mangueirinha (PR),1991,Rural,20622
+4114500,Manoel Ribas (PR),1991,Total,11956
+4114500,Manoel Ribas (PR),1991,Urbana,4552
+4114500,Manoel Ribas (PR),1991,Rural,7404
+4114609,Marechal Cândido Rondon (PR),1991,Total,49430
+4114609,Marechal Cândido Rondon (PR),1991,Urbana,26455
+4114609,Marechal Cândido Rondon (PR),1991,Rural,22975
+4114708,Maria Helena (PR),1991,Total,8439
+4114708,Maria Helena (PR),1991,Urbana,2873
+4114708,Maria Helena (PR),1991,Rural,5566
+4114807,Marialva (PR),1991,Total,22625
+4114807,Marialva (PR),1991,Urbana,16177
+4114807,Marialva (PR),1991,Rural,6448
+4114906,Marilândia do Sul (PR),1991,Total,13764
+4114906,Marilândia do Sul (PR),1991,Urbana,7790
+4114906,Marilândia do Sul (PR),1991,Rural,5974
+4115002,Marilena (PR),1991,Total,6725
+4115002,Marilena (PR),1991,Urbana,3496
+4115002,Marilena (PR),1991,Rural,3229
+4115101,Mariluz (PR),1991,Total,11053
+4115101,Mariluz (PR),1991,Urbana,8326
+4115101,Mariluz (PR),1991,Rural,2727
+4115200,Maringá (PR),1991,Total,240292
+4115200,Maringá (PR),1991,Urbana,234079
+4115200,Maringá (PR),1991,Rural,6213
+4115309,Mariópolis (PR),1991,Total,6280
+4115309,Mariópolis (PR),1991,Urbana,2855
+4115309,Mariópolis (PR),1991,Rural,3425
+4115358,Maripá (PR),1991,Total,0
+4115358,Maripá (PR),1991,Urbana,0
+4115358,Maripá (PR),1991,Rural,0
+4115408,Marmeleiro (PR),1991,Total,17113
+4115408,Marmeleiro (PR),1991,Urbana,5763
+4115408,Marmeleiro (PR),1991,Rural,11350
+4115457,Marquinho (PR),1991,Total,0
+4115457,Marquinho (PR),1991,Urbana,0
+4115457,Marquinho (PR),1991,Rural,0
+4115507,Marumbi (PR),1991,Total,5007
+4115507,Marumbi (PR),1991,Urbana,3051
+4115507,Marumbi (PR),1991,Rural,1956
+4115606,Matelândia (PR),1991,Total,17329
+4115606,Matelândia (PR),1991,Urbana,10385
+4115606,Matelândia (PR),1991,Rural,6944
+4115705,Matinhos (PR),1991,Total,11325
+4115705,Matinhos (PR),1991,Urbana,10866
+4115705,Matinhos (PR),1991,Rural,459
+4115739,Mato Rico (PR),1991,Total,0
+4115739,Mato Rico (PR),1991,Urbana,0
+4115739,Mato Rico (PR),1991,Rural,0
+4115754,Mauá da Serra (PR),1991,Total,0
+4115754,Mauá da Serra (PR),1991,Urbana,0
+4115754,Mauá da Serra (PR),1991,Rural,0
+4115804,Medianeira (PR),1991,Total,38665
+4115804,Medianeira (PR),1991,Urbana,29572
+4115804,Medianeira (PR),1991,Rural,9093
+4115853,Mercedes (PR),1991,Total,0
+4115853,Mercedes (PR),1991,Urbana,0
+4115853,Mercedes (PR),1991,Rural,0
+4115903,Mirador (PR),1991,Total,2337
+4115903,Mirador (PR),1991,Urbana,1420
+4115903,Mirador (PR),1991,Rural,917
+4116000,Miraselva (PR),1991,Total,5326
+4116000,Miraselva (PR),1991,Urbana,3085
+4116000,Miraselva (PR),1991,Rural,2241
+4116059,Missal (PR),1991,Total,10372
+4116059,Missal (PR),1991,Urbana,3679
+4116059,Missal (PR),1991,Rural,6693
+4116109,Moreira Sales (PR),1991,Total,17004
+4116109,Moreira Sales (PR),1991,Urbana,10236
+4116109,Moreira Sales (PR),1991,Rural,6768
+4116208,Morretes (PR),1991,Total,13135
+4116208,Morretes (PR),1991,Urbana,6194
+4116208,Morretes (PR),1991,Rural,6941
+4116307,Munhoz de Melo (PR),1991,Total,3628
+4116307,Munhoz de Melo (PR),1991,Urbana,1994
+4116307,Munhoz de Melo (PR),1991,Rural,1634
+4116406,Nossa Senhora das Graças (PR),1991,Total,3480
+4116406,Nossa Senhora das Graças (PR),1991,Urbana,2222
+4116406,Nossa Senhora das Graças (PR),1991,Rural,1258
+4116505,Nova Aliança do Ivaí (PR),1991,Total,1206
+4116505,Nova Aliança do Ivaí (PR),1991,Urbana,766
+4116505,Nova Aliança do Ivaí (PR),1991,Rural,440
+4116604,Nova América da Colina (PR),1991,Total,4105
+4116604,Nova América da Colina (PR),1991,Urbana,1828
+4116604,Nova América da Colina (PR),1991,Rural,2277
+4116703,Nova Aurora (PR),1991,Total,15494
+4116703,Nova Aurora (PR),1991,Urbana,8367
+4116703,Nova Aurora (PR),1991,Rural,7127
+4116802,Nova Cantu (PR),1991,Total,11260
+4116802,Nova Cantu (PR),1991,Urbana,4068
+4116802,Nova Cantu (PR),1991,Rural,7192
+4116901,Nova Esperança (PR),1991,Total,24189
+4116901,Nova Esperança (PR),1991,Urbana,17941
+4116901,Nova Esperança (PR),1991,Rural,6248
+4116950,Nova Esperança do Sudoeste (PR),1991,Total,0
+4116950,Nova Esperança do Sudoeste (PR),1991,Urbana,0
+4116950,Nova Esperança do Sudoeste (PR),1991,Rural,0
+4117008,Nova Fátima (PR),1991,Total,8385
+4117008,Nova Fátima (PR),1991,Urbana,5979
+4117008,Nova Fátima (PR),1991,Rural,2406
+4117057,Nova Laranjeiras (PR),1991,Total,0
+4117057,Nova Laranjeiras (PR),1991,Urbana,0
+4117057,Nova Laranjeiras (PR),1991,Rural,0
+4117107,Nova Londrina (PR),1991,Total,12854
+4117107,Nova Londrina (PR),1991,Urbana,11077
+4117107,Nova Londrina (PR),1991,Rural,1777
+4117206,Nova Olímpia (PR),1991,Total,5397
+4117206,Nova Olímpia (PR),1991,Urbana,4065
+4117206,Nova Olímpia (PR),1991,Rural,1332
+4117214,Nova Santa Bárbara (PR),1991,Total,0
+4117214,Nova Santa Bárbara (PR),1991,Urbana,0
+4117214,Nova Santa Bárbara (PR),1991,Rural,0
+4117222,Nova Santa Rosa (PR),1991,Total,7042
+4117222,Nova Santa Rosa (PR),1991,Urbana,3155
+4117222,Nova Santa Rosa (PR),1991,Rural,3887
+4117255,Nova Prata do Iguaçu (PR),1991,Total,11615
+4117255,Nova Prata do Iguaçu (PR),1991,Urbana,4171
+4117255,Nova Prata do Iguaçu (PR),1991,Rural,7444
+4117271,Nova Tebas (PR),1991,Total,17587
+4117271,Nova Tebas (PR),1991,Urbana,2148
+4117271,Nova Tebas (PR),1991,Rural,15439
+4117297,Novo Itacolomi (PR),1991,Total,0
+4117297,Novo Itacolomi (PR),1991,Urbana,0
+4117297,Novo Itacolomi (PR),1991,Rural,0
+4117305,Ortigueira (PR),1991,Total,27504
+4117305,Ortigueira (PR),1991,Urbana,5412
+4117305,Ortigueira (PR),1991,Rural,22092
+4117404,Ourizona (PR),1991,Total,3750
+4117404,Ourizona (PR),1991,Urbana,2583
+4117404,Ourizona (PR),1991,Rural,1167
+4117453,Ouro Verde do Oeste (PR),1991,Total,6330
+4117453,Ouro Verde do Oeste (PR),1991,Urbana,3368
+4117453,Ouro Verde do Oeste (PR),1991,Rural,2962
+4117503,Paiçandu (PR),1991,Total,22197
+4117503,Paiçandu (PR),1991,Urbana,20997
+4117503,Paiçandu (PR),1991,Rural,1200
+4117602,Palmas (PR),1991,Total,35262
+4117602,Palmas (PR),1991,Urbana,24890
+4117602,Palmas (PR),1991,Rural,10372
+4117701,Palmeira (PR),1991,Total,29046
+4117701,Palmeira (PR),1991,Urbana,14878
+4117701,Palmeira (PR),1991,Rural,14168
+4117800,Palmital (PR),1991,Total,24317
+4117800,Palmital (PR),1991,Urbana,5369
+4117800,Palmital (PR),1991,Rural,18948
+4117909,Palotina (PR),1991,Total,30705
+4117909,Palotina (PR),1991,Urbana,19700
+4117909,Palotina (PR),1991,Rural,11005
+4118006,Paraíso do Norte (PR),1991,Total,8875
+4118006,Paraíso do Norte (PR),1991,Urbana,7197
+4118006,Paraíso do Norte (PR),1991,Rural,1678
+4118105,Paranacity (PR),1991,Total,8528
+4118105,Paranacity (PR),1991,Urbana,5087
+4118105,Paranacity (PR),1991,Rural,3441
+4118204,Paranaguá (PR),1991,Total,107675
+4118204,Paranaguá (PR),1991,Urbana,94689
+4118204,Paranaguá (PR),1991,Rural,12986
+4118303,Paranapoema (PR),1991,Total,2455
+4118303,Paranapoema (PR),1991,Urbana,1983
+4118303,Paranapoema (PR),1991,Rural,472
+4118402,Paranavaí (PR),1991,Total,71052
+4118402,Paranavaí (PR),1991,Urbana,64354
+4118402,Paranavaí (PR),1991,Rural,6698
+4118451,Pato Bragado (PR),1991,Total,0
+4118451,Pato Bragado (PR),1991,Urbana,0
+4118451,Pato Bragado (PR),1991,Rural,0
+4118501,Pato Branco (PR),1991,Total,55675
+4118501,Pato Branco (PR),1991,Urbana,43406
+4118501,Pato Branco (PR),1991,Rural,12269
+4118600,Paula Freitas (PR),1991,Total,4665
+4118600,Paula Freitas (PR),1991,Urbana,1473
+4118600,Paula Freitas (PR),1991,Rural,3192
+4118709,Paulo Frontin (PR),1991,Total,6558
+4118709,Paulo Frontin (PR),1991,Urbana,1573
+4118709,Paulo Frontin (PR),1991,Rural,4985
+4118808,Peabiru (PR),1991,Total,14161
+4118808,Peabiru (PR),1991,Urbana,9147
+4118808,Peabiru (PR),1991,Rural,5014
+4118857,Perobal (PR),1991,Total,0
+4118857,Perobal (PR),1991,Urbana,0
+4118857,Perobal (PR),1991,Rural,0
+4118907,Pérola (PR),1991,Total,15046
+4118907,Pérola (PR),1991,Urbana,7473
+4118907,Pérola (PR),1991,Rural,7573
+4119004,Pérola d'Oeste (PR),1991,Total,12255
+4119004,Pérola d'Oeste (PR),1991,Urbana,3234
+4119004,Pérola d'Oeste (PR),1991,Rural,9021
+4119103,Piên (PR),1991,Total,7745
+4119103,Piên (PR),1991,Urbana,1432
+4119103,Piên (PR),1991,Rural,6313
+4119152,Pinhais (PR),1991,Total,0
+4119152,Pinhais (PR),1991,Urbana,0
+4119152,Pinhais (PR),1991,Rural,0
+4119202,Pinhalão (PR),1991,Total,5728
+4119202,Pinhalão (PR),1991,Urbana,2706
+4119202,Pinhalão (PR),1991,Rural,3022
+4119251,Pinhal de São Bento (PR),1991,Total,0
+4119251,Pinhal de São Bento (PR),1991,Urbana,0
+4119251,Pinhal de São Bento (PR),1991,Rural,0
+4119301,Pinhão (PR),1991,Total,35010
+4119301,Pinhão (PR),1991,Urbana,10666
+4119301,Pinhão (PR),1991,Rural,24344
+4119400,Piraí do Sul (PR),1991,Total,19414
+4119400,Piraí do Sul (PR),1991,Urbana,12314
+4119400,Piraí do Sul (PR),1991,Rural,7100
+4119509,Piraquara (PR),1991,Total,106882
+4119509,Piraquara (PR),1991,Urbana,91438
+4119509,Piraquara (PR),1991,Rural,15444
+4119608,Pitanga (PR),1991,Total,64514
+4119608,Pitanga (PR),1991,Urbana,17106
+4119608,Pitanga (PR),1991,Rural,47408
+4119657,Pitangueiras (PR),1991,Total,0
+4119657,Pitangueiras (PR),1991,Urbana,0
+4119657,Pitangueiras (PR),1991,Rural,0
+4119707,Planaltina do Paraná (PR),1991,Total,3796
+4119707,Planaltina do Paraná (PR),1991,Urbana,2320
+4119707,Planaltina do Paraná (PR),1991,Rural,1476
+4119806,Planalto (PR),1991,Total,15092
+4119806,Planalto (PR),1991,Urbana,4075
+4119806,Planalto (PR),1991,Rural,11017
+4119905,Ponta Grossa (PR),1991,Total,233984
+4119905,Ponta Grossa (PR),1991,Urbana,221671
+4119905,Ponta Grossa (PR),1991,Rural,12313
+4119954,Pontal do Paraná (PR),1991,Total,0
+4119954,Pontal do Paraná (PR),1991,Urbana,0
+4119954,Pontal do Paraná (PR),1991,Rural,0
+4120002,Porecatu (PR),1991,Total,17102
+4120002,Porecatu (PR),1991,Urbana,11961
+4120002,Porecatu (PR),1991,Rural,5141
+4120101,Porto Amazonas (PR),1991,Total,3579
+4120101,Porto Amazonas (PR),1991,Urbana,2393
+4120101,Porto Amazonas (PR),1991,Rural,1186
+4120150,Porto Barreiro (PR),1991,Total,0
+4120150,Porto Barreiro (PR),1991,Urbana,0
+4120150,Porto Barreiro (PR),1991,Rural,0
+4120200,Porto Rico (PR),1991,Total,3211
+4120200,Porto Rico (PR),1991,Urbana,1495
+4120200,Porto Rico (PR),1991,Rural,1716
+4120309,Porto Vitória (PR),1991,Total,3772
+4120309,Porto Vitória (PR),1991,Urbana,1854
+4120309,Porto Vitória (PR),1991,Rural,1918
+4120333,Prado Ferreira (PR),1991,Total,0
+4120333,Prado Ferreira (PR),1991,Urbana,0
+4120333,Prado Ferreira (PR),1991,Rural,0
+4120358,Pranchita (PR),1991,Total,8604
+4120358,Pranchita (PR),1991,Urbana,2609
+4120358,Pranchita (PR),1991,Rural,5995
+4120408,Presidente Castelo Branco (PR),1991,Total,3633
+4120408,Presidente Castelo Branco (PR),1991,Urbana,2187
+4120408,Presidente Castelo Branco (PR),1991,Rural,1446
+4120507,Primeiro de Maio (PR),1991,Total,11910
+4120507,Primeiro de Maio (PR),1991,Urbana,9773
+4120507,Primeiro de Maio (PR),1991,Rural,2137
+4120606,Prudentópolis (PR),1991,Total,47014
+4120606,Prudentópolis (PR),1991,Urbana,11392
+4120606,Prudentópolis (PR),1991,Rural,35622
+4120655,Quarto Centenário (PR),1991,Total,0
+4120655,Quarto Centenário (PR),1991,Urbana,0
+4120655,Quarto Centenário (PR),1991,Rural,0
+4120705,Quatiguá (PR),1991,Total,5766
+4120705,Quatiguá (PR),1991,Urbana,4499
+4120705,Quatiguá (PR),1991,Rural,1267
+4120804,Quatro Barras (PR),1991,Total,10007
+4120804,Quatro Barras (PR),1991,Urbana,8132
+4120804,Quatro Barras (PR),1991,Rural,1875
+4120853,Quatro Pontes (PR),1991,Total,0
+4120853,Quatro Pontes (PR),1991,Urbana,0
+4120853,Quatro Pontes (PR),1991,Rural,0
+4120903,Quedas do Iguaçu (PR),1991,Total,31509
+4120903,Quedas do Iguaçu (PR),1991,Urbana,16155
+4120903,Quedas do Iguaçu (PR),1991,Rural,15354
+4121000,Querência do Norte (PR),1991,Total,10384
+4121000,Querência do Norte (PR),1991,Urbana,6820
+4121000,Querência do Norte (PR),1991,Rural,3564
+4121109,Quinta do Sol (PR),1991,Total,5599
+4121109,Quinta do Sol (PR),1991,Urbana,3372
+4121109,Quinta do Sol (PR),1991,Rural,2227
+4121208,Quitandinha (PR),1991,Total,14418
+4121208,Quitandinha (PR),1991,Urbana,2476
+4121208,Quitandinha (PR),1991,Rural,11942
+4121257,Ramilândia (PR),1991,Total,0
+4121257,Ramilândia (PR),1991,Urbana,0
+4121257,Ramilândia (PR),1991,Rural,0
+4121307,Rancho Alegre (PR),1991,Total,4509
+4121307,Rancho Alegre (PR),1991,Urbana,3264
+4121307,Rancho Alegre (PR),1991,Rural,1245
+4121356,Rancho Alegre D'Oeste (PR),1991,Total,0
+4121356,Rancho Alegre D'Oeste (PR),1991,Urbana,0
+4121356,Rancho Alegre D'Oeste (PR),1991,Rural,0
+4121406,Realeza (PR),1991,Total,17146
+4121406,Realeza (PR),1991,Urbana,9300
+4121406,Realeza (PR),1991,Rural,7846
+4121505,Rebouças (PR),1991,Total,12948
+4121505,Rebouças (PR),1991,Urbana,5396
+4121505,Rebouças (PR),1991,Rural,7552
+4121604,Renascença (PR),1991,Total,7546
+4121604,Renascença (PR),1991,Urbana,2161
+4121604,Renascença (PR),1991,Rural,5385
+4121703,Reserva (PR),1991,Total,25084
+4121703,Reserva (PR),1991,Urbana,7192
+4121703,Reserva (PR),1991,Rural,17892
+4121752,Reserva do Iguaçu (PR),1991,Total,0
+4121752,Reserva do Iguaçu (PR),1991,Urbana,0
+4121752,Reserva do Iguaçu (PR),1991,Rural,0
+4121802,Ribeirão Claro (PR),1991,Total,11385
+4121802,Ribeirão Claro (PR),1991,Urbana,6098
+4121802,Ribeirão Claro (PR),1991,Rural,5287
+4121901,Ribeirão do Pinhal (PR),1991,Total,13841
+4121901,Ribeirão do Pinhal (PR),1991,Urbana,8757
+4121901,Ribeirão do Pinhal (PR),1991,Rural,5084
+4122008,Rio Azul (PR),1991,Total,12406
+4122008,Rio Azul (PR),1991,Urbana,3206
+4122008,Rio Azul (PR),1991,Rural,9200
+4122107,Rio Bom (PR),1991,Total,4197
+4122107,Rio Bom (PR),1991,Urbana,1726
+4122107,Rio Bom (PR),1991,Rural,2471
+4122156,Rio Bonito do Iguaçu (PR),1991,Total,0
+4122156,Rio Bonito do Iguaçu (PR),1991,Urbana,0
+4122156,Rio Bonito do Iguaçu (PR),1991,Rural,0
+4122172,Rio Branco do Ivaí (PR),1991,Total,0
+4122172,Rio Branco do Ivaí (PR),1991,Urbana,0
+4122172,Rio Branco do Ivaí (PR),1991,Rural,0
+4122206,Rio Branco do Sul (PR),1991,Total,38296
+4122206,Rio Branco do Sul (PR),1991,Urbana,23714
+4122206,Rio Branco do Sul (PR),1991,Rural,14582
+4122305,Rio Negro (PR),1991,Total,26315
+4122305,Rio Negro (PR),1991,Urbana,20200
+4122305,Rio Negro (PR),1991,Rural,6115
+4122404,Rolândia (PR),1991,Total,43776
+4122404,Rolândia (PR),1991,Urbana,35276
+4122404,Rolândia (PR),1991,Rural,8500
+4122503,Roncador (PR),1991,Total,17573
+4122503,Roncador (PR),1991,Urbana,5994
+4122503,Roncador (PR),1991,Rural,11579
+4122602,Rondon (PR),1991,Total,8647
+4122602,Rondon (PR),1991,Urbana,4266
+4122602,Rondon (PR),1991,Rural,4381
+4122651,Rosário do Ivaí (PR),1991,Total,9908
+4122651,Rosário do Ivaí (PR),1991,Urbana,2392
+4122651,Rosário do Ivaí (PR),1991,Rural,7516
+4122701,Sabáudia (PR),1991,Total,5293
+4122701,Sabáudia (PR),1991,Urbana,2980
+4122701,Sabáudia (PR),1991,Rural,2313
+4122800,Salgado Filho (PR),1991,Total,13829
+4122800,Salgado Filho (PR),1991,Urbana,2062
+4122800,Salgado Filho (PR),1991,Rural,11767
+4122909,Salto do Itararé (PR),1991,Total,6360
+4122909,Salto do Itararé (PR),1991,Urbana,3142
+4122909,Salto do Itararé (PR),1991,Rural,3218
+4123006,Salto do Lontra (PR),1991,Total,14297
+4123006,Salto do Lontra (PR),1991,Urbana,4624
+4123006,Salto do Lontra (PR),1991,Rural,9673
+4123105,Santa Amélia (PR),1991,Total,4628
+4123105,Santa Amélia (PR),1991,Urbana,2309
+4123105,Santa Amélia (PR),1991,Rural,2319
+4123204,Santa Cecília do Pavão (PR),1991,Total,8642
+4123204,Santa Cecília do Pavão (PR),1991,Urbana,4748
+4123204,Santa Cecília do Pavão (PR),1991,Rural,3894
+4123303,Santa Cruz de Monte Castelo (PR),1991,Total,10209
+4123303,Santa Cruz de Monte Castelo (PR),1991,Urbana,6251
+4123303,Santa Cruz de Monte Castelo (PR),1991,Rural,3958
+4123402,Santa Fé (PR),1991,Total,8708
+4123402,Santa Fé (PR),1991,Urbana,6452
+4123402,Santa Fé (PR),1991,Rural,2256
+4123501,Santa Helena (PR),1991,Total,18861
+4123501,Santa Helena (PR),1991,Urbana,6501
+4123501,Santa Helena (PR),1991,Rural,12360
+4123600,Santa Inês (PR),1991,Total,2044
+4123600,Santa Inês (PR),1991,Urbana,1012
+4123600,Santa Inês (PR),1991,Rural,1032
+4123709,Santa Isabel do Ivaí (PR),1991,Total,12858
+4123709,Santa Isabel do Ivaí (PR),1991,Urbana,7026
+4123709,Santa Isabel do Ivaí (PR),1991,Rural,5832
+4123808,Santa Izabel do Oeste (PR),1991,Total,12510
+4123808,Santa Izabel do Oeste (PR),1991,Urbana,4647
+4123808,Santa Izabel do Oeste (PR),1991,Rural,7863
+4123824,Santa Lúcia (PR),1991,Total,0
+4123824,Santa Lúcia (PR),1991,Urbana,0
+4123824,Santa Lúcia (PR),1991,Rural,0
+4123857,Santa Maria do Oeste (PR),1991,Total,0
+4123857,Santa Maria do Oeste (PR),1991,Urbana,0
+4123857,Santa Maria do Oeste (PR),1991,Rural,0
+4123907,Santa Mariana (PR),1991,Total,14711
+4123907,Santa Mariana (PR),1991,Urbana,8455
+4123907,Santa Mariana (PR),1991,Rural,6256
+4123956,Santa Mônica (PR),1991,Total,0
+4123956,Santa Mônica (PR),1991,Urbana,0
+4123956,Santa Mônica (PR),1991,Rural,0
+4124004,Santana do Itararé (PR),1991,Total,6030
+4124004,Santana do Itararé (PR),1991,Urbana,3069
+4124004,Santana do Itararé (PR),1991,Rural,2961
+4124020,Santa Tereza do Oeste (PR),1991,Total,6118
+4124020,Santa Tereza do Oeste (PR),1991,Urbana,3307
+4124020,Santa Tereza do Oeste (PR),1991,Rural,2811
+4124053,Santa Terezinha de Itaipu (PR),1991,Total,14149
+4124053,Santa Terezinha de Itaipu (PR),1991,Urbana,11655
+4124053,Santa Terezinha de Itaipu (PR),1991,Rural,2494
+4124103,Santo Antônio da Platina (PR),1991,Total,38714
+4124103,Santo Antônio da Platina (PR),1991,Urbana,27345
+4124103,Santo Antônio da Platina (PR),1991,Rural,11369
+4124202,Santo Antônio do Caiuá (PR),1991,Total,3111
+4124202,Santo Antônio do Caiuá (PR),1991,Urbana,1927
+4124202,Santo Antônio do Caiuá (PR),1991,Rural,1184
+4124301,Santo Antônio do Paraíso (PR),1991,Total,2488
+4124301,Santo Antônio do Paraíso (PR),1991,Urbana,1206
+4124301,Santo Antônio do Paraíso (PR),1991,Rural,1282
+4124400,Santo Antônio do Sudoeste (PR),1991,Total,20290
+4124400,Santo Antônio do Sudoeste (PR),1991,Urbana,8992
+4124400,Santo Antônio do Sudoeste (PR),1991,Rural,11298
+4124509,Santo Inácio (PR),1991,Total,5514
+4124509,Santo Inácio (PR),1991,Urbana,4035
+4124509,Santo Inácio (PR),1991,Rural,1479
+4124608,São Carlos do Ivaí (PR),1991,Total,4972
+4124608,São Carlos do Ivaí (PR),1991,Urbana,3430
+4124608,São Carlos do Ivaí (PR),1991,Rural,1542
+4124707,São Jerônimo da Serra (PR),1991,Total,13275
+4124707,São Jerônimo da Serra (PR),1991,Urbana,4892
+4124707,São Jerônimo da Serra (PR),1991,Rural,8383
+4124806,São João (PR),1991,Total,13661
+4124806,São João (PR),1991,Urbana,4775
+4124806,São João (PR),1991,Rural,8886
+4124905,São João do Caiuá (PR),1991,Total,6008
+4124905,São João do Caiuá (PR),1991,Urbana,4874
+4124905,São João do Caiuá (PR),1991,Rural,1134
+4125001,São João do Ivaí (PR),1991,Total,16663
+4125001,São João do Ivaí (PR),1991,Urbana,9819
+4125001,São João do Ivaí (PR),1991,Rural,6844
+4125100,São João do Triunfo (PR),1991,Total,12320
+4125100,São João do Triunfo (PR),1991,Urbana,2830
+4125100,São João do Triunfo (PR),1991,Rural,9490
+4125209,São Jorge d'Oeste (PR),1991,Total,10321
+4125209,São Jorge d'Oeste (PR),1991,Urbana,3847
+4125209,São Jorge d'Oeste (PR),1991,Rural,6474
+4125308,São Jorge do Ivaí (PR),1991,Total,6087
+4125308,São Jorge do Ivaí (PR),1991,Urbana,4297
+4125308,São Jorge do Ivaí (PR),1991,Rural,1790
+4125357,São Jorge do Patrocínio (PR),1991,Total,9137
+4125357,São Jorge do Patrocínio (PR),1991,Urbana,2649
+4125357,São Jorge do Patrocínio (PR),1991,Rural,6488
+4125407,São José da Boa Vista (PR),1991,Total,8507
+4125407,São José da Boa Vista (PR),1991,Urbana,3308
+4125407,São José da Boa Vista (PR),1991,Rural,5199
+4125456,São José das Palmeiras (PR),1991,Total,5596
+4125456,São José das Palmeiras (PR),1991,Urbana,2355
+4125456,São José das Palmeiras (PR),1991,Rural,3241
+4125506,São José dos Pinhais (PR),1991,Total,127455
+4125506,São José dos Pinhais (PR),1991,Urbana,111952
+4125506,São José dos Pinhais (PR),1991,Rural,15503
+4125555,São Manoel do Paraná (PR),1991,Total,0
+4125555,São Manoel do Paraná (PR),1991,Urbana,0
+4125555,São Manoel do Paraná (PR),1991,Rural,0
+4125605,São Mateus do Sul (PR),1991,Total,33138
+4125605,São Mateus do Sul (PR),1991,Urbana,15927
+4125605,São Mateus do Sul (PR),1991,Rural,17211
+4125704,São Miguel do Iguaçu (PR),1991,Total,24721
+4125704,São Miguel do Iguaçu (PR),1991,Urbana,10773
+4125704,São Miguel do Iguaçu (PR),1991,Rural,13948
+4125753,São Pedro do Iguaçu (PR),1991,Total,0
+4125753,São Pedro do Iguaçu (PR),1991,Urbana,0
+4125753,São Pedro do Iguaçu (PR),1991,Rural,0
+4125803,São Pedro do Ivaí (PR),1991,Total,9333
+4125803,São Pedro do Ivaí (PR),1991,Urbana,6857
+4125803,São Pedro do Ivaí (PR),1991,Rural,2476
+4125902,São Pedro do Paraná (PR),1991,Total,3247
+4125902,São Pedro do Paraná (PR),1991,Urbana,1374
+4125902,São Pedro do Paraná (PR),1991,Rural,1873
+4126009,São Sebastião da Amoreira (PR),1991,Total,7943
+4126009,São Sebastião da Amoreira (PR),1991,Urbana,4516
+4126009,São Sebastião da Amoreira (PR),1991,Rural,3427
+4126108,São Tomé (PR),1991,Total,5115
+4126108,São Tomé (PR),1991,Urbana,2576
+4126108,São Tomé (PR),1991,Rural,2539
+4126207,Sapopema (PR),1991,Total,7095
+4126207,Sapopema (PR),1991,Urbana,2861
+4126207,Sapopema (PR),1991,Rural,4234
+4126256,Sarandi (PR),1991,Total,47981
+4126256,Sarandi (PR),1991,Urbana,46208
+4126256,Sarandi (PR),1991,Rural,1773
+4126272,Saudade do Iguaçu (PR),1991,Total,0
+4126272,Saudade do Iguaçu (PR),1991,Urbana,0
+4126272,Saudade do Iguaçu (PR),1991,Rural,0
+4126306,Sengés (PR),1991,Total,14995
+4126306,Sengés (PR),1991,Urbana,8244
+4126306,Sengés (PR),1991,Rural,6751
+4126355,Serranópolis do Iguaçu (PR),1991,Total,0
+4126355,Serranópolis do Iguaçu (PR),1991,Urbana,0
+4126355,Serranópolis do Iguaçu (PR),1991,Rural,0
+4126405,Sertaneja (PR),1991,Total,6708
+4126405,Sertaneja (PR),1991,Urbana,4880
+4126405,Sertaneja (PR),1991,Rural,1828
+4126504,Sertanópolis (PR),1991,Total,14291
+4126504,Sertanópolis (PR),1991,Urbana,9998
+4126504,Sertanópolis (PR),1991,Rural,4293
+4126603,Siqueira Campos (PR),1991,Total,14226
+4126603,Siqueira Campos (PR),1991,Urbana,9027
+4126603,Siqueira Campos (PR),1991,Rural,5199
+4126652,Sulina (PR),1991,Total,5222
+4126652,Sulina (PR),1991,Urbana,951
+4126652,Sulina (PR),1991,Rural,4271
+4126678,Tamarana (PR),1991,Total,0
+4126678,Tamarana (PR),1991,Urbana,0
+4126678,Tamarana (PR),1991,Rural,0
+4126702,Tamboara (PR),1991,Total,4579
+4126702,Tamboara (PR),1991,Urbana,2850
+4126702,Tamboara (PR),1991,Rural,1729
+4126801,Tapejara (PR),1991,Total,12057
+4126801,Tapejara (PR),1991,Urbana,8123
+4126801,Tapejara (PR),1991,Rural,3934
+4126900,Tapira (PR),1991,Total,8528
+4126900,Tapira (PR),1991,Urbana,3266
+4126900,Tapira (PR),1991,Rural,5262
+4127007,Teixeira Soares (PR),1991,Total,14021
+4127007,Teixeira Soares (PR),1991,Urbana,4556
+4127007,Teixeira Soares (PR),1991,Rural,9465
+4127106,Telêmaco Borba (PR),1991,Total,64963
+4127106,Telêmaco Borba (PR),1991,Urbana,54649
+4127106,Telêmaco Borba (PR),1991,Rural,10314
+4127205,Terra Boa (PR),1991,Total,14249
+4127205,Terra Boa (PR),1991,Urbana,9048
+4127205,Terra Boa (PR),1991,Rural,5201
+4127304,Terra Rica (PR),1991,Total,13909
+4127304,Terra Rica (PR),1991,Urbana,10212
+4127304,Terra Rica (PR),1991,Rural,3697
+4127403,Terra Roxa (PR),1991,Total,19820
+4127403,Terra Roxa (PR),1991,Urbana,11797
+4127403,Terra Roxa (PR),1991,Rural,8023
+4127502,Tibagi (PR),1991,Total,22759
+4127502,Tibagi (PR),1991,Urbana,10466
+4127502,Tibagi (PR),1991,Rural,12293
+4127601,Tijucas do Sul (PR),1991,Total,10224
+4127601,Tijucas do Sul (PR),1991,Urbana,1271
+4127601,Tijucas do Sul (PR),1991,Rural,8953
+4127700,Toledo (PR),1991,Total,94879
+4127700,Toledo (PR),1991,Urbana,72402
+4127700,Toledo (PR),1991,Rural,22477
+4127809,Tomazina (PR),1991,Total,11912
+4127809,Tomazina (PR),1991,Urbana,3821
+4127809,Tomazina (PR),1991,Rural,8091
+4127858,Três Barras do Paraná (PR),1991,Total,14982
+4127858,Três Barras do Paraná (PR),1991,Urbana,4104
+4127858,Três Barras do Paraná (PR),1991,Rural,10878
+4127882,Tunas do Paraná (PR),1991,Total,0
+4127882,Tunas do Paraná (PR),1991,Urbana,0
+4127882,Tunas do Paraná (PR),1991,Rural,0
+4127908,Tuneiras do Oeste (PR),1991,Total,11460
+4127908,Tuneiras do Oeste (PR),1991,Urbana,4745
+4127908,Tuneiras do Oeste (PR),1991,Rural,6715
+4127957,Tupãssi (PR),1991,Total,8829
+4127957,Tupãssi (PR),1991,Urbana,5361
+4127957,Tupãssi (PR),1991,Rural,3468
+4127965,Turvo (PR),1991,Total,14146
+4127965,Turvo (PR),1991,Urbana,2844
+4127965,Turvo (PR),1991,Rural,11302
+4128005,Ubiratã (PR),1991,Total,26828
+4128005,Ubiratã (PR),1991,Urbana,18311
+4128005,Ubiratã (PR),1991,Rural,8517
+4128104,Umuarama (PR),1991,Total,100249
+4128104,Umuarama (PR),1991,Urbana,77541
+4128104,Umuarama (PR),1991,Rural,22708
+4128203,União da Vitória (PR),1991,Total,44008
+4128203,União da Vitória (PR),1991,Urbana,40201
+4128203,União da Vitória (PR),1991,Rural,3807
+4128302,Uniflor (PR),1991,Total,2662
+4128302,Uniflor (PR),1991,Urbana,1540
+4128302,Uniflor (PR),1991,Rural,1122
+4128401,Uraí (PR),1991,Total,13299
+4128401,Uraí (PR),1991,Urbana,9195
+4128401,Uraí (PR),1991,Rural,4104
+4128500,Wenceslau Braz (PR),1991,Total,18872
+4128500,Wenceslau Braz (PR),1991,Urbana,12926
+4128500,Wenceslau Braz (PR),1991,Rural,5946
+4128534,Ventania (PR),1991,Total,0
+4128534,Ventania (PR),1991,Urbana,0
+4128534,Ventania (PR),1991,Rural,0
+4128559,Vera Cruz do Oeste (PR),1991,Total,11370
+4128559,Vera Cruz do Oeste (PR),1991,Urbana,6579
+4128559,Vera Cruz do Oeste (PR),1991,Rural,4791
+4128609,Verê (PR),1991,Total,10212
+4128609,Verê (PR),1991,Urbana,2657
+4128609,Verê (PR),1991,Rural,7555
+4128625,Alto Paraíso (PR),1991,Total,0
+4128625,Alto Paraíso (PR),1991,Urbana,0
+4128625,Alto Paraíso (PR),1991,Rural,0
+4128633,Doutor Ulysses (PR),1991,Total,0
+4128633,Doutor Ulysses (PR),1991,Urbana,0
+4128633,Doutor Ulysses (PR),1991,Rural,0
+4128658,Virmond (PR),1991,Total,0
+4128658,Virmond (PR),1991,Urbana,0
+4128658,Virmond (PR),1991,Rural,0
+4128708,Vitorino (PR),1991,Total,6478
+4128708,Vitorino (PR),1991,Urbana,2604
+4128708,Vitorino (PR),1991,Rural,3874
+4128807,Xambrê (PR),1991,Total,8771
+4128807,Xambrê (PR),1991,Urbana,2428
+4128807,Xambrê (PR),1991,Rural,6343
+4100103,Abatiá (PR),2000,Total,8259
+4100103,Abatiá (PR),2000,Urbana,5356
+4100103,Abatiá (PR),2000,Rural,2903
+4100202,Adrianópolis (PR),2000,Total,7007
+4100202,Adrianópolis (PR),2000,Urbana,1613
+4100202,Adrianópolis (PR),2000,Rural,5394
+4100301,Agudos do Sul (PR),2000,Total,7221
+4100301,Agudos do Sul (PR),2000,Urbana,1466
+4100301,Agudos do Sul (PR),2000,Rural,5755
+4100400,Almirante Tamandaré (PR),2000,Total,88277
+4100400,Almirante Tamandaré (PR),2000,Urbana,84755
+4100400,Almirante Tamandaré (PR),2000,Rural,3522
+4100459,Altamira do Paraná (PR),2000,Total,6999
+4100459,Altamira do Paraná (PR),2000,Urbana,2119
+4100459,Altamira do Paraná (PR),2000,Rural,4880
+4100509,Altônia (PR),2000,Total,19230
+4100509,Altônia (PR),2000,Urbana,11704
+4100509,Altônia (PR),2000,Rural,7526
+4100608,Alto Paraná (PR),2000,Total,12717
+4100608,Alto Paraná (PR),2000,Urbana,10114
+4100608,Alto Paraná (PR),2000,Rural,2603
+4100707,Alto Piquiri (PR),2000,Total,10761
+4100707,Alto Piquiri (PR),2000,Urbana,8405
+4100707,Alto Piquiri (PR),2000,Rural,2356
+4100806,Alvorada do Sul (PR),2000,Total,9253
+4100806,Alvorada do Sul (PR),2000,Urbana,7015
+4100806,Alvorada do Sul (PR),2000,Rural,2238
+4100905,Amaporã (PR),2000,Total,4655
+4100905,Amaporã (PR),2000,Urbana,3587
+4100905,Amaporã (PR),2000,Rural,1068
+4101002,Ampére (PR),2000,Total,15623
+4101002,Ampére (PR),2000,Urbana,10403
+4101002,Ampére (PR),2000,Rural,5220
+4101051,Anahy (PR),2000,Total,3011
+4101051,Anahy (PR),2000,Urbana,1640
+4101051,Anahy (PR),2000,Rural,1371
+4101101,Andirá (PR),2000,Total,21663
+4101101,Andirá (PR),2000,Urbana,19927
+4101101,Andirá (PR),2000,Rural,1736
+4101150,Ângulo (PR),2000,Total,2840
+4101150,Ângulo (PR),2000,Urbana,2150
+4101150,Ângulo (PR),2000,Rural,690
+4101200,Antonina (PR),2000,Total,19174
+4101200,Antonina (PR),2000,Urbana,15837
+4101200,Antonina (PR),2000,Rural,3337
+4101309,Antônio Olinto (PR),2000,Total,7407
+4101309,Antônio Olinto (PR),2000,Urbana,612
+4101309,Antônio Olinto (PR),2000,Rural,6795
+4101408,Apucarana (PR),2000,Total,107827
+4101408,Apucarana (PR),2000,Urbana,100249
+4101408,Apucarana (PR),2000,Rural,7578
+4101507,Arapongas (PR),2000,Total,85428
+4101507,Arapongas (PR),2000,Urbana,81790
+4101507,Arapongas (PR),2000,Rural,3638
+4101606,Arapoti (PR),2000,Total,23884
+4101606,Arapoti (PR),2000,Urbana,17487
+4101606,Arapoti (PR),2000,Rural,6397
+4101655,Arapuã (PR),2000,Total,4172
+4101655,Arapuã (PR),2000,Urbana,1209
+4101655,Arapuã (PR),2000,Rural,2963
+4101705,Araruna (PR),2000,Total,13081
+4101705,Araruna (PR),2000,Urbana,9134
+4101705,Araruna (PR),2000,Rural,3947
+4101804,Araucária (PR),2000,Total,94258
+4101804,Araucária (PR),2000,Urbana,86111
+4101804,Araucária (PR),2000,Rural,8147
+4101853,Ariranha do Ivaí (PR),2000,Total,2883
+4101853,Ariranha do Ivaí (PR),2000,Urbana,697
+4101853,Ariranha do Ivaí (PR),2000,Rural,2186
+4101903,Assaí (PR),2000,Total,18045
+4101903,Assaí (PR),2000,Urbana,13517
+4101903,Assaí (PR),2000,Rural,4528
+4102000,Assis Chateaubriand (PR),2000,Total,33317
+4102000,Assis Chateaubriand (PR),2000,Urbana,27052
+4102000,Assis Chateaubriand (PR),2000,Rural,6265
+4102109,Astorga (PR),2000,Total,23637
+4102109,Astorga (PR),2000,Urbana,20476
+4102109,Astorga (PR),2000,Rural,3161
+4102208,Atalaia (PR),2000,Total,4015
+4102208,Atalaia (PR),2000,Urbana,3327
+4102208,Atalaia (PR),2000,Rural,688
+4102307,Balsa Nova (PR),2000,Total,10153
+4102307,Balsa Nova (PR),2000,Urbana,3186
+4102307,Balsa Nova (PR),2000,Rural,6967
+4102406,Bandeirantes (PR),2000,Total,33732
+4102406,Bandeirantes (PR),2000,Urbana,27720
+4102406,Bandeirantes (PR),2000,Rural,6012
+4102505,Barbosa Ferraz (PR),2000,Total,14110
+4102505,Barbosa Ferraz (PR),2000,Urbana,9735
+4102505,Barbosa Ferraz (PR),2000,Rural,4375
+4102604,Barracão (PR),2000,Total,9271
+4102604,Barracão (PR),2000,Urbana,5825
+4102604,Barracão (PR),2000,Rural,3446
+4102703,Barra do Jacaré (PR),2000,Total,2723
+4102703,Barra do Jacaré (PR),2000,Urbana,1693
+4102703,Barra do Jacaré (PR),2000,Rural,1030
+4102752,Bela Vista da Caroba (PR),2000,Total,4503
+4102752,Bela Vista da Caroba (PR),2000,Urbana,757
+4102752,Bela Vista da Caroba (PR),2000,Rural,3746
+4102802,Bela Vista do Paraíso (PR),2000,Total,15031
+4102802,Bela Vista do Paraíso (PR),2000,Urbana,13860
+4102802,Bela Vista do Paraíso (PR),2000,Rural,1171
+4102901,Bituruna (PR),2000,Total,15733
+4102901,Bituruna (PR),2000,Urbana,7506
+4102901,Bituruna (PR),2000,Rural,8227
+4103008,Boa Esperança (PR),2000,Total,5162
+4103008,Boa Esperança (PR),2000,Urbana,2579
+4103008,Boa Esperança (PR),2000,Rural,2583
+4103024,Boa Esperança do Iguaçu (PR),2000,Total,3107
+4103024,Boa Esperança do Iguaçu (PR),2000,Urbana,564
+4103024,Boa Esperança do Iguaçu (PR),2000,Rural,2543
+4103040,Boa Ventura de São Roque (PR),2000,Total,6780
+4103040,Boa Ventura de São Roque (PR),2000,Urbana,1080
+4103040,Boa Ventura de São Roque (PR),2000,Rural,5700
+4103057,Boa Vista da Aparecida (PR),2000,Total,8423
+4103057,Boa Vista da Aparecida (PR),2000,Urbana,4565
+4103057,Boa Vista da Aparecida (PR),2000,Rural,3858
+4103107,Bocaiúva do Sul (PR),2000,Total,9050
+4103107,Bocaiúva do Sul (PR),2000,Urbana,3562
+4103107,Bocaiúva do Sul (PR),2000,Rural,5488
+4103156,Bom Jesus do Sul (PR),2000,Total,4154
+4103156,Bom Jesus do Sul (PR),2000,Urbana,382
+4103156,Bom Jesus do Sul (PR),2000,Rural,3772
+4103206,Bom Sucesso (PR),2000,Total,6173
+4103206,Bom Sucesso (PR),2000,Urbana,4724
+4103206,Bom Sucesso (PR),2000,Rural,1449
+4103222,Bom Sucesso do Sul (PR),2000,Total,3392
+4103222,Bom Sucesso do Sul (PR),2000,Urbana,1307
+4103222,Bom Sucesso do Sul (PR),2000,Rural,2085
+4103305,Borrazópolis (PR),2000,Total,9453
+4103305,Borrazópolis (PR),2000,Urbana,6432
+4103305,Borrazópolis (PR),2000,Rural,3021
+4103354,Braganey (PR),2000,Total,6191
+4103354,Braganey (PR),2000,Urbana,2780
+4103354,Braganey (PR),2000,Rural,3411
+4103370,Brasilândia do Sul (PR),2000,Total,3889
+4103370,Brasilândia do Sul (PR),2000,Urbana,2367
+4103370,Brasilândia do Sul (PR),2000,Rural,1522
+4103404,Cafeara (PR),2000,Total,2485
+4103404,Cafeara (PR),2000,Urbana,1781
+4103404,Cafeara (PR),2000,Rural,704
+4103453,Cafelândia (PR),2000,Total,11143
+4103453,Cafelândia (PR),2000,Urbana,8551
+4103453,Cafelândia (PR),2000,Rural,2592
+4103479,Cafezal do Sul (PR),2000,Total,4648
+4103479,Cafezal do Sul (PR),2000,Urbana,3069
+4103479,Cafezal do Sul (PR),2000,Rural,1579
+4103503,Califórnia (PR),2000,Total,7678
+4103503,Califórnia (PR),2000,Urbana,5664
+4103503,Califórnia (PR),2000,Rural,2014
+4103602,Cambará (PR),2000,Total,22740
+4103602,Cambará (PR),2000,Urbana,20022
+4103602,Cambará (PR),2000,Rural,2718
+4103701,Cambé (PR),2000,Total,88186
+4103701,Cambé (PR),2000,Urbana,81942
+4103701,Cambé (PR),2000,Rural,6244
+4103800,Cambira (PR),2000,Total,6688
+4103800,Cambira (PR),2000,Urbana,4194
+4103800,Cambira (PR),2000,Rural,2494
+4103909,Campina da Lagoa (PR),2000,Total,17018
+4103909,Campina da Lagoa (PR),2000,Urbana,12692
+4103909,Campina da Lagoa (PR),2000,Rural,4326
+4103958,Campina do Simão (PR),2000,Total,4365
+4103958,Campina do Simão (PR),2000,Urbana,1261
+4103958,Campina do Simão (PR),2000,Rural,3104
+4104006,Campina Grande do Sul (PR),2000,Total,34566
+4104006,Campina Grande do Sul (PR),2000,Urbana,25973
+4104006,Campina Grande do Sul (PR),2000,Rural,8593
+4104055,Campo Bonito (PR),2000,Total,5128
+4104055,Campo Bonito (PR),2000,Urbana,2260
+4104055,Campo Bonito (PR),2000,Rural,2868
+4104105,Campo do Tenente (PR),2000,Total,6335
+4104105,Campo do Tenente (PR),2000,Urbana,3451
+4104105,Campo do Tenente (PR),2000,Rural,2884
+4104204,Campo Largo (PR),2000,Total,92782
+4104204,Campo Largo (PR),2000,Urbana,77223
+4104204,Campo Largo (PR),2000,Rural,15559
+4104253,Campo Magro (PR),2000,Total,20409
+4104253,Campo Magro (PR),2000,Urbana,2501
+4104253,Campo Magro (PR),2000,Rural,17908
+4104303,Campo Mourão (PR),2000,Total,80476
+4104303,Campo Mourão (PR),2000,Urbana,74754
+4104303,Campo Mourão (PR),2000,Rural,5722
+4104402,Cândido de Abreu (PR),2000,Total,18795
+4104402,Cândido de Abreu (PR),2000,Urbana,4684
+4104402,Cândido de Abreu (PR),2000,Rural,14111
+4104428,Candói (PR),2000,Total,14185
+4104428,Candói (PR),2000,Urbana,5158
+4104428,Candói (PR),2000,Rural,9027
+4104451,Cantagalo (PR),2000,Total,12810
+4104451,Cantagalo (PR),2000,Urbana,7312
+4104451,Cantagalo (PR),2000,Rural,5498
+4104501,Capanema (PR),2000,Total,18239
+4104501,Capanema (PR),2000,Urbana,9311
+4104501,Capanema (PR),2000,Rural,8928
+4104600,Capitão Leônidas Marques (PR),2000,Total,14377
+4104600,Capitão Leônidas Marques (PR),2000,Urbana,9753
+4104600,Capitão Leônidas Marques (PR),2000,Rural,4624
+4104659,Carambeí (PR),2000,Total,14860
+4104659,Carambeí (PR),2000,Urbana,10494
+4104659,Carambeí (PR),2000,Rural,4366
+4104709,Carlópolis (PR),2000,Total,13305
+4104709,Carlópolis (PR),2000,Urbana,8347
+4104709,Carlópolis (PR),2000,Rural,4958
+4104808,Cascavel (PR),2000,Total,245369
+4104808,Cascavel (PR),2000,Urbana,228673
+4104808,Cascavel (PR),2000,Rural,16696
+4104907,Castro (PR),2000,Total,63581
+4104907,Castro (PR),2000,Urbana,43250
+4104907,Castro (PR),2000,Rural,20331
+4105003,Catanduvas (PR),2000,Total,10421
+4105003,Catanduvas (PR),2000,Urbana,4944
+4105003,Catanduvas (PR),2000,Rural,5477
+4105102,Centenário do Sul (PR),2000,Total,11817
+4105102,Centenário do Sul (PR),2000,Urbana,9237
+4105102,Centenário do Sul (PR),2000,Rural,2580
+4105201,Cerro Azul (PR),2000,Total,16352
+4105201,Cerro Azul (PR),2000,Urbana,3916
+4105201,Cerro Azul (PR),2000,Rural,12436
+4105300,Céu Azul (PR),2000,Total,10445
+4105300,Céu Azul (PR),2000,Urbana,7197
+4105300,Céu Azul (PR),2000,Rural,3248
+4105409,Chopinzinho (PR),2000,Total,20543
+4105409,Chopinzinho (PR),2000,Urbana,10529
+4105409,Chopinzinho (PR),2000,Rural,10014
+4105508,Cianorte (PR),2000,Total,57401
+4105508,Cianorte (PR),2000,Urbana,49644
+4105508,Cianorte (PR),2000,Rural,7757
+4105607,Cidade Gaúcha (PR),2000,Total,9531
+4105607,Cidade Gaúcha (PR),2000,Urbana,7681
+4105607,Cidade Gaúcha (PR),2000,Rural,1850
+4105706,Clevelândia (PR),2000,Total,18338
+4105706,Clevelândia (PR),2000,Urbana,14814
+4105706,Clevelândia (PR),2000,Rural,3524
+4105805,Colombo (PR),2000,Total,183329
+4105805,Colombo (PR),2000,Urbana,174962
+4105805,Colombo (PR),2000,Rural,8367
+4105904,Colorado (PR),2000,Total,20957
+4105904,Colorado (PR),2000,Urbana,18772
+4105904,Colorado (PR),2000,Rural,2185
+4106001,Congonhinhas (PR),2000,Total,7851
+4106001,Congonhinhas (PR),2000,Urbana,4704
+4106001,Congonhinhas (PR),2000,Rural,3147
+4106100,Conselheiro Mairinck (PR),2000,Total,3463
+4106100,Conselheiro Mairinck (PR),2000,Urbana,2406
+4106100,Conselheiro Mairinck (PR),2000,Rural,1057
+4106209,Contenda (PR),2000,Total,13241
+4106209,Contenda (PR),2000,Urbana,6320
+4106209,Contenda (PR),2000,Rural,6921
+4106308,Corbélia (PR),2000,Total,15803
+4106308,Corbélia (PR),2000,Urbana,12542
+4106308,Corbélia (PR),2000,Rural,3261
+4106407,Cornélio Procópio (PR),2000,Total,46861
+4106407,Cornélio Procópio (PR),2000,Urbana,42683
+4106407,Cornélio Procópio (PR),2000,Rural,4178
+4106456,Coronel Domingos Soares (PR),2000,Total,7004
+4106456,Coronel Domingos Soares (PR),2000,Urbana,797
+4106456,Coronel Domingos Soares (PR),2000,Rural,6207
+4106506,Coronel Vivida (PR),2000,Total,23306
+4106506,Coronel Vivida (PR),2000,Urbana,14732
+4106506,Coronel Vivida (PR),2000,Rural,8574
+4106555,Corumbataí do Sul (PR),2000,Total,4946
+4106555,Corumbataí do Sul (PR),2000,Urbana,1998
+4106555,Corumbataí do Sul (PR),2000,Rural,2948
+4106571,Cruzeiro do Iguaçu (PR),2000,Total,4394
+4106571,Cruzeiro do Iguaçu (PR),2000,Urbana,2214
+4106571,Cruzeiro do Iguaçu (PR),2000,Rural,2180
+4106605,Cruzeiro do Oeste (PR),2000,Total,20222
+4106605,Cruzeiro do Oeste (PR),2000,Urbana,16056
+4106605,Cruzeiro do Oeste (PR),2000,Rural,4166
+4106704,Cruzeiro do Sul (PR),2000,Total,4759
+4106704,Cruzeiro do Sul (PR),2000,Urbana,2834
+4106704,Cruzeiro do Sul (PR),2000,Rural,1925
+4106803,Cruz Machado (PR),2000,Total,17667
+4106803,Cruz Machado (PR),2000,Urbana,3459
+4106803,Cruz Machado (PR),2000,Rural,14208
+4106852,Cruzmaltina (PR),2000,Total,3459
+4106852,Cruzmaltina (PR),2000,Urbana,1181
+4106852,Cruzmaltina (PR),2000,Rural,2278
+4106902,Curitiba (PR),2000,Total,1587315
+4106902,Curitiba (PR),2000,Urbana,1587315
+4106902,Curitiba (PR),2000,Rural,0
+4107009,Curiúva (PR),2000,Total,12904
+4107009,Curiúva (PR),2000,Urbana,7026
+4107009,Curiúva (PR),2000,Rural,5878
+4107108,Diamante do Norte (PR),2000,Total,6099
+4107108,Diamante do Norte (PR),2000,Urbana,4612
+4107108,Diamante do Norte (PR),2000,Rural,1487
+4107124,Diamante do Sul (PR),2000,Total,3659
+4107124,Diamante do Sul (PR),2000,Urbana,1115
+4107124,Diamante do Sul (PR),2000,Rural,2544
+4107157,Diamante D'Oeste (PR),2000,Total,4878
+4107157,Diamante D'Oeste (PR),2000,Urbana,2480
+4107157,Diamante D'Oeste (PR),2000,Rural,2398
+4107207,Dois Vizinhos (PR),2000,Total,31986
+4107207,Dois Vizinhos (PR),2000,Urbana,22382
+4107207,Dois Vizinhos (PR),2000,Rural,9604
+4107256,Douradina (PR),2000,Total,6160
+4107256,Douradina (PR),2000,Urbana,3717
+4107256,Douradina (PR),2000,Rural,2443
+4107306,Doutor Camargo (PR),2000,Total,5777
+4107306,Doutor Camargo (PR),2000,Urbana,4679
+4107306,Doutor Camargo (PR),2000,Rural,1098
+4107405,Enéas Marques (PR),2000,Total,6382
+4107405,Enéas Marques (PR),2000,Urbana,1250
+4107405,Enéas Marques (PR),2000,Rural,5132
+4107504,Engenheiro Beltrão (PR),2000,Total,14082
+4107504,Engenheiro Beltrão (PR),2000,Urbana,11129
+4107504,Engenheiro Beltrão (PR),2000,Rural,2953
+4107520,Esperança Nova (PR),2000,Total,2308
+4107520,Esperança Nova (PR),2000,Urbana,753
+4107520,Esperança Nova (PR),2000,Rural,1555
+4107538,Entre Rios do Oeste (PR),2000,Total,3328
+4107538,Entre Rios do Oeste (PR),2000,Urbana,1991
+4107538,Entre Rios do Oeste (PR),2000,Rural,1337
+4107546,Espigão Alto do Iguaçu (PR),2000,Total,5388
+4107546,Espigão Alto do Iguaçu (PR),2000,Urbana,1572
+4107546,Espigão Alto do Iguaçu (PR),2000,Rural,3816
+4107553,Farol (PR),2000,Total,3963
+4107553,Farol (PR),2000,Urbana,1944
+4107553,Farol (PR),2000,Rural,2019
+4107603,Faxinal (PR),2000,Total,15608
+4107603,Faxinal (PR),2000,Urbana,12556
+4107603,Faxinal (PR),2000,Rural,3052
+4107652,Fazenda Rio Grande (PR),2000,Total,62877
+4107652,Fazenda Rio Grande (PR),2000,Urbana,59196
+4107652,Fazenda Rio Grande (PR),2000,Rural,3681
+4107702,Fênix (PR),2000,Total,4942
+4107702,Fênix (PR),2000,Urbana,3836
+4107702,Fênix (PR),2000,Rural,1106
+4107736,Fernandes Pinheiro (PR),2000,Total,6368
+4107736,Fernandes Pinheiro (PR),2000,Urbana,1965
+4107736,Fernandes Pinheiro (PR),2000,Rural,4403
+4107751,Figueira (PR),2000,Total,9038
+4107751,Figueira (PR),2000,Urbana,7642
+4107751,Figueira (PR),2000,Rural,1396
+4107801,Floraí (PR),2000,Total,5285
+4107801,Floraí (PR),2000,Urbana,4511
+4107801,Floraí (PR),2000,Rural,774
+4107850,Flor da Serra do Sul (PR),2000,Total,5059
+4107850,Flor da Serra do Sul (PR),2000,Urbana,590
+4107850,Flor da Serra do Sul (PR),2000,Rural,4469
+4107900,Floresta (PR),2000,Total,5122
+4107900,Floresta (PR),2000,Urbana,4386
+4107900,Floresta (PR),2000,Rural,736
+4108007,Florestópolis (PR),2000,Total,12190
+4108007,Florestópolis (PR),2000,Urbana,10238
+4108007,Florestópolis (PR),2000,Rural,1952
+4108106,Flórida (PR),2000,Total,2434
+4108106,Flórida (PR),2000,Urbana,2181
+4108106,Flórida (PR),2000,Rural,253
+4108205,Formosa do Oeste (PR),2000,Total,8755
+4108205,Formosa do Oeste (PR),2000,Urbana,5030
+4108205,Formosa do Oeste (PR),2000,Rural,3725
+4108304,Foz do Iguaçu (PR),2000,Total,258543
+4108304,Foz do Iguaçu (PR),2000,Urbana,256524
+4108304,Foz do Iguaçu (PR),2000,Rural,2019
+4108320,Francisco Alves (PR),2000,Total,6956
+4108320,Francisco Alves (PR),2000,Urbana,4110
+4108320,Francisco Alves (PR),2000,Rural,2846
+4108403,Francisco Beltrão (PR),2000,Total,67132
+4108403,Francisco Beltrão (PR),2000,Urbana,54831
+4108403,Francisco Beltrão (PR),2000,Rural,12301
+4108452,Foz do Jordão (PR),2000,Total,6378
+4108452,Foz do Jordão (PR),2000,Urbana,4312
+4108452,Foz do Jordão (PR),2000,Rural,2066
+4108502,General Carneiro (PR),2000,Total,13899
+4108502,General Carneiro (PR),2000,Urbana,8903
+4108502,General Carneiro (PR),2000,Rural,4996
+4108551,Godoy Moreira (PR),2000,Total,3836
+4108551,Godoy Moreira (PR),2000,Urbana,1468
+4108551,Godoy Moreira (PR),2000,Rural,2368
+4108601,Goioerê (PR),2000,Total,29750
+4108601,Goioerê (PR),2000,Urbana,24534
+4108601,Goioerê (PR),2000,Rural,5216
+4108650,Goioxim (PR),2000,Total,8086
+4108650,Goioxim (PR),2000,Urbana,1832
+4108650,Goioxim (PR),2000,Rural,6254
+4108700,Grandes Rios (PR),2000,Total,7868
+4108700,Grandes Rios (PR),2000,Urbana,3800
+4108700,Grandes Rios (PR),2000,Rural,4068
+4108809,Guaíra (PR),2000,Total,28659
+4108809,Guaíra (PR),2000,Urbana,24878
+4108809,Guaíra (PR),2000,Rural,3781
+4108908,Guairaçá (PR),2000,Total,5898
+4108908,Guairaçá (PR),2000,Urbana,4098
+4108908,Guairaçá (PR),2000,Rural,1800
+4108957,Guamiranga (PR),2000,Total,7134
+4108957,Guamiranga (PR),2000,Urbana,1628
+4108957,Guamiranga (PR),2000,Rural,5506
+4109005,Guapirama (PR),2000,Total,4068
+4109005,Guapirama (PR),2000,Urbana,2917
+4109005,Guapirama (PR),2000,Rural,1151
+4109104,Guaporema (PR),2000,Total,2244
+4109104,Guaporema (PR),2000,Urbana,970
+4109104,Guaporema (PR),2000,Rural,1274
+4109203,Guaraci (PR),2000,Total,4919
+4109203,Guaraci (PR),2000,Urbana,3809
+4109203,Guaraci (PR),2000,Rural,1110
+4109302,Guaraniaçu (PR),2000,Total,17201
+4109302,Guaraniaçu (PR),2000,Urbana,8126
+4109302,Guaraniaçu (PR),2000,Rural,9075
+4109401,Guarapuava (PR),2000,Total,155161
+4109401,Guarapuava (PR),2000,Urbana,141694
+4109401,Guarapuava (PR),2000,Rural,13467
+4109500,Guaraqueçaba (PR),2000,Total,8288
+4109500,Guaraqueçaba (PR),2000,Urbana,2582
+4109500,Guaraqueçaba (PR),2000,Rural,5706
+4109609,Guaratuba (PR),2000,Total,27257
+4109609,Guaratuba (PR),2000,Urbana,23156
+4109609,Guaratuba (PR),2000,Rural,4101
+4109658,Honório Serpa (PR),2000,Total,6896
+4109658,Honório Serpa (PR),2000,Urbana,1443
+4109658,Honório Serpa (PR),2000,Rural,5453
+4109708,Ibaiti (PR),2000,Total,26448
+4109708,Ibaiti (PR),2000,Urbana,19707
+4109708,Ibaiti (PR),2000,Rural,6741
+4109757,Ibema (PR),2000,Total,5872
+4109757,Ibema (PR),2000,Urbana,4438
+4109757,Ibema (PR),2000,Rural,1434
+4109807,Ibiporã (PR),2000,Total,42153
+4109807,Ibiporã (PR),2000,Urbana,39141
+4109807,Ibiporã (PR),2000,Rural,3012
+4109906,Icaraíma (PR),2000,Total,10048
+4109906,Icaraíma (PR),2000,Urbana,6519
+4109906,Icaraíma (PR),2000,Rural,3529
+4110003,Iguaraçu (PR),2000,Total,3598
+4110003,Iguaraçu (PR),2000,Urbana,2814
+4110003,Iguaraçu (PR),2000,Rural,784
+4110052,Iguatu (PR),2000,Total,2255
+4110052,Iguatu (PR),2000,Urbana,1227
+4110052,Iguatu (PR),2000,Rural,1028
+4110078,Imbaú (PR),2000,Total,9474
+4110078,Imbaú (PR),2000,Urbana,5483
+4110078,Imbaú (PR),2000,Rural,3991
+4110102,Imbituva (PR),2000,Total,24496
+4110102,Imbituva (PR),2000,Urbana,14781
+4110102,Imbituva (PR),2000,Rural,9715
+4110201,Inácio Martins (PR),2000,Total,10963
+4110201,Inácio Martins (PR),2000,Urbana,4078
+4110201,Inácio Martins (PR),2000,Rural,6885
+4110300,Inajá (PR),2000,Total,2915
+4110300,Inajá (PR),2000,Urbana,2305
+4110300,Inajá (PR),2000,Rural,610
+4110409,Indianópolis (PR),2000,Total,4212
+4110409,Indianópolis (PR),2000,Urbana,2435
+4110409,Indianópolis (PR),2000,Rural,1777
+4110508,Ipiranga (PR),2000,Total,13308
+4110508,Ipiranga (PR),2000,Urbana,3996
+4110508,Ipiranga (PR),2000,Rural,9312
+4110607,Iporã (PR),2000,Total,16445
+4110607,Iporã (PR),2000,Urbana,11508
+4110607,Iporã (PR),2000,Rural,4937
+4110656,Iracema do Oeste (PR),2000,Total,2951
+4110656,Iracema do Oeste (PR),2000,Urbana,2131
+4110656,Iracema do Oeste (PR),2000,Rural,820
+4110706,Irati (PR),2000,Total,52352
+4110706,Irati (PR),2000,Urbana,39306
+4110706,Irati (PR),2000,Rural,13046
+4110805,Iretama (PR),2000,Total,11335
+4110805,Iretama (PR),2000,Urbana,6156
+4110805,Iretama (PR),2000,Rural,5179
+4110904,Itaguajé (PR),2000,Total,4771
+4110904,Itaguajé (PR),2000,Urbana,3586
+4110904,Itaguajé (PR),2000,Rural,1185
+4110953,Itaipulândia (PR),2000,Total,6836
+4110953,Itaipulândia (PR),2000,Urbana,3757
+4110953,Itaipulândia (PR),2000,Rural,3079
+4111001,Itambaracá (PR),2000,Total,7090
+4111001,Itambaracá (PR),2000,Urbana,5303
+4111001,Itambaracá (PR),2000,Rural,1787
+4111100,Itambé (PR),2000,Total,5956
+4111100,Itambé (PR),2000,Urbana,5378
+4111100,Itambé (PR),2000,Rural,578
+4111209,Itapejara d'Oeste (PR),2000,Total,9162
+4111209,Itapejara d'Oeste (PR),2000,Urbana,4961
+4111209,Itapejara d'Oeste (PR),2000,Rural,4201
+4111258,Itaperuçu (PR),2000,Total,19344
+4111258,Itaperuçu (PR),2000,Urbana,16234
+4111258,Itaperuçu (PR),2000,Rural,3110
+4111308,Itaúna do Sul (PR),2000,Total,4447
+4111308,Itaúna do Sul (PR),2000,Urbana,2790
+4111308,Itaúna do Sul (PR),2000,Rural,1657
+4111407,Ivaí (PR),2000,Total,11899
+4111407,Ivaí (PR),2000,Urbana,3708
+4111407,Ivaí (PR),2000,Rural,8191
+4111506,Ivaiporã (PR),2000,Total,32270
+4111506,Ivaiporã (PR),2000,Urbana,25889
+4111506,Ivaiporã (PR),2000,Rural,6381
+4111555,Ivaté (PR),2000,Total,6925
+4111555,Ivaté (PR),2000,Urbana,3971
+4111555,Ivaté (PR),2000,Rural,2954
+4111605,Ivatuba (PR),2000,Total,2796
+4111605,Ivatuba (PR),2000,Urbana,1926
+4111605,Ivatuba (PR),2000,Rural,870
+4111704,Jaboti (PR),2000,Total,4590
+4111704,Jaboti (PR),2000,Urbana,2641
+4111704,Jaboti (PR),2000,Rural,1949
+4111803,Jacarezinho (PR),2000,Total,39625
+4111803,Jacarezinho (PR),2000,Urbana,33515
+4111803,Jacarezinho (PR),2000,Rural,6110
+4111902,Jaguapitã (PR),2000,Total,10932
+4111902,Jaguapitã (PR),2000,Urbana,8733
+4111902,Jaguapitã (PR),2000,Rural,2199
+4112009,Jaguariaíva (PR),2000,Total,30780
+4112009,Jaguariaíva (PR),2000,Urbana,25621
+4112009,Jaguariaíva (PR),2000,Rural,5159
+4112108,Jandaia do Sul (PR),2000,Total,19676
+4112108,Jandaia do Sul (PR),2000,Urbana,17079
+4112108,Jandaia do Sul (PR),2000,Rural,2597
+4112207,Janiópolis (PR),2000,Total,8084
+4112207,Janiópolis (PR),2000,Urbana,4368
+4112207,Janiópolis (PR),2000,Rural,3716
+4112306,Japira (PR),2000,Total,4901
+4112306,Japira (PR),2000,Urbana,2327
+4112306,Japira (PR),2000,Rural,2574
+4112405,Japurá (PR),2000,Total,7755
+4112405,Japurá (PR),2000,Urbana,6100
+4112405,Japurá (PR),2000,Rural,1655
+4112504,Jardim Alegre (PR),2000,Total,13673
+4112504,Jardim Alegre (PR),2000,Urbana,7134
+4112504,Jardim Alegre (PR),2000,Rural,6539
+4112603,Jardim Olinda (PR),2000,Total,1523
+4112603,Jardim Olinda (PR),2000,Urbana,996
+4112603,Jardim Olinda (PR),2000,Rural,527
+4112702,Jataizinho (PR),2000,Total,11327
+4112702,Jataizinho (PR),2000,Urbana,10317
+4112702,Jataizinho (PR),2000,Rural,1010
+4112751,Jesuítas (PR),2000,Total,9832
+4112751,Jesuítas (PR),2000,Urbana,5408
+4112751,Jesuítas (PR),2000,Rural,4424
+4112801,Joaquim Távora (PR),2000,Total,9661
+4112801,Joaquim Távora (PR),2000,Urbana,6972
+4112801,Joaquim Távora (PR),2000,Rural,2689
+4112900,Jundiaí do Sul (PR),2000,Total,3659
+4112900,Jundiaí do Sul (PR),2000,Urbana,2266
+4112900,Jundiaí do Sul (PR),2000,Rural,1393
+4112959,Juranda (PR),2000,Total,8134
+4112959,Juranda (PR),2000,Urbana,5764
+4112959,Juranda (PR),2000,Rural,2370
+4113007,Jussara (PR),2000,Total,6299
+4113007,Jussara (PR),2000,Urbana,5256
+4113007,Jussara (PR),2000,Rural,1043
+4113106,Kaloré (PR),2000,Total,5044
+4113106,Kaloré (PR),2000,Urbana,3055
+4113106,Kaloré (PR),2000,Rural,1989
+4113205,Lapa (PR),2000,Total,41838
+4113205,Lapa (PR),2000,Urbana,24070
+4113205,Lapa (PR),2000,Rural,17768
+4113254,Laranjal (PR),2000,Total,7121
+4113254,Laranjal (PR),2000,Urbana,1510
+4113254,Laranjal (PR),2000,Rural,5611
+4113304,Laranjeiras do Sul (PR),2000,Total,30025
+4113304,Laranjeiras do Sul (PR),2000,Urbana,23562
+4113304,Laranjeiras do Sul (PR),2000,Rural,6463
+4113403,Leópolis (PR),2000,Total,4440
+4113403,Leópolis (PR),2000,Urbana,2395
+4113403,Leópolis (PR),2000,Rural,2045
+4113429,Lidianópolis (PR),2000,Total,4783
+4113429,Lidianópolis (PR),2000,Urbana,1841
+4113429,Lidianópolis (PR),2000,Rural,2942
+4113452,Lindoeste (PR),2000,Total,6224
+4113452,Lindoeste (PR),2000,Urbana,2382
+4113452,Lindoeste (PR),2000,Rural,3842
+4113502,Loanda (PR),2000,Total,19549
+4113502,Loanda (PR),2000,Urbana,16948
+4113502,Loanda (PR),2000,Rural,2601
+4113601,Lobato (PR),2000,Total,4064
+4113601,Lobato (PR),2000,Urbana,3366
+4113601,Lobato (PR),2000,Rural,698
+4113700,Londrina (PR),2000,Total,447065
+4113700,Londrina (PR),2000,Urbana,433369
+4113700,Londrina (PR),2000,Rural,13696
+4113734,Luiziana (PR),2000,Total,7540
+4113734,Luiziana (PR),2000,Urbana,4138
+4113734,Luiziana (PR),2000,Rural,3402
+4113759,Lunardelli (PR),2000,Total,5668
+4113759,Lunardelli (PR),2000,Urbana,2704
+4113759,Lunardelli (PR),2000,Rural,2964
+4113809,Lupionópolis (PR),2000,Total,4323
+4113809,Lupionópolis (PR),2000,Urbana,3555
+4113809,Lupionópolis (PR),2000,Rural,768
+4113908,Mallet (PR),2000,Total,12602
+4113908,Mallet (PR),2000,Urbana,6862
+4113908,Mallet (PR),2000,Rural,5740
+4114005,Mamborê (PR),2000,Total,15156
+4114005,Mamborê (PR),2000,Urbana,9014
+4114005,Mamborê (PR),2000,Rural,6142
+4114104,Mandaguaçu (PR),2000,Total,16828
+4114104,Mandaguaçu (PR),2000,Urbana,14113
+4114104,Mandaguaçu (PR),2000,Rural,2715
+4114203,Mandaguari (PR),2000,Total,31395
+4114203,Mandaguari (PR),2000,Urbana,28281
+4114203,Mandaguari (PR),2000,Rural,3114
+4114302,Mandirituba (PR),2000,Total,17540
+4114302,Mandirituba (PR),2000,Urbana,6268
+4114302,Mandirituba (PR),2000,Rural,11272
+4114351,Manfrinópolis (PR),2000,Total,3802
+4114351,Manfrinópolis (PR),2000,Urbana,448
+4114351,Manfrinópolis (PR),2000,Rural,3354
+4114401,Mangueirinha (PR),2000,Total,17760
+4114401,Mangueirinha (PR),2000,Urbana,6450
+4114401,Mangueirinha (PR),2000,Rural,11310
+4114500,Manoel Ribas (PR),2000,Total,13066
+4114500,Manoel Ribas (PR),2000,Urbana,6540
+4114500,Manoel Ribas (PR),2000,Rural,6526
+4114609,Marechal Cândido Rondon (PR),2000,Total,41007
+4114609,Marechal Cândido Rondon (PR),2000,Urbana,31246
+4114609,Marechal Cândido Rondon (PR),2000,Rural,9761
+4114708,Maria Helena (PR),2000,Total,6384
+4114708,Maria Helena (PR),2000,Urbana,2719
+4114708,Maria Helena (PR),2000,Rural,3665
+4114807,Marialva (PR),2000,Total,28702
+4114807,Marialva (PR),2000,Urbana,22113
+4114807,Marialva (PR),2000,Rural,6589
+4114906,Marilândia do Sul (PR),2000,Total,9071
+4114906,Marilândia do Sul (PR),2000,Urbana,6089
+4114906,Marilândia do Sul (PR),2000,Rural,2982
+4115002,Marilena (PR),2000,Total,6756
+4115002,Marilena (PR),2000,Urbana,4047
+4115002,Marilena (PR),2000,Rural,2709
+4115101,Mariluz (PR),2000,Total,10296
+4115101,Mariluz (PR),2000,Urbana,8255
+4115101,Mariluz (PR),2000,Rural,2041
+4115200,Maringá (PR),2000,Total,288653
+4115200,Maringá (PR),2000,Urbana,283978
+4115200,Maringá (PR),2000,Rural,4675
+4115309,Mariópolis (PR),2000,Total,6017
+4115309,Mariópolis (PR),2000,Urbana,3771
+4115309,Mariópolis (PR),2000,Rural,2246
+4115358,Maripá (PR),2000,Total,5889
+4115358,Maripá (PR),2000,Urbana,3001
+4115358,Maripá (PR),2000,Rural,2888
+4115408,Marmeleiro (PR),2000,Total,13665
+4115408,Marmeleiro (PR),2000,Urbana,7168
+4115408,Marmeleiro (PR),2000,Rural,6497
+4115457,Marquinho (PR),2000,Total,5659
+4115457,Marquinho (PR),2000,Urbana,568
+4115457,Marquinho (PR),2000,Rural,5091
+4115507,Marumbi (PR),2000,Total,4612
+4115507,Marumbi (PR),2000,Urbana,3380
+4115507,Marumbi (PR),2000,Rural,1232
+4115606,Matelândia (PR),2000,Total,14344
+4115606,Matelândia (PR),2000,Urbana,10151
+4115606,Matelândia (PR),2000,Rural,4193
+4115705,Matinhos (PR),2000,Total,24184
+4115705,Matinhos (PR),2000,Urbana,24000
+4115705,Matinhos (PR),2000,Rural,184
+4115739,Mato Rico (PR),2000,Total,4496
+4115739,Mato Rico (PR),2000,Urbana,652
+4115739,Mato Rico (PR),2000,Rural,3844
+4115754,Mauá da Serra (PR),2000,Total,6471
+4115754,Mauá da Serra (PR),2000,Urbana,5344
+4115754,Mauá da Serra (PR),2000,Rural,1127
+4115804,Medianeira (PR),2000,Total,37827
+4115804,Medianeira (PR),2000,Urbana,33246
+4115804,Medianeira (PR),2000,Rural,4581
+4115853,Mercedes (PR),2000,Total,4608
+4115853,Mercedes (PR),2000,Urbana,1496
+4115853,Mercedes (PR),2000,Rural,3112
+4115903,Mirador (PR),2000,Total,2500
+4115903,Mirador (PR),2000,Urbana,1576
+4115903,Mirador (PR),2000,Rural,924
+4116000,Miraselva (PR),2000,Total,1961
+4116000,Miraselva (PR),2000,Urbana,1306
+4116000,Miraselva (PR),2000,Rural,655
+4116059,Missal (PR),2000,Total,10433
+4116059,Missal (PR),2000,Urbana,4972
+4116059,Missal (PR),2000,Rural,5461
+4116109,Moreira Sales (PR),2000,Total,13395
+4116109,Moreira Sales (PR),2000,Urbana,9383
+4116109,Moreira Sales (PR),2000,Rural,4012
+4116208,Morretes (PR),2000,Total,15275
+4116208,Morretes (PR),2000,Urbana,7153
+4116208,Morretes (PR),2000,Rural,8122
+4116307,Munhoz de Melo (PR),2000,Total,3401
+4116307,Munhoz de Melo (PR),2000,Urbana,2527
+4116307,Munhoz de Melo (PR),2000,Rural,874
+4116406,Nossa Senhora das Graças (PR),2000,Total,3833
+4116406,Nossa Senhora das Graças (PR),2000,Urbana,2848
+4116406,Nossa Senhora das Graças (PR),2000,Rural,985
+4116505,Nova Aliança do Ivaí (PR),2000,Total,1338
+4116505,Nova Aliança do Ivaí (PR),2000,Urbana,904
+4116505,Nova Aliança do Ivaí (PR),2000,Rural,434
+4116604,Nova América da Colina (PR),2000,Total,3585
+4116604,Nova América da Colina (PR),2000,Urbana,2401
+4116604,Nova América da Colina (PR),2000,Rural,1184
+4116703,Nova Aurora (PR),2000,Total,13641
+4116703,Nova Aurora (PR),2000,Urbana,9061
+4116703,Nova Aurora (PR),2000,Rural,4580
+4116802,Nova Cantu (PR),2000,Total,9914
+4116802,Nova Cantu (PR),2000,Urbana,3916
+4116802,Nova Cantu (PR),2000,Rural,5998
+4116901,Nova Esperança (PR),2000,Total,25729
+4116901,Nova Esperança (PR),2000,Urbana,21785
+4116901,Nova Esperança (PR),2000,Rural,3944
+4116950,Nova Esperança do Sudoeste (PR),2000,Total,5258
+4116950,Nova Esperança do Sudoeste (PR),2000,Urbana,1224
+4116950,Nova Esperança do Sudoeste (PR),2000,Rural,4034
+4117008,Nova Fátima (PR),2000,Total,8305
+4117008,Nova Fátima (PR),2000,Urbana,6591
+4117008,Nova Fátima (PR),2000,Rural,1714
+4117057,Nova Laranjeiras (PR),2000,Total,11699
+4117057,Nova Laranjeiras (PR),2000,Urbana,1813
+4117057,Nova Laranjeiras (PR),2000,Rural,9886
+4117107,Nova Londrina (PR),2000,Total,13169
+4117107,Nova Londrina (PR),2000,Urbana,11604
+4117107,Nova Londrina (PR),2000,Rural,1565
+4117206,Nova Olímpia (PR),2000,Total,5280
+4117206,Nova Olímpia (PR),2000,Urbana,4325
+4117206,Nova Olímpia (PR),2000,Rural,955
+4117214,Nova Santa Bárbara (PR),2000,Total,3611
+4117214,Nova Santa Bárbara (PR),2000,Urbana,2871
+4117214,Nova Santa Bárbara (PR),2000,Rural,740
+4117222,Nova Santa Rosa (PR),2000,Total,7125
+4117222,Nova Santa Rosa (PR),2000,Urbana,3897
+4117222,Nova Santa Rosa (PR),2000,Rural,3228
+4117255,Nova Prata do Iguaçu (PR),2000,Total,10397
+4117255,Nova Prata do Iguaçu (PR),2000,Urbana,5311
+4117255,Nova Prata do Iguaçu (PR),2000,Rural,5086
+4117271,Nova Tebas (PR),2000,Total,9476
+4117271,Nova Tebas (PR),2000,Urbana,3164
+4117271,Nova Tebas (PR),2000,Rural,6312
+4117297,Novo Itacolomi (PR),2000,Total,2866
+4117297,Novo Itacolomi (PR),2000,Urbana,1258
+4117297,Novo Itacolomi (PR),2000,Rural,1608
+4117305,Ortigueira (PR),2000,Total,25216
+4117305,Ortigueira (PR),2000,Urbana,8363
+4117305,Ortigueira (PR),2000,Rural,16853
+4117404,Ourizona (PR),2000,Total,3396
+4117404,Ourizona (PR),2000,Urbana,2720
+4117404,Ourizona (PR),2000,Rural,676
+4117453,Ouro Verde do Oeste (PR),2000,Total,5472
+4117453,Ouro Verde do Oeste (PR),2000,Urbana,3383
+4117453,Ouro Verde do Oeste (PR),2000,Rural,2089
+4117503,Paiçandu (PR),2000,Total,30764
+4117503,Paiçandu (PR),2000,Urbana,29622
+4117503,Paiçandu (PR),2000,Rural,1142
+4117602,Palmas (PR),2000,Total,34819
+4117602,Palmas (PR),2000,Urbana,31411
+4117602,Palmas (PR),2000,Rural,3408
+4117701,Palmeira (PR),2000,Total,30847
+4117701,Palmeira (PR),2000,Urbana,17268
+4117701,Palmeira (PR),2000,Rural,13579
+4117800,Palmital (PR),2000,Total,16958
+4117800,Palmital (PR),2000,Urbana,7170
+4117800,Palmital (PR),2000,Rural,9788
+4117909,Palotina (PR),2000,Total,25771
+4117909,Palotina (PR),2000,Urbana,20740
+4117909,Palotina (PR),2000,Rural,5031
+4118006,Paraíso do Norte (PR),2000,Total,9739
+4118006,Paraíso do Norte (PR),2000,Urbana,8720
+4118006,Paraíso do Norte (PR),2000,Rural,1019
+4118105,Paranacity (PR),2000,Total,9109
+4118105,Paranacity (PR),2000,Urbana,7326
+4118105,Paranacity (PR),2000,Rural,1783
+4118204,Paranaguá (PR),2000,Total,127339
+4118204,Paranaguá (PR),2000,Urbana,122347
+4118204,Paranaguá (PR),2000,Rural,4992
+4118303,Paranapoema (PR),2000,Total,2393
+4118303,Paranapoema (PR),2000,Urbana,2159
+4118303,Paranapoema (PR),2000,Rural,234
+4118402,Paranavaí (PR),2000,Total,75750
+4118402,Paranavaí (PR),2000,Urbana,70329
+4118402,Paranavaí (PR),2000,Rural,5421
+4118451,Pato Bragado (PR),2000,Total,4049
+4118451,Pato Bragado (PR),2000,Urbana,2343
+4118451,Pato Bragado (PR),2000,Rural,1706
+4118501,Pato Branco (PR),2000,Total,62234
+4118501,Pato Branco (PR),2000,Urbana,56805
+4118501,Pato Branco (PR),2000,Rural,5429
+4118600,Paula Freitas (PR),2000,Total,5060
+4118600,Paula Freitas (PR),2000,Urbana,2200
+4118600,Paula Freitas (PR),2000,Rural,2860
+4118709,Paulo Frontin (PR),2000,Total,6565
+4118709,Paulo Frontin (PR),2000,Urbana,1752
+4118709,Paulo Frontin (PR),2000,Rural,4813
+4118808,Peabiru (PR),2000,Total,13487
+4118808,Peabiru (PR),2000,Urbana,10491
+4118808,Peabiru (PR),2000,Rural,2996
+4118857,Perobal (PR),2000,Total,5291
+4118857,Perobal (PR),2000,Urbana,2626
+4118857,Perobal (PR),2000,Rural,2665
+4118907,Pérola (PR),2000,Total,9282
+4118907,Pérola (PR),2000,Urbana,6618
+4118907,Pérola (PR),2000,Rural,2664
+4119004,Pérola d'Oeste (PR),2000,Total,7354
+4119004,Pérola d'Oeste (PR),2000,Urbana,2720
+4119004,Pérola d'Oeste (PR),2000,Rural,4634
+4119103,Piên (PR),2000,Total,9798
+4119103,Piên (PR),2000,Urbana,2883
+4119103,Piên (PR),2000,Rural,6915
+4119152,Pinhais (PR),2000,Total,102985
+4119152,Pinhais (PR),2000,Urbana,100726
+4119152,Pinhais (PR),2000,Rural,2259
+4119202,Pinhalão (PR),2000,Total,6217
+4119202,Pinhalão (PR),2000,Urbana,3532
+4119202,Pinhalão (PR),2000,Rural,2685
+4119251,Pinhal de São Bento (PR),2000,Total,2560
+4119251,Pinhal de São Bento (PR),2000,Urbana,737
+4119251,Pinhal de São Bento (PR),2000,Rural,1823
+4119301,Pinhão (PR),2000,Total,28408
+4119301,Pinhão (PR),2000,Urbana,13734
+4119301,Pinhão (PR),2000,Rural,14674
+4119400,Piraí do Sul (PR),2000,Total,21647
+4119400,Piraí do Sul (PR),2000,Urbana,14624
+4119400,Piraí do Sul (PR),2000,Rural,7023
+4119509,Piraquara (PR),2000,Total,72886
+4119509,Piraquara (PR),2000,Urbana,33829
+4119509,Piraquara (PR),2000,Rural,39057
+4119608,Pitanga (PR),2000,Total,35861
+4119608,Pitanga (PR),2000,Urbana,18339
+4119608,Pitanga (PR),2000,Rural,17522
+4119657,Pitangueiras (PR),2000,Total,2418
+4119657,Pitangueiras (PR),2000,Urbana,1641
+4119657,Pitangueiras (PR),2000,Rural,777
+4119707,Planaltina do Paraná (PR),2000,Total,3992
+4119707,Planaltina do Paraná (PR),2000,Urbana,2549
+4119707,Planaltina do Paraná (PR),2000,Rural,1443
+4119806,Planalto (PR),2000,Total,14122
+4119806,Planalto (PR),2000,Urbana,4814
+4119806,Planalto (PR),2000,Rural,9308
+4119905,Ponta Grossa (PR),2000,Total,273616
+4119905,Ponta Grossa (PR),2000,Urbana,266683
+4119905,Ponta Grossa (PR),2000,Rural,6933
+4119954,Pontal do Paraná (PR),2000,Total,14323
+4119954,Pontal do Paraná (PR),2000,Urbana,14149
+4119954,Pontal do Paraná (PR),2000,Rural,174
+4120002,Porecatu (PR),2000,Total,15881
+4120002,Porecatu (PR),2000,Urbana,12372
+4120002,Porecatu (PR),2000,Rural,3509
+4120101,Porto Amazonas (PR),2000,Total,4236
+4120101,Porto Amazonas (PR),2000,Urbana,2728
+4120101,Porto Amazonas (PR),2000,Rural,1508
+4120150,Porto Barreiro (PR),2000,Total,4206
+4120150,Porto Barreiro (PR),2000,Urbana,412
+4120150,Porto Barreiro (PR),2000,Rural,3794
+4120200,Porto Rico (PR),2000,Total,2550
+4120200,Porto Rico (PR),2000,Urbana,1641
+4120200,Porto Rico (PR),2000,Rural,909
+4120309,Porto Vitória (PR),2000,Total,4051
+4120309,Porto Vitória (PR),2000,Urbana,2216
+4120309,Porto Vitória (PR),2000,Rural,1835
+4120333,Prado Ferreira (PR),2000,Total,3152
+4120333,Prado Ferreira (PR),2000,Urbana,2371
+4120333,Prado Ferreira (PR),2000,Rural,781
+4120358,Pranchita (PR),2000,Total,6260
+4120358,Pranchita (PR),2000,Urbana,3160
+4120358,Pranchita (PR),2000,Rural,3100
+4120408,Presidente Castelo Branco (PR),2000,Total,4305
+4120408,Presidente Castelo Branco (PR),2000,Urbana,3247
+4120408,Presidente Castelo Branco (PR),2000,Rural,1058
+4120507,Primeiro de Maio (PR),2000,Total,10728
+4120507,Primeiro de Maio (PR),2000,Urbana,9728
+4120507,Primeiro de Maio (PR),2000,Rural,1000
+4120606,Prudentópolis (PR),2000,Total,46346
+4120606,Prudentópolis (PR),2000,Urbana,18276
+4120606,Prudentópolis (PR),2000,Rural,28070
+4120655,Quarto Centenário (PR),2000,Total,5333
+4120655,Quarto Centenário (PR),2000,Urbana,2685
+4120655,Quarto Centenário (PR),2000,Rural,2648
+4120705,Quatiguá (PR),2000,Total,6742
+4120705,Quatiguá (PR),2000,Urbana,5929
+4120705,Quatiguá (PR),2000,Rural,813
+4120804,Quatro Barras (PR),2000,Total,16161
+4120804,Quatro Barras (PR),2000,Urbana,14520
+4120804,Quatro Barras (PR),2000,Rural,1641
+4120853,Quatro Pontes (PR),2000,Total,3646
+4120853,Quatro Pontes (PR),2000,Urbana,1794
+4120853,Quatro Pontes (PR),2000,Rural,1852
+4120903,Quedas do Iguaçu (PR),2000,Total,27364
+4120903,Quedas do Iguaçu (PR),2000,Urbana,19626
+4120903,Quedas do Iguaçu (PR),2000,Rural,7738
+4121000,Querência do Norte (PR),2000,Total,11438
+4121000,Querência do Norte (PR),2000,Urbana,7007
+4121000,Querência do Norte (PR),2000,Rural,4431
+4121109,Quinta do Sol (PR),2000,Total,5759
+4121109,Quinta do Sol (PR),2000,Urbana,3454
+4121109,Quinta do Sol (PR),2000,Rural,2305
+4121208,Quitandinha (PR),2000,Total,15272
+4121208,Quitandinha (PR),2000,Urbana,3046
+4121208,Quitandinha (PR),2000,Rural,12226
+4121257,Ramilândia (PR),2000,Total,3868
+4121257,Ramilândia (PR),2000,Urbana,1754
+4121257,Ramilândia (PR),2000,Rural,2114
+4121307,Rancho Alegre (PR),2000,Total,4197
+4121307,Rancho Alegre (PR),2000,Urbana,3491
+4121307,Rancho Alegre (PR),2000,Rural,706
+4121356,Rancho Alegre D'Oeste (PR),2000,Total,3117
+4121356,Rancho Alegre D'Oeste (PR),2000,Urbana,2066
+4121356,Rancho Alegre D'Oeste (PR),2000,Rural,1051
+4121406,Realeza (PR),2000,Total,16023
+4121406,Realeza (PR),2000,Urbana,9951
+4121406,Realeza (PR),2000,Rural,6072
+4121505,Rebouças (PR),2000,Total,13663
+4121505,Rebouças (PR),2000,Urbana,6570
+4121505,Rebouças (PR),2000,Rural,7093
+4121604,Renascença (PR),2000,Total,6959
+4121604,Renascença (PR),2000,Urbana,2928
+4121604,Renascença (PR),2000,Rural,4031
+4121703,Reserva (PR),2000,Total,23977
+4121703,Reserva (PR),2000,Urbana,9611
+4121703,Reserva (PR),2000,Rural,14366
+4121752,Reserva do Iguaçu (PR),2000,Total,6678
+4121752,Reserva do Iguaçu (PR),2000,Urbana,3340
+4121752,Reserva do Iguaçu (PR),2000,Rural,3338
+4121802,Ribeirão Claro (PR),2000,Total,10903
+4121802,Ribeirão Claro (PR),2000,Urbana,6796
+4121802,Ribeirão Claro (PR),2000,Rural,4107
+4121901,Ribeirão do Pinhal (PR),2000,Total,14341
+4121901,Ribeirão do Pinhal (PR),2000,Urbana,10675
+4121901,Ribeirão do Pinhal (PR),2000,Rural,3666
+4122008,Rio Azul (PR),2000,Total,13023
+4122008,Rio Azul (PR),2000,Urbana,4334
+4122008,Rio Azul (PR),2000,Rural,8689
+4122107,Rio Bom (PR),2000,Total,3546
+4122107,Rio Bom (PR),2000,Urbana,2106
+4122107,Rio Bom (PR),2000,Rural,1440
+4122156,Rio Bonito do Iguaçu (PR),2000,Total,13791
+4122156,Rio Bonito do Iguaçu (PR),2000,Urbana,1878
+4122156,Rio Bonito do Iguaçu (PR),2000,Rural,11913
+4122172,Rio Branco do Ivaí (PR),2000,Total,3758
+4122172,Rio Branco do Ivaí (PR),2000,Urbana,925
+4122172,Rio Branco do Ivaí (PR),2000,Rural,2833
+4122206,Rio Branco do Sul (PR),2000,Total,29341
+4122206,Rio Branco do Sul (PR),2000,Urbana,20049
+4122206,Rio Branco do Sul (PR),2000,Rural,9292
+4122305,Rio Negro (PR),2000,Total,28710
+4122305,Rio Negro (PR),2000,Urbana,22460
+4122305,Rio Negro (PR),2000,Rural,6250
+4122404,Rolândia (PR),2000,Total,49410
+4122404,Rolândia (PR),2000,Urbana,44650
+4122404,Rolândia (PR),2000,Rural,4760
+4122503,Roncador (PR),2000,Total,13632
+4122503,Roncador (PR),2000,Urbana,6826
+4122503,Roncador (PR),2000,Rural,6806
+4122602,Rondon (PR),2000,Total,8527
+4122602,Rondon (PR),2000,Urbana,5832
+4122602,Rondon (PR),2000,Rural,2695
+4122651,Rosário do Ivaí (PR),2000,Total,6585
+4122651,Rosário do Ivaí (PR),2000,Urbana,2269
+4122651,Rosário do Ivaí (PR),2000,Rural,4316
+4122701,Sabáudia (PR),2000,Total,5413
+4122701,Sabáudia (PR),2000,Urbana,4036
+4122701,Sabáudia (PR),2000,Rural,1377
+4122800,Salgado Filho (PR),2000,Total,5338
+4122800,Salgado Filho (PR),2000,Urbana,2158
+4122800,Salgado Filho (PR),2000,Rural,3180
+4122909,Salto do Itararé (PR),2000,Total,5549
+4122909,Salto do Itararé (PR),2000,Urbana,3419
+4122909,Salto do Itararé (PR),2000,Rural,2130
+4123006,Salto do Lontra (PR),2000,Total,12757
+4123006,Salto do Lontra (PR),2000,Urbana,5602
+4123006,Salto do Lontra (PR),2000,Rural,7155
+4123105,Santa Amélia (PR),2000,Total,4407
+4123105,Santa Amélia (PR),2000,Urbana,2950
+4123105,Santa Amélia (PR),2000,Rural,1457
+4123204,Santa Cecília do Pavão (PR),2000,Total,4064
+4123204,Santa Cecília do Pavão (PR),2000,Urbana,3002
+4123204,Santa Cecília do Pavão (PR),2000,Rural,1062
+4123303,Santa Cruz de Monte Castelo (PR),2000,Total,8578
+4123303,Santa Cruz de Monte Castelo (PR),2000,Urbana,5651
+4123303,Santa Cruz de Monte Castelo (PR),2000,Rural,2927
+4123402,Santa Fé (PR),2000,Total,8870
+4123402,Santa Fé (PR),2000,Urbana,7264
+4123402,Santa Fé (PR),2000,Rural,1606
+4123501,Santa Helena (PR),2000,Total,20491
+4123501,Santa Helena (PR),2000,Urbana,9818
+4123501,Santa Helena (PR),2000,Rural,10673
+4123600,Santa Inês (PR),2000,Total,2099
+4123600,Santa Inês (PR),2000,Urbana,1193
+4123600,Santa Inês (PR),2000,Rural,906
+4123709,Santa Isabel do Ivaí (PR),2000,Total,9154
+4123709,Santa Isabel do Ivaí (PR),2000,Urbana,6771
+4123709,Santa Isabel do Ivaí (PR),2000,Rural,2383
+4123808,Santa Izabel do Oeste (PR),2000,Total,11711
+4123808,Santa Izabel do Oeste (PR),2000,Urbana,5695
+4123808,Santa Izabel do Oeste (PR),2000,Rural,6016
+4123824,Santa Lúcia (PR),2000,Total,4126
+4123824,Santa Lúcia (PR),2000,Urbana,2184
+4123824,Santa Lúcia (PR),2000,Rural,1942
+4123857,Santa Maria do Oeste (PR),2000,Total,13639
+4123857,Santa Maria do Oeste (PR),2000,Urbana,3175
+4123857,Santa Maria do Oeste (PR),2000,Rural,10464
+4123907,Santa Mariana (PR),2000,Total,13470
+4123907,Santa Mariana (PR),2000,Urbana,8668
+4123907,Santa Mariana (PR),2000,Rural,4802
+4123956,Santa Mônica (PR),2000,Total,3190
+4123956,Santa Mônica (PR),2000,Urbana,1335
+4123956,Santa Mônica (PR),2000,Rural,1855
+4124004,Santana do Itararé (PR),2000,Total,5638
+4124004,Santana do Itararé (PR),2000,Urbana,3465
+4124004,Santana do Itararé (PR),2000,Rural,2173
+4124020,Santa Tereza do Oeste (PR),2000,Total,10754
+4124020,Santa Tereza do Oeste (PR),2000,Urbana,7534
+4124020,Santa Tereza do Oeste (PR),2000,Rural,3220
+4124053,Santa Terezinha de Itaipu (PR),2000,Total,18368
+4124053,Santa Terezinha de Itaipu (PR),2000,Urbana,16299
+4124053,Santa Terezinha de Itaipu (PR),2000,Rural,2069
+4124103,Santo Antônio da Platina (PR),2000,Total,39943
+4124103,Santo Antônio da Platina (PR),2000,Urbana,32617
+4124103,Santo Antônio da Platina (PR),2000,Rural,7326
+4124202,Santo Antônio do Caiuá (PR),2000,Total,2878
+4124202,Santo Antônio do Caiuá (PR),2000,Urbana,2118
+4124202,Santo Antônio do Caiuá (PR),2000,Rural,760
+4124301,Santo Antônio do Paraíso (PR),2000,Total,2790
+4124301,Santo Antônio do Paraíso (PR),2000,Urbana,1718
+4124301,Santo Antônio do Paraíso (PR),2000,Rural,1072
+4124400,Santo Antônio do Sudoeste (PR),2000,Total,17870
+4124400,Santo Antônio do Sudoeste (PR),2000,Urbana,10814
+4124400,Santo Antônio do Sudoeste (PR),2000,Rural,7056
+4124509,Santo Inácio (PR),2000,Total,5188
+4124509,Santo Inácio (PR),2000,Urbana,3960
+4124509,Santo Inácio (PR),2000,Rural,1228
+4124608,São Carlos do Ivaí (PR),2000,Total,5904
+4124608,São Carlos do Ivaí (PR),2000,Urbana,5252
+4124608,São Carlos do Ivaí (PR),2000,Rural,652
+4124707,São Jerônimo da Serra (PR),2000,Total,11750
+4124707,São Jerônimo da Serra (PR),2000,Urbana,5331
+4124707,São Jerônimo da Serra (PR),2000,Rural,6419
+4124806,São João (PR),2000,Total,11207
+4124806,São João (PR),2000,Urbana,5788
+4124806,São João (PR),2000,Rural,5419
+4124905,São João do Caiuá (PR),2000,Total,6091
+4124905,São João do Caiuá (PR),2000,Urbana,5070
+4124905,São João do Caiuá (PR),2000,Rural,1021
+4125001,São João do Ivaí (PR),2000,Total,13196
+4125001,São João do Ivaí (PR),2000,Urbana,9368
+4125001,São João do Ivaí (PR),2000,Rural,3828
+4125100,São João do Triunfo (PR),2000,Total,12418
+4125100,São João do Triunfo (PR),2000,Urbana,3503
+4125100,São João do Triunfo (PR),2000,Rural,8915
+4125209,São Jorge d'Oeste (PR),2000,Total,9307
+4125209,São Jorge d'Oeste (PR),2000,Urbana,4511
+4125209,São Jorge d'Oeste (PR),2000,Rural,4796
+4125308,São Jorge do Ivaí (PR),2000,Total,5590
+4125308,São Jorge do Ivaí (PR),2000,Urbana,4558
+4125308,São Jorge do Ivaí (PR),2000,Rural,1032
+4125357,São Jorge do Patrocínio (PR),2000,Total,6604
+4125357,São Jorge do Patrocínio (PR),2000,Urbana,2907
+4125357,São Jorge do Patrocínio (PR),2000,Rural,3697
+4125407,São José da Boa Vista (PR),2000,Total,6978
+4125407,São José da Boa Vista (PR),2000,Urbana,3501
+4125407,São José da Boa Vista (PR),2000,Rural,3477
+4125456,São José das Palmeiras (PR),2000,Total,4102
+4125456,São José das Palmeiras (PR),2000,Urbana,2259
+4125456,São José das Palmeiras (PR),2000,Rural,1843
+4125506,São José dos Pinhais (PR),2000,Total,204316
+4125506,São José dos Pinhais (PR),2000,Urbana,183366
+4125506,São José dos Pinhais (PR),2000,Rural,20950
+4125555,São Manoel do Paraná (PR),2000,Total,2072
+4125555,São Manoel do Paraná (PR),2000,Urbana,1003
+4125555,São Manoel do Paraná (PR),2000,Rural,1069
+4125605,São Mateus do Sul (PR),2000,Total,36569
+4125605,São Mateus do Sul (PR),2000,Urbana,21131
+4125605,São Mateus do Sul (PR),2000,Rural,15438
+4125704,São Miguel do Iguaçu (PR),2000,Total,24432
+4125704,São Miguel do Iguaçu (PR),2000,Urbana,14260
+4125704,São Miguel do Iguaçu (PR),2000,Rural,10172
+4125753,São Pedro do Iguaçu (PR),2000,Total,7277
+4125753,São Pedro do Iguaçu (PR),2000,Urbana,4003
+4125753,São Pedro do Iguaçu (PR),2000,Rural,3274
+4125803,São Pedro do Ivaí (PR),2000,Total,9473
+4125803,São Pedro do Ivaí (PR),2000,Urbana,7730
+4125803,São Pedro do Ivaí (PR),2000,Rural,1743
+4125902,São Pedro do Paraná (PR),2000,Total,2738
+4125902,São Pedro do Paraná (PR),2000,Urbana,1492
+4125902,São Pedro do Paraná (PR),2000,Rural,1246
+4126009,São Sebastião da Amoreira (PR),2000,Total,8548
+4126009,São Sebastião da Amoreira (PR),2000,Urbana,6617
+4126009,São Sebastião da Amoreira (PR),2000,Rural,1931
+4126108,São Tomé (PR),2000,Total,5045
+4126108,São Tomé (PR),2000,Urbana,3744
+4126108,São Tomé (PR),2000,Rural,1301
+4126207,Sapopema (PR),2000,Total,6872
+4126207,Sapopema (PR),2000,Urbana,3183
+4126207,Sapopema (PR),2000,Rural,3689
+4126256,Sarandi (PR),2000,Total,71422
+4126256,Sarandi (PR),2000,Urbana,69493
+4126256,Sarandi (PR),2000,Rural,1929
+4126272,Saudade do Iguaçu (PR),2000,Total,4608
+4126272,Saudade do Iguaçu (PR),2000,Urbana,1987
+4126272,Saudade do Iguaçu (PR),2000,Rural,2621
+4126306,Sengés (PR),2000,Total,17778
+4126306,Sengés (PR),2000,Urbana,13353
+4126306,Sengés (PR),2000,Rural,4425
+4126355,Serranópolis do Iguaçu (PR),2000,Total,4740
+4126355,Serranópolis do Iguaçu (PR),2000,Urbana,1928
+4126355,Serranópolis do Iguaçu (PR),2000,Rural,2812
+4126405,Sertaneja (PR),2000,Total,6521
+4126405,Sertaneja (PR),2000,Urbana,5476
+4126405,Sertaneja (PR),2000,Rural,1045
+4126504,Sertanópolis (PR),2000,Total,15147
+4126504,Sertanópolis (PR),2000,Urbana,12609
+4126504,Sertanópolis (PR),2000,Rural,2538
+4126603,Siqueira Campos (PR),2000,Total,16000
+4126603,Siqueira Campos (PR),2000,Urbana,11768
+4126603,Siqueira Campos (PR),2000,Rural,4232
+4126652,Sulina (PR),2000,Total,3918
+4126652,Sulina (PR),2000,Urbana,1195
+4126652,Sulina (PR),2000,Rural,2723
+4126678,Tamarana (PR),2000,Total,9713
+4126678,Tamarana (PR),2000,Urbana,4719
+4126678,Tamarana (PR),2000,Rural,4994
+4126702,Tamboara (PR),2000,Total,4255
+4126702,Tamboara (PR),2000,Urbana,3384
+4126702,Tamboara (PR),2000,Rural,871
+4126801,Tapejara (PR),2000,Total,13120
+4126801,Tapejara (PR),2000,Urbana,10512
+4126801,Tapejara (PR),2000,Rural,2608
+4126900,Tapira (PR),2000,Total,6282
+4126900,Tapira (PR),2000,Urbana,3299
+4126900,Tapira (PR),2000,Rural,2983
+4127007,Teixeira Soares (PR),2000,Total,8192
+4127007,Teixeira Soares (PR),2000,Urbana,3785
+4127007,Teixeira Soares (PR),2000,Rural,4407
+4127106,Telêmaco Borba (PR),2000,Total,61238
+4127106,Telêmaco Borba (PR),2000,Urbana,58354
+4127106,Telêmaco Borba (PR),2000,Rural,2884
+4127205,Terra Boa (PR),2000,Total,14640
+4127205,Terra Boa (PR),2000,Urbana,11177
+4127205,Terra Boa (PR),2000,Rural,3463
+4127304,Terra Rica (PR),2000,Total,13797
+4127304,Terra Rica (PR),2000,Urbana,10516
+4127304,Terra Rica (PR),2000,Rural,3281
+4127403,Terra Roxa (PR),2000,Total,16300
+4127403,Terra Roxa (PR),2000,Urbana,11042
+4127403,Terra Roxa (PR),2000,Rural,5258
+4127502,Tibagi (PR),2000,Total,18434
+4127502,Tibagi (PR),2000,Urbana,10279
+4127502,Tibagi (PR),2000,Rural,8155
+4127601,Tijucas do Sul (PR),2000,Total,12260
+4127601,Tijucas do Sul (PR),2000,Urbana,1846
+4127601,Tijucas do Sul (PR),2000,Rural,10414
+4127700,Toledo (PR),2000,Total,98200
+4127700,Toledo (PR),2000,Urbana,85920
+4127700,Toledo (PR),2000,Rural,12280
+4127809,Tomazina (PR),2000,Total,9931
+4127809,Tomazina (PR),2000,Urbana,4286
+4127809,Tomazina (PR),2000,Rural,5645
+4127858,Três Barras do Paraná (PR),2000,Total,11822
+4127858,Três Barras do Paraná (PR),2000,Urbana,4931
+4127858,Três Barras do Paraná (PR),2000,Rural,6891
+4127882,Tunas do Paraná (PR),2000,Total,3611
+4127882,Tunas do Paraná (PR),2000,Urbana,1421
+4127882,Tunas do Paraná (PR),2000,Rural,2190
+4127908,Tuneiras do Oeste (PR),2000,Total,9013
+4127908,Tuneiras do Oeste (PR),2000,Urbana,5164
+4127908,Tuneiras do Oeste (PR),2000,Rural,3849
+4127957,Tupãssi (PR),2000,Total,8018
+4127957,Tupãssi (PR),2000,Urbana,5420
+4127957,Tupãssi (PR),2000,Rural,2598
+4127965,Turvo (PR),2000,Total,14530
+4127965,Turvo (PR),2000,Urbana,4179
+4127965,Turvo (PR),2000,Rural,10351
+4128005,Ubiratã (PR),2000,Total,22593
+4128005,Ubiratã (PR),2000,Urbana,17633
+4128005,Ubiratã (PR),2000,Rural,4960
+4128104,Umuarama (PR),2000,Total,90690
+4128104,Umuarama (PR),2000,Urbana,82625
+4128104,Umuarama (PR),2000,Rural,8065
+4128203,União da Vitória (PR),2000,Total,48522
+4128203,União da Vitória (PR),2000,Urbana,45591
+4128203,União da Vitória (PR),2000,Rural,2931
+4128302,Uniflor (PR),2000,Total,2362
+4128302,Uniflor (PR),2000,Urbana,1658
+4128302,Uniflor (PR),2000,Rural,704
+4128401,Uraí (PR),2000,Total,11876
+4128401,Uraí (PR),2000,Urbana,9162
+4128401,Uraí (PR),2000,Rural,2714
+4128500,Wenceslau Braz (PR),2000,Total,19559
+4128500,Wenceslau Braz (PR),2000,Urbana,14879
+4128500,Wenceslau Braz (PR),2000,Rural,4680
+4128534,Ventania (PR),2000,Total,8024
+4128534,Ventania (PR),2000,Urbana,5357
+4128534,Ventania (PR),2000,Rural,2667
+4128559,Vera Cruz do Oeste (PR),2000,Total,9651
+4128559,Vera Cruz do Oeste (PR),2000,Urbana,6966
+4128559,Vera Cruz do Oeste (PR),2000,Rural,2685
+4128609,Verê (PR),2000,Total,8721
+4128609,Verê (PR),2000,Urbana,3029
+4128609,Verê (PR),2000,Rural,5692
+4128625,Alto Paraíso (PR),2000,Total,3783
+4128625,Alto Paraíso (PR),2000,Urbana,1838
+4128625,Alto Paraíso (PR),2000,Rural,1945
+4128633,Doutor Ulysses (PR),2000,Total,6003
+4128633,Doutor Ulysses (PR),2000,Urbana,701
+4128633,Doutor Ulysses (PR),2000,Rural,5302
+4128658,Virmond (PR),2000,Total,3949
+4128658,Virmond (PR),2000,Urbana,1399
+4128658,Virmond (PR),2000,Rural,2550
+4128708,Vitorino (PR),2000,Total,6285
+4128708,Vitorino (PR),2000,Urbana,3190
+4128708,Vitorino (PR),2000,Rural,3095
+4128807,Xambrê (PR),2000,Total,6500
+4128807,Xambrê (PR),2000,Urbana,1875
+4128807,Xambrê (PR),2000,Rural,4625
+4100103,Abatiá (PR),2010,Total,7764
+4100103,Abatiá (PR),2010,Urbana,5732
+4100103,Abatiá (PR),2010,Rural,2032
+4100202,Adrianópolis (PR),2010,Total,6376
+4100202,Adrianópolis (PR),2010,Urbana,2060
+4100202,Adrianópolis (PR),2010,Rural,4316
+4100301,Agudos do Sul (PR),2010,Total,8270
+4100301,Agudos do Sul (PR),2010,Urbana,2822
+4100301,Agudos do Sul (PR),2010,Rural,5448
+4100400,Almirante Tamandaré (PR),2010,Total,103204
+4100400,Almirante Tamandaré (PR),2010,Urbana,98892
+4100400,Almirante Tamandaré (PR),2010,Rural,4312
+4100459,Altamira do Paraná (PR),2010,Total,4306
+4100459,Altamira do Paraná (PR),2010,Urbana,2135
+4100459,Altamira do Paraná (PR),2010,Rural,2171
+4100509,Altônia (PR),2010,Total,20516
+4100509,Altônia (PR),2010,Urbana,15094
+4100509,Altônia (PR),2010,Rural,5422
+4100608,Alto Paraná (PR),2010,Total,13663
+4100608,Alto Paraná (PR),2010,Urbana,11221
+4100608,Alto Paraná (PR),2010,Rural,2442
+4100707,Alto Piquiri (PR),2010,Total,10179
+4100707,Alto Piquiri (PR),2010,Urbana,8376
+4100707,Alto Piquiri (PR),2010,Rural,1803
+4100806,Alvorada do Sul (PR),2010,Total,10283
+4100806,Alvorada do Sul (PR),2010,Urbana,7338
+4100806,Alvorada do Sul (PR),2010,Rural,2945
+4100905,Amaporã (PR),2010,Total,5443
+4100905,Amaporã (PR),2010,Urbana,4330
+4100905,Amaporã (PR),2010,Rural,1113
+4101002,Ampére (PR),2010,Total,17308
+4101002,Ampére (PR),2010,Urbana,13257
+4101002,Ampére (PR),2010,Rural,4051
+4101051,Anahy (PR),2010,Total,2874
+4101051,Anahy (PR),2010,Urbana,2108
+4101051,Anahy (PR),2010,Rural,766
+4101101,Andirá (PR),2010,Total,20610
+4101101,Andirá (PR),2010,Urbana,19351
+4101101,Andirá (PR),2010,Rural,1259
+4101150,Ângulo (PR),2010,Total,2859
+4101150,Ângulo (PR),2010,Urbana,2253
+4101150,Ângulo (PR),2010,Rural,606
+4101200,Antonina (PR),2010,Total,18891
+4101200,Antonina (PR),2010,Urbana,16063
+4101200,Antonina (PR),2010,Rural,2828
+4101309,Antônio Olinto (PR),2010,Total,7351
+4101309,Antônio Olinto (PR),2010,Urbana,687
+4101309,Antônio Olinto (PR),2010,Rural,6664
+4101408,Apucarana (PR),2010,Total,120919
+4101408,Apucarana (PR),2010,Urbana,114098
+4101408,Apucarana (PR),2010,Rural,6821
+4101507,Arapongas (PR),2010,Total,104150
+4101507,Arapongas (PR),2010,Urbana,101851
+4101507,Arapongas (PR),2010,Rural,2299
+4101606,Arapoti (PR),2010,Total,25855
+4101606,Arapoti (PR),2010,Urbana,21778
+4101606,Arapoti (PR),2010,Rural,4077
+4101655,Arapuã (PR),2010,Total,3561
+4101655,Arapuã (PR),2010,Urbana,1334
+4101655,Arapuã (PR),2010,Rural,2227
+4101705,Araruna (PR),2010,Total,13419
+4101705,Araruna (PR),2010,Urbana,10475
+4101705,Araruna (PR),2010,Rural,2944
+4101804,Araucária (PR),2010,Total,119123
+4101804,Araucária (PR),2010,Urbana,110205
+4101804,Araucária (PR),2010,Rural,8918
+4101853,Ariranha do Ivaí (PR),2010,Total,2453
+4101853,Ariranha do Ivaí (PR),2010,Urbana,904
+4101853,Ariranha do Ivaí (PR),2010,Rural,1549
+4101903,Assaí (PR),2010,Total,16354
+4101903,Assaí (PR),2010,Urbana,13587
+4101903,Assaí (PR),2010,Rural,2767
+4102000,Assis Chateaubriand (PR),2010,Total,33025
+4102000,Assis Chateaubriand (PR),2010,Urbana,29013
+4102000,Assis Chateaubriand (PR),2010,Rural,4012
+4102109,Astorga (PR),2010,Total,24698
+4102109,Astorga (PR),2010,Urbana,22559
+4102109,Astorga (PR),2010,Rural,2139
+4102208,Atalaia (PR),2010,Total,3913
+4102208,Atalaia (PR),2010,Urbana,3347
+4102208,Atalaia (PR),2010,Rural,566
+4102307,Balsa Nova (PR),2010,Total,11300
+4102307,Balsa Nova (PR),2010,Urbana,6870
+4102307,Balsa Nova (PR),2010,Rural,4430
+4102406,Bandeirantes (PR),2010,Total,32184
+4102406,Bandeirantes (PR),2010,Urbana,28384
+4102406,Bandeirantes (PR),2010,Rural,3800
+4102505,Barbosa Ferraz (PR),2010,Total,12656
+4102505,Barbosa Ferraz (PR),2010,Urbana,9581
+4102505,Barbosa Ferraz (PR),2010,Rural,3075
+4102604,Barracão (PR),2010,Total,9735
+4102604,Barracão (PR),2010,Urbana,7008
+4102604,Barracão (PR),2010,Rural,2727
+4102703,Barra do Jacaré (PR),2010,Total,2727
+4102703,Barra do Jacaré (PR),2010,Urbana,1851
+4102703,Barra do Jacaré (PR),2010,Rural,876
+4102752,Bela Vista da Caroba (PR),2010,Total,3945
+4102752,Bela Vista da Caroba (PR),2010,Urbana,1041
+4102752,Bela Vista da Caroba (PR),2010,Rural,2904
+4102802,Bela Vista do Paraíso (PR),2010,Total,15079
+4102802,Bela Vista do Paraíso (PR),2010,Urbana,14196
+4102802,Bela Vista do Paraíso (PR),2010,Rural,883
+4102901,Bituruna (PR),2010,Total,15880
+4102901,Bituruna (PR),2010,Urbana,9899
+4102901,Bituruna (PR),2010,Rural,5981
+4103008,Boa Esperança (PR),2010,Total,4568
+4103008,Boa Esperança (PR),2010,Urbana,2640
+4103008,Boa Esperança (PR),2010,Rural,1928
+4103024,Boa Esperança do Iguaçu (PR),2010,Total,2764
+4103024,Boa Esperança do Iguaçu (PR),2010,Urbana,953
+4103024,Boa Esperança do Iguaçu (PR),2010,Rural,1811
+4103040,Boa Ventura de São Roque (PR),2010,Total,6554
+4103040,Boa Ventura de São Roque (PR),2010,Urbana,1544
+4103040,Boa Ventura de São Roque (PR),2010,Rural,5010
+4103057,Boa Vista da Aparecida (PR),2010,Total,7911
+4103057,Boa Vista da Aparecida (PR),2010,Urbana,4900
+4103057,Boa Vista da Aparecida (PR),2010,Rural,3011
+4103107,Bocaiúva do Sul (PR),2010,Total,10987
+4103107,Bocaiúva do Sul (PR),2010,Urbana,5128
+4103107,Bocaiúva do Sul (PR),2010,Rural,5859
+4103156,Bom Jesus do Sul (PR),2010,Total,3796
+4103156,Bom Jesus do Sul (PR),2010,Urbana,933
+4103156,Bom Jesus do Sul (PR),2010,Rural,2863
+4103206,Bom Sucesso (PR),2010,Total,6561
+4103206,Bom Sucesso (PR),2010,Urbana,5329
+4103206,Bom Sucesso (PR),2010,Rural,1232
+4103222,Bom Sucesso do Sul (PR),2010,Total,3293
+4103222,Bom Sucesso do Sul (PR),2010,Urbana,1581
+4103222,Bom Sucesso do Sul (PR),2010,Rural,1712
+4103305,Borrazópolis (PR),2010,Total,7878
+4103305,Borrazópolis (PR),2010,Urbana,5809
+4103305,Borrazópolis (PR),2010,Rural,2069
+4103354,Braganey (PR),2010,Total,5735
+4103354,Braganey (PR),2010,Urbana,3417
+4103354,Braganey (PR),2010,Rural,2318
+4103370,Brasilândia do Sul (PR),2010,Total,3209
+4103370,Brasilândia do Sul (PR),2010,Urbana,2180
+4103370,Brasilândia do Sul (PR),2010,Rural,1029
+4103404,Cafeara (PR),2010,Total,2695
+4103404,Cafeara (PR),2010,Urbana,2195
+4103404,Cafeara (PR),2010,Rural,500
+4103453,Cafelândia (PR),2010,Total,14662
+4103453,Cafelândia (PR),2010,Urbana,12348
+4103453,Cafelândia (PR),2010,Rural,2314
+4103479,Cafezal do Sul (PR),2010,Total,4290
+4103479,Cafezal do Sul (PR),2010,Urbana,3325
+4103479,Cafezal do Sul (PR),2010,Rural,965
+4103503,Califórnia (PR),2010,Total,8069
+4103503,Califórnia (PR),2010,Urbana,6028
+4103503,Califórnia (PR),2010,Rural,2041
+4103602,Cambará (PR),2010,Total,23886
+4103602,Cambará (PR),2010,Urbana,22365
+4103602,Cambará (PR),2010,Rural,1521
+4103701,Cambé (PR),2010,Total,96733
+4103701,Cambé (PR),2010,Urbana,92952
+4103701,Cambé (PR),2010,Rural,3781
+4103800,Cambira (PR),2010,Total,7236
+4103800,Cambira (PR),2010,Urbana,5475
+4103800,Cambira (PR),2010,Rural,1761
+4103909,Campina da Lagoa (PR),2010,Total,15394
+4103909,Campina da Lagoa (PR),2010,Urbana,12557
+4103909,Campina da Lagoa (PR),2010,Rural,2837
+4103958,Campina do Simão (PR),2010,Total,4076
+4103958,Campina do Simão (PR),2010,Urbana,1388
+4103958,Campina do Simão (PR),2010,Rural,2688
+4104006,Campina Grande do Sul (PR),2010,Total,38769
+4104006,Campina Grande do Sul (PR),2010,Urbana,31961
+4104006,Campina Grande do Sul (PR),2010,Rural,6808
+4104055,Campo Bonito (PR),2010,Total,4407
+4104055,Campo Bonito (PR),2010,Urbana,2580
+4104055,Campo Bonito (PR),2010,Rural,1827
+4104105,Campo do Tenente (PR),2010,Total,7125
+4104105,Campo do Tenente (PR),2010,Urbana,4194
+4104105,Campo do Tenente (PR),2010,Rural,2931
+4104204,Campo Largo (PR),2010,Total,112377
+4104204,Campo Largo (PR),2010,Urbana,94171
+4104204,Campo Largo (PR),2010,Rural,18206
+4104253,Campo Magro (PR),2010,Total,24843
+4104253,Campo Magro (PR),2010,Urbana,19547
+4104253,Campo Magro (PR),2010,Rural,5296
+4104303,Campo Mourão (PR),2010,Total,87194
+4104303,Campo Mourão (PR),2010,Urbana,82676
+4104303,Campo Mourão (PR),2010,Rural,4518
+4104402,Cândido de Abreu (PR),2010,Total,16655
+4104402,Cândido de Abreu (PR),2010,Urbana,4752
+4104402,Cândido de Abreu (PR),2010,Rural,11903
+4104428,Candói (PR),2010,Total,14983
+4104428,Candói (PR),2010,Urbana,7026
+4104428,Candói (PR),2010,Rural,7957
+4104451,Cantagalo (PR),2010,Total,12952
+4104451,Cantagalo (PR),2010,Urbana,8509
+4104451,Cantagalo (PR),2010,Rural,4443
+4104501,Capanema (PR),2010,Total,18526
+4104501,Capanema (PR),2010,Urbana,11150
+4104501,Capanema (PR),2010,Rural,7376
+4104600,Capitão Leônidas Marques (PR),2010,Total,14970
+4104600,Capitão Leônidas Marques (PR),2010,Urbana,11490
+4104600,Capitão Leônidas Marques (PR),2010,Rural,3480
+4104659,Carambeí (PR),2010,Total,19163
+4104659,Carambeí (PR),2010,Urbana,13918
+4104659,Carambeí (PR),2010,Rural,5245
+4104709,Carlópolis (PR),2010,Total,13706
+4104709,Carlópolis (PR),2010,Urbana,9353
+4104709,Carlópolis (PR),2010,Rural,4353
+4104808,Cascavel (PR),2010,Total,286205
+4104808,Cascavel (PR),2010,Urbana,270049
+4104808,Cascavel (PR),2010,Rural,16156
+4104907,Castro (PR),2010,Total,67084
+4104907,Castro (PR),2010,Urbana,49266
+4104907,Castro (PR),2010,Rural,17818
+4105003,Catanduvas (PR),2010,Total,10202
+4105003,Catanduvas (PR),2010,Urbana,5342
+4105003,Catanduvas (PR),2010,Rural,4860
+4105102,Centenário do Sul (PR),2010,Total,11190
+4105102,Centenário do Sul (PR),2010,Urbana,9334
+4105102,Centenário do Sul (PR),2010,Rural,1856
+4105201,Cerro Azul (PR),2010,Total,16938
+4105201,Cerro Azul (PR),2010,Urbana,4808
+4105201,Cerro Azul (PR),2010,Rural,12130
+4105300,Céu Azul (PR),2010,Total,11032
+4105300,Céu Azul (PR),2010,Urbana,8387
+4105300,Céu Azul (PR),2010,Rural,2645
+4105409,Chopinzinho (PR),2010,Total,19679
+4105409,Chopinzinho (PR),2010,Urbana,12508
+4105409,Chopinzinho (PR),2010,Rural,7171
+4105508,Cianorte (PR),2010,Total,69958
+4105508,Cianorte (PR),2010,Urbana,62282
+4105508,Cianorte (PR),2010,Rural,7676
+4105607,Cidade Gaúcha (PR),2010,Total,11062
+4105607,Cidade Gaúcha (PR),2010,Urbana,9176
+4105607,Cidade Gaúcha (PR),2010,Rural,1886
+4105706,Clevelândia (PR),2010,Total,17240
+4105706,Clevelândia (PR),2010,Urbana,14758
+4105706,Clevelândia (PR),2010,Rural,2482
+4105805,Colombo (PR),2010,Total,212967
+4105805,Colombo (PR),2010,Urbana,203203
+4105805,Colombo (PR),2010,Rural,9764
+4105904,Colorado (PR),2010,Total,22345
+4105904,Colorado (PR),2010,Urbana,21005
+4105904,Colorado (PR),2010,Rural,1340
+4106001,Congonhinhas (PR),2010,Total,8279
+4106001,Congonhinhas (PR),2010,Urbana,4834
+4106001,Congonhinhas (PR),2010,Rural,3445
+4106100,Conselheiro Mairinck (PR),2010,Total,3636
+4106100,Conselheiro Mairinck (PR),2010,Urbana,2515
+4106100,Conselheiro Mairinck (PR),2010,Rural,1121
+4106209,Contenda (PR),2010,Total,15891
+4106209,Contenda (PR),2010,Urbana,9231
+4106209,Contenda (PR),2010,Rural,6660
+4106308,Corbélia (PR),2010,Total,16312
+4106308,Corbélia (PR),2010,Urbana,13976
+4106308,Corbélia (PR),2010,Rural,2336
+4106407,Cornélio Procópio (PR),2010,Total,46928
+4106407,Cornélio Procópio (PR),2010,Urbana,44308
+4106407,Cornélio Procópio (PR),2010,Rural,2620
+4106456,Coronel Domingos Soares (PR),2010,Total,7238
+4106456,Coronel Domingos Soares (PR),2010,Urbana,1753
+4106456,Coronel Domingos Soares (PR),2010,Rural,5485
+4106506,Coronel Vivida (PR),2010,Total,21749
+4106506,Coronel Vivida (PR),2010,Urbana,15445
+4106506,Coronel Vivida (PR),2010,Rural,6304
+4106555,Corumbataí do Sul (PR),2010,Total,4002
+4106555,Corumbataí do Sul (PR),2010,Urbana,2127
+4106555,Corumbataí do Sul (PR),2010,Rural,1875
+4106571,Cruzeiro do Iguaçu (PR),2010,Total,4278
+4106571,Cruzeiro do Iguaçu (PR),2010,Urbana,2623
+4106571,Cruzeiro do Iguaçu (PR),2010,Rural,1655
+4106605,Cruzeiro do Oeste (PR),2010,Total,20416
+4106605,Cruzeiro do Oeste (PR),2010,Urbana,17667
+4106605,Cruzeiro do Oeste (PR),2010,Rural,2749
+4106704,Cruzeiro do Sul (PR),2010,Total,4563
+4106704,Cruzeiro do Sul (PR),2010,Urbana,3404
+4106704,Cruzeiro do Sul (PR),2010,Rural,1159
+4106803,Cruz Machado (PR),2010,Total,18040
+4106803,Cruz Machado (PR),2010,Urbana,6057
+4106803,Cruz Machado (PR),2010,Rural,11983
+4106852,Cruzmaltina (PR),2010,Total,3162
+4106852,Cruzmaltina (PR),2010,Urbana,1503
+4106852,Cruzmaltina (PR),2010,Rural,1659
+4106902,Curitiba (PR),2010,Total,1751907
+4106902,Curitiba (PR),2010,Urbana,1751907
+4106902,Curitiba (PR),2010,Rural,0
+4107009,Curiúva (PR),2010,Total,13923
+4107009,Curiúva (PR),2010,Urbana,9573
+4107009,Curiúva (PR),2010,Rural,4350
+4107108,Diamante do Norte (PR),2010,Total,5516
+4107108,Diamante do Norte (PR),2010,Urbana,4551
+4107108,Diamante do Norte (PR),2010,Rural,965
+4107124,Diamante do Sul (PR),2010,Total,3510
+4107124,Diamante do Sul (PR),2010,Urbana,1405
+4107124,Diamante do Sul (PR),2010,Rural,2105
+4107157,Diamante D'Oeste (PR),2010,Total,5027
+4107157,Diamante D'Oeste (PR),2010,Urbana,2561
+4107157,Diamante D'Oeste (PR),2010,Rural,2466
+4107207,Dois Vizinhos (PR),2010,Total,36179
+4107207,Dois Vizinhos (PR),2010,Urbana,28095
+4107207,Dois Vizinhos (PR),2010,Rural,8084
+4107256,Douradina (PR),2010,Total,7445
+4107256,Douradina (PR),2010,Urbana,5236
+4107256,Douradina (PR),2010,Rural,2209
+4107306,Doutor Camargo (PR),2010,Total,5828
+4107306,Doutor Camargo (PR),2010,Urbana,5109
+4107306,Doutor Camargo (PR),2010,Rural,719
+4107405,Enéas Marques (PR),2010,Total,6103
+4107405,Enéas Marques (PR),2010,Urbana,2126
+4107405,Enéas Marques (PR),2010,Rural,3977
+4107504,Engenheiro Beltrão (PR),2010,Total,13906
+4107504,Engenheiro Beltrão (PR),2010,Urbana,12278
+4107504,Engenheiro Beltrão (PR),2010,Rural,1628
+4107520,Esperança Nova (PR),2010,Total,1970
+4107520,Esperança Nova (PR),2010,Urbana,752
+4107520,Esperança Nova (PR),2010,Rural,1218
+4107538,Entre Rios do Oeste (PR),2010,Total,3926
+4107538,Entre Rios do Oeste (PR),2010,Urbana,2642
+4107538,Entre Rios do Oeste (PR),2010,Rural,1284
+4107546,Espigão Alto do Iguaçu (PR),2010,Total,4677
+4107546,Espigão Alto do Iguaçu (PR),2010,Urbana,1646
+4107546,Espigão Alto do Iguaçu (PR),2010,Rural,3031
+4107553,Farol (PR),2010,Total,3472
+4107553,Farol (PR),2010,Urbana,2018
+4107553,Farol (PR),2010,Rural,1454
+4107603,Faxinal (PR),2010,Total,16314
+4107603,Faxinal (PR),2010,Urbana,12739
+4107603,Faxinal (PR),2010,Rural,3575
+4107652,Fazenda Rio Grande (PR),2010,Total,81675
+4107652,Fazenda Rio Grande (PR),2010,Urbana,75928
+4107652,Fazenda Rio Grande (PR),2010,Rural,5747
+4107702,Fênix (PR),2010,Total,4802
+4107702,Fênix (PR),2010,Urbana,3995
+4107702,Fênix (PR),2010,Rural,807
+4107736,Fernandes Pinheiro (PR),2010,Total,5932
+4107736,Fernandes Pinheiro (PR),2010,Urbana,2094
+4107736,Fernandes Pinheiro (PR),2010,Rural,3838
+4107751,Figueira (PR),2010,Total,8293
+4107751,Figueira (PR),2010,Urbana,7091
+4107751,Figueira (PR),2010,Rural,1202
+4107801,Floraí (PR),2010,Total,5050
+4107801,Floraí (PR),2010,Urbana,4472
+4107801,Floraí (PR),2010,Rural,578
+4107850,Flor da Serra do Sul (PR),2010,Total,4726
+4107850,Flor da Serra do Sul (PR),2010,Urbana,1644
+4107850,Flor da Serra do Sul (PR),2010,Rural,3082
+4107900,Floresta (PR),2010,Total,5931
+4107900,Floresta (PR),2010,Urbana,5470
+4107900,Floresta (PR),2010,Rural,461
+4108007,Florestópolis (PR),2010,Total,11222
+4108007,Florestópolis (PR),2010,Urbana,10544
+4108007,Florestópolis (PR),2010,Rural,678
+4108106,Flórida (PR),2010,Total,2543
+4108106,Flórida (PR),2010,Urbana,2322
+4108106,Flórida (PR),2010,Rural,221
+4108205,Formosa do Oeste (PR),2010,Total,7541
+4108205,Formosa do Oeste (PR),2010,Urbana,4970
+4108205,Formosa do Oeste (PR),2010,Rural,2571
+4108304,Foz do Iguaçu (PR),2010,Total,256088
+4108304,Foz do Iguaçu (PR),2010,Urbana,253962
+4108304,Foz do Iguaçu (PR),2010,Rural,2126
+4108320,Francisco Alves (PR),2010,Total,6418
+4108320,Francisco Alves (PR),2010,Urbana,4234
+4108320,Francisco Alves (PR),2010,Rural,2184
+4108403,Francisco Beltrão (PR),2010,Total,78943
+4108403,Francisco Beltrão (PR),2010,Urbana,67449
+4108403,Francisco Beltrão (PR),2010,Rural,11494
+4108452,Foz do Jordão (PR),2010,Total,5420
+4108452,Foz do Jordão (PR),2010,Urbana,3927
+4108452,Foz do Jordão (PR),2010,Rural,1493
+4108502,General Carneiro (PR),2010,Total,13669
+4108502,General Carneiro (PR),2010,Urbana,9569
+4108502,General Carneiro (PR),2010,Rural,4100
+4108551,Godoy Moreira (PR),2010,Total,3337
+4108551,Godoy Moreira (PR),2010,Urbana,1547
+4108551,Godoy Moreira (PR),2010,Rural,1790
+4108601,Goioerê (PR),2010,Total,29018
+4108601,Goioerê (PR),2010,Urbana,25242
+4108601,Goioerê (PR),2010,Rural,3776
+4108650,Goioxim (PR),2010,Total,7503
+4108650,Goioxim (PR),2010,Urbana,1756
+4108650,Goioxim (PR),2010,Rural,5747
+4108700,Grandes Rios (PR),2010,Total,6625
+4108700,Grandes Rios (PR),2010,Urbana,3560
+4108700,Grandes Rios (PR),2010,Rural,3065
+4108809,Guaíra (PR),2010,Total,30704
+4108809,Guaíra (PR),2010,Urbana,28206
+4108809,Guaíra (PR),2010,Rural,2498
+4108908,Guairaçá (PR),2010,Total,6197
+4108908,Guairaçá (PR),2010,Urbana,4959
+4108908,Guairaçá (PR),2010,Rural,1238
+4108957,Guamiranga (PR),2010,Total,7900
+4108957,Guamiranga (PR),2010,Urbana,2236
+4108957,Guamiranga (PR),2010,Rural,5664
+4109005,Guapirama (PR),2010,Total,3891
+4109005,Guapirama (PR),2010,Urbana,2900
+4109005,Guapirama (PR),2010,Rural,991
+4109104,Guaporema (PR),2010,Total,2219
+4109104,Guaporema (PR),2010,Urbana,1281
+4109104,Guaporema (PR),2010,Rural,938
+4109203,Guaraci (PR),2010,Total,5227
+4109203,Guaraci (PR),2010,Urbana,4200
+4109203,Guaraci (PR),2010,Rural,1027
+4109302,Guaraniaçu (PR),2010,Total,14582
+4109302,Guaraniaçu (PR),2010,Urbana,7804
+4109302,Guaraniaçu (PR),2010,Rural,6778
+4109401,Guarapuava (PR),2010,Total,167328
+4109401,Guarapuava (PR),2010,Urbana,152993
+4109401,Guarapuava (PR),2010,Rural,14335
+4109500,Guaraqueçaba (PR),2010,Total,7871
+4109500,Guaraqueçaba (PR),2010,Urbana,2683
+4109500,Guaraqueçaba (PR),2010,Rural,5188
+4109609,Guaratuba (PR),2010,Total,32095
+4109609,Guaratuba (PR),2010,Urbana,28805
+4109609,Guaratuba (PR),2010,Rural,3290
+4109658,Honório Serpa (PR),2010,Total,5955
+4109658,Honório Serpa (PR),2010,Urbana,1988
+4109658,Honório Serpa (PR),2010,Rural,3967
+4109708,Ibaiti (PR),2010,Total,28751
+4109708,Ibaiti (PR),2010,Urbana,23116
+4109708,Ibaiti (PR),2010,Rural,5635
+4109757,Ibema (PR),2010,Total,6066
+4109757,Ibema (PR),2010,Urbana,4941
+4109757,Ibema (PR),2010,Rural,1125
+4109807,Ibiporã (PR),2010,Total,48198
+4109807,Ibiporã (PR),2010,Urbana,45895
+4109807,Ibiporã (PR),2010,Rural,2303
+4109906,Icaraíma (PR),2010,Total,8839
+4109906,Icaraíma (PR),2010,Urbana,6240
+4109906,Icaraíma (PR),2010,Rural,2599
+4110003,Iguaraçu (PR),2010,Total,3982
+4110003,Iguaraçu (PR),2010,Urbana,3559
+4110003,Iguaraçu (PR),2010,Rural,423
+4110052,Iguatu (PR),2010,Total,2234
+4110052,Iguatu (PR),2010,Urbana,1438
+4110052,Iguatu (PR),2010,Rural,796
+4110078,Imbaú (PR),2010,Total,11274
+4110078,Imbaú (PR),2010,Urbana,7060
+4110078,Imbaú (PR),2010,Rural,4214
+4110102,Imbituva (PR),2010,Total,28455
+4110102,Imbituva (PR),2010,Urbana,17888
+4110102,Imbituva (PR),2010,Rural,10567
+4110201,Inácio Martins (PR),2010,Total,10943
+4110201,Inácio Martins (PR),2010,Urbana,6288
+4110201,Inácio Martins (PR),2010,Rural,4655
+4110300,Inajá (PR),2010,Total,2988
+4110300,Inajá (PR),2010,Urbana,2761
+4110300,Inajá (PR),2010,Rural,227
+4110409,Indianópolis (PR),2010,Total,4299
+4110409,Indianópolis (PR),2010,Urbana,3147
+4110409,Indianópolis (PR),2010,Rural,1152
+4110508,Ipiranga (PR),2010,Total,14150
+4110508,Ipiranga (PR),2010,Urbana,4889
+4110508,Ipiranga (PR),2010,Rural,9261
+4110607,Iporã (PR),2010,Total,14981
+4110607,Iporã (PR),2010,Urbana,11777
+4110607,Iporã (PR),2010,Rural,3204
+4110656,Iracema do Oeste (PR),2010,Total,2578
+4110656,Iracema do Oeste (PR),2010,Urbana,2002
+4110656,Iracema do Oeste (PR),2010,Rural,576
+4110706,Irati (PR),2010,Total,56207
+4110706,Irati (PR),2010,Urbana,44932
+4110706,Irati (PR),2010,Rural,11275
+4110805,Iretama (PR),2010,Total,10622
+4110805,Iretama (PR),2010,Urbana,6187
+4110805,Iretama (PR),2010,Rural,4435
+4110904,Itaguajé (PR),2010,Total,4568
+4110904,Itaguajé (PR),2010,Urbana,3636
+4110904,Itaguajé (PR),2010,Rural,932
+4110953,Itaipulândia (PR),2010,Total,9026
+4110953,Itaipulândia (PR),2010,Urbana,4741
+4110953,Itaipulândia (PR),2010,Rural,4285
+4111001,Itambaracá (PR),2010,Total,6759
+4111001,Itambaracá (PR),2010,Urbana,5080
+4111001,Itambaracá (PR),2010,Rural,1679
+4111100,Itambé (PR),2010,Total,5979
+4111100,Itambé (PR),2010,Urbana,5674
+4111100,Itambé (PR),2010,Rural,305
+4111209,Itapejara d'Oeste (PR),2010,Total,10531
+4111209,Itapejara d'Oeste (PR),2010,Urbana,6987
+4111209,Itapejara d'Oeste (PR),2010,Rural,3544
+4111258,Itaperuçu (PR),2010,Total,23887
+4111258,Itaperuçu (PR),2010,Urbana,19956
+4111258,Itaperuçu (PR),2010,Rural,3931
+4111308,Itaúna do Sul (PR),2010,Total,3583
+4111308,Itaúna do Sul (PR),2010,Urbana,2549
+4111308,Itaúna do Sul (PR),2010,Rural,1034
+4111407,Ivaí (PR),2010,Total,12815
+4111407,Ivaí (PR),2010,Urbana,4629
+4111407,Ivaí (PR),2010,Rural,8186
+4111506,Ivaiporã (PR),2010,Total,31816
+4111506,Ivaiporã (PR),2010,Urbana,27438
+4111506,Ivaiporã (PR),2010,Rural,4378
+4111555,Ivaté (PR),2010,Total,7514
+4111555,Ivaté (PR),2010,Urbana,5233
+4111555,Ivaté (PR),2010,Rural,2281
+4111605,Ivatuba (PR),2010,Total,3010
+4111605,Ivatuba (PR),2010,Urbana,2294
+4111605,Ivatuba (PR),2010,Rural,716
+4111704,Jaboti (PR),2010,Total,4902
+4111704,Jaboti (PR),2010,Urbana,3027
+4111704,Jaboti (PR),2010,Rural,1875
+4111803,Jacarezinho (PR),2010,Total,39121
+4111803,Jacarezinho (PR),2010,Urbana,34774
+4111803,Jacarezinho (PR),2010,Rural,4347
+4111902,Jaguapitã (PR),2010,Total,12225
+4111902,Jaguapitã (PR),2010,Urbana,10380
+4111902,Jaguapitã (PR),2010,Rural,1845
+4112009,Jaguariaíva (PR),2010,Total,32606
+4112009,Jaguariaíva (PR),2010,Urbana,28041
+4112009,Jaguariaíva (PR),2010,Rural,4565
+4112108,Jandaia do Sul (PR),2010,Total,20269
+4112108,Jandaia do Sul (PR),2010,Urbana,18331
+4112108,Jandaia do Sul (PR),2010,Rural,1938
+4112207,Janiópolis (PR),2010,Total,6532
+4112207,Janiópolis (PR),2010,Urbana,4038
+4112207,Janiópolis (PR),2010,Rural,2494
+4112306,Japira (PR),2010,Total,4903
+4112306,Japira (PR),2010,Urbana,2733
+4112306,Japira (PR),2010,Rural,2170
+4112405,Japurá (PR),2010,Total,8549
+4112405,Japurá (PR),2010,Urbana,7619
+4112405,Japurá (PR),2010,Rural,930
+4112504,Jardim Alegre (PR),2010,Total,12324
+4112504,Jardim Alegre (PR),2010,Urbana,7171
+4112504,Jardim Alegre (PR),2010,Rural,5153
+4112603,Jardim Olinda (PR),2010,Total,1409
+4112603,Jardim Olinda (PR),2010,Urbana,1001
+4112603,Jardim Olinda (PR),2010,Rural,408
+4112702,Jataizinho (PR),2010,Total,11875
+4112702,Jataizinho (PR),2010,Urbana,11053
+4112702,Jataizinho (PR),2010,Rural,822
+4112751,Jesuítas (PR),2010,Total,9001
+4112751,Jesuítas (PR),2010,Urbana,6070
+4112751,Jesuítas (PR),2010,Rural,2931
+4112801,Joaquim Távora (PR),2010,Total,10736
+4112801,Joaquim Távora (PR),2010,Urbana,8220
+4112801,Joaquim Távora (PR),2010,Rural,2516
+4112900,Jundiaí do Sul (PR),2010,Total,3433
+4112900,Jundiaí do Sul (PR),2010,Urbana,1976
+4112900,Jundiaí do Sul (PR),2010,Rural,1457
+4112959,Juranda (PR),2010,Total,7641
+4112959,Juranda (PR),2010,Urbana,5839
+4112959,Juranda (PR),2010,Rural,1802
+4113007,Jussara (PR),2010,Total,6610
+4113007,Jussara (PR),2010,Urbana,5924
+4113007,Jussara (PR),2010,Rural,686
+4113106,Kaloré (PR),2010,Total,4506
+4113106,Kaloré (PR),2010,Urbana,3218
+4113106,Kaloré (PR),2010,Rural,1288
+4113205,Lapa (PR),2010,Total,44932
+4113205,Lapa (PR),2010,Urbana,27222
+4113205,Lapa (PR),2010,Rural,17710
+4113254,Laranjal (PR),2010,Total,6360
+4113254,Laranjal (PR),2010,Urbana,2031
+4113254,Laranjal (PR),2010,Rural,4329
+4113304,Laranjeiras do Sul (PR),2010,Total,30777
+4113304,Laranjeiras do Sul (PR),2010,Urbana,25031
+4113304,Laranjeiras do Sul (PR),2010,Rural,5746
+4113403,Leópolis (PR),2010,Total,4145
+4113403,Leópolis (PR),2010,Urbana,2401
+4113403,Leópolis (PR),2010,Rural,1744
+4113429,Lidianópolis (PR),2010,Total,3973
+4113429,Lidianópolis (PR),2010,Urbana,2046
+4113429,Lidianópolis (PR),2010,Rural,1927
+4113452,Lindoeste (PR),2010,Total,5361
+4113452,Lindoeste (PR),2010,Urbana,2384
+4113452,Lindoeste (PR),2010,Rural,2977
+4113502,Loanda (PR),2010,Total,21201
+4113502,Loanda (PR),2010,Urbana,19274
+4113502,Loanda (PR),2010,Rural,1927
+4113601,Lobato (PR),2010,Total,4401
+4113601,Lobato (PR),2010,Urbana,4105
+4113601,Lobato (PR),2010,Rural,296
+4113700,Londrina (PR),2010,Total,506701
+4113700,Londrina (PR),2010,Urbana,493520
+4113700,Londrina (PR),2010,Rural,13181
+4113734,Luiziana (PR),2010,Total,7315
+4113734,Luiziana (PR),2010,Urbana,4756
+4113734,Luiziana (PR),2010,Rural,2559
+4113759,Lunardelli (PR),2010,Total,5160
+4113759,Lunardelli (PR),2010,Urbana,3594
+4113759,Lunardelli (PR),2010,Rural,1566
+4113809,Lupionópolis (PR),2010,Total,4592
+4113809,Lupionópolis (PR),2010,Urbana,4079
+4113809,Lupionópolis (PR),2010,Rural,513
+4113908,Mallet (PR),2010,Total,12973
+4113908,Mallet (PR),2010,Urbana,7570
+4113908,Mallet (PR),2010,Rural,5403
+4114005,Mamborê (PR),2010,Total,13961
+4114005,Mamborê (PR),2010,Urbana,8984
+4114005,Mamborê (PR),2010,Rural,4977
+4114104,Mandaguaçu (PR),2010,Total,19781
+4114104,Mandaguaçu (PR),2010,Urbana,17585
+4114104,Mandaguaçu (PR),2010,Rural,2196
+4114203,Mandaguari (PR),2010,Total,32658
+4114203,Mandaguari (PR),2010,Urbana,30934
+4114203,Mandaguari (PR),2010,Rural,1724
+4114302,Mandirituba (PR),2010,Total,22220
+4114302,Mandirituba (PR),2010,Urbana,7414
+4114302,Mandirituba (PR),2010,Rural,14806
+4114351,Manfrinópolis (PR),2010,Total,3127
+4114351,Manfrinópolis (PR),2010,Urbana,652
+4114351,Manfrinópolis (PR),2010,Rural,2475
+4114401,Mangueirinha (PR),2010,Total,17048
+4114401,Mangueirinha (PR),2010,Urbana,8394
+4114401,Mangueirinha (PR),2010,Rural,8654
+4114500,Manoel Ribas (PR),2010,Total,13169
+4114500,Manoel Ribas (PR),2010,Urbana,6805
+4114500,Manoel Ribas (PR),2010,Rural,6364
+4114609,Marechal Cândido Rondon (PR),2010,Total,46819
+4114609,Marechal Cândido Rondon (PR),2010,Urbana,39147
+4114609,Marechal Cândido Rondon (PR),2010,Rural,7672
+4114708,Maria Helena (PR),2010,Total,5956
+4114708,Maria Helena (PR),2010,Urbana,3994
+4114708,Maria Helena (PR),2010,Rural,1962
+4114807,Marialva (PR),2010,Total,31959
+4114807,Marialva (PR),2010,Urbana,25792
+4114807,Marialva (PR),2010,Rural,6167
+4114906,Marilândia do Sul (PR),2010,Total,8863
+4114906,Marilândia do Sul (PR),2010,Urbana,6314
+4114906,Marilândia do Sul (PR),2010,Rural,2549
+4115002,Marilena (PR),2010,Total,6858
+4115002,Marilena (PR),2010,Urbana,4984
+4115002,Marilena (PR),2010,Rural,1874
+4115101,Mariluz (PR),2010,Total,10224
+4115101,Mariluz (PR),2010,Urbana,8467
+4115101,Mariluz (PR),2010,Rural,1757
+4115200,Maringá (PR),2010,Total,357077
+4115200,Maringá (PR),2010,Urbana,350653
+4115200,Maringá (PR),2010,Rural,6424
+4115309,Mariópolis (PR),2010,Total,6268
+4115309,Mariópolis (PR),2010,Urbana,4469
+4115309,Mariópolis (PR),2010,Rural,1799
+4115358,Maripá (PR),2010,Total,5684
+4115358,Maripá (PR),2010,Urbana,3262
+4115358,Maripá (PR),2010,Rural,2422
+4115408,Marmeleiro (PR),2010,Total,13900
+4115408,Marmeleiro (PR),2010,Urbana,8824
+4115408,Marmeleiro (PR),2010,Rural,5076
+4115457,Marquinho (PR),2010,Total,4981
+4115457,Marquinho (PR),2010,Urbana,524
+4115457,Marquinho (PR),2010,Rural,4457
+4115507,Marumbi (PR),2010,Total,4603
+4115507,Marumbi (PR),2010,Urbana,3141
+4115507,Marumbi (PR),2010,Rural,1462
+4115606,Matelândia (PR),2010,Total,16078
+4115606,Matelândia (PR),2010,Urbana,11613
+4115606,Matelândia (PR),2010,Rural,4465
+4115705,Matinhos (PR),2010,Total,29428
+4115705,Matinhos (PR),2010,Urbana,29279
+4115705,Matinhos (PR),2010,Rural,149
+4115739,Mato Rico (PR),2010,Total,3818
+4115739,Mato Rico (PR),2010,Urbana,957
+4115739,Mato Rico (PR),2010,Rural,2861
+4115754,Mauá da Serra (PR),2010,Total,8555
+4115754,Mauá da Serra (PR),2010,Urbana,7013
+4115754,Mauá da Serra (PR),2010,Rural,1542
+4115804,Medianeira (PR),2010,Total,41817
+4115804,Medianeira (PR),2010,Urbana,37390
+4115804,Medianeira (PR),2010,Rural,4427
+4115853,Mercedes (PR),2010,Total,5046
+4115853,Mercedes (PR),2010,Urbana,2439
+4115853,Mercedes (PR),2010,Rural,2607
+4115903,Mirador (PR),2010,Total,2327
+4115903,Mirador (PR),2010,Urbana,1579
+4115903,Mirador (PR),2010,Rural,748
+4116000,Miraselva (PR),2010,Total,1862
+4116000,Miraselva (PR),2010,Urbana,1430
+4116000,Miraselva (PR),2010,Rural,432
+4116059,Missal (PR),2010,Total,10474
+4116059,Missal (PR),2010,Urbana,5420
+4116059,Missal (PR),2010,Rural,5054
+4116109,Moreira Sales (PR),2010,Total,12606
+4116109,Moreira Sales (PR),2010,Urbana,9933
+4116109,Moreira Sales (PR),2010,Rural,2673
+4116208,Morretes (PR),2010,Total,15718
+4116208,Morretes (PR),2010,Urbana,7178
+4116208,Morretes (PR),2010,Rural,8540
+4116307,Munhoz de Melo (PR),2010,Total,3672
+4116307,Munhoz de Melo (PR),2010,Urbana,2974
+4116307,Munhoz de Melo (PR),2010,Rural,698
+4116406,Nossa Senhora das Graças (PR),2010,Total,3836
+4116406,Nossa Senhora das Graças (PR),2010,Urbana,3182
+4116406,Nossa Senhora das Graças (PR),2010,Rural,654
+4116505,Nova Aliança do Ivaí (PR),2010,Total,1431
+4116505,Nova Aliança do Ivaí (PR),2010,Urbana,1041
+4116505,Nova Aliança do Ivaí (PR),2010,Rural,390
+4116604,Nova América da Colina (PR),2010,Total,3478
+4116604,Nova América da Colina (PR),2010,Urbana,2524
+4116604,Nova América da Colina (PR),2010,Rural,954
+4116703,Nova Aurora (PR),2010,Total,11866
+4116703,Nova Aurora (PR),2010,Urbana,9040
+4116703,Nova Aurora (PR),2010,Rural,2826
+4116802,Nova Cantu (PR),2010,Total,7425
+4116802,Nova Cantu (PR),2010,Urbana,4104
+4116802,Nova Cantu (PR),2010,Rural,3321
+4116901,Nova Esperança (PR),2010,Total,26615
+4116901,Nova Esperança (PR),2010,Urbana,24323
+4116901,Nova Esperança (PR),2010,Rural,2292
+4116950,Nova Esperança do Sudoeste (PR),2010,Total,5098
+4116950,Nova Esperança do Sudoeste (PR),2010,Urbana,1744
+4116950,Nova Esperança do Sudoeste (PR),2010,Rural,3354
+4117008,Nova Fátima (PR),2010,Total,8147
+4117008,Nova Fátima (PR),2010,Urbana,6609
+4117008,Nova Fátima (PR),2010,Rural,1538
+4117057,Nova Laranjeiras (PR),2010,Total,11241
+4117057,Nova Laranjeiras (PR),2010,Urbana,2372
+4117057,Nova Laranjeiras (PR),2010,Rural,8869
+4117107,Nova Londrina (PR),2010,Total,13067
+4117107,Nova Londrina (PR),2010,Urbana,12014
+4117107,Nova Londrina (PR),2010,Rural,1053
+4117206,Nova Olímpia (PR),2010,Total,5503
+4117206,Nova Olímpia (PR),2010,Urbana,4685
+4117206,Nova Olímpia (PR),2010,Rural,818
+4117214,Nova Santa Bárbara (PR),2010,Total,3908
+4117214,Nova Santa Bárbara (PR),2010,Urbana,3279
+4117214,Nova Santa Bárbara (PR),2010,Rural,629
+4117222,Nova Santa Rosa (PR),2010,Total,7626
+4117222,Nova Santa Rosa (PR),2010,Urbana,5315
+4117222,Nova Santa Rosa (PR),2010,Rural,2311
+4117255,Nova Prata do Iguaçu (PR),2010,Total,10377
+4117255,Nova Prata do Iguaçu (PR),2010,Urbana,6067
+4117255,Nova Prata do Iguaçu (PR),2010,Rural,4310
+4117271,Nova Tebas (PR),2010,Total,7398
+4117271,Nova Tebas (PR),2010,Urbana,2891
+4117271,Nova Tebas (PR),2010,Rural,4507
+4117297,Novo Itacolomi (PR),2010,Total,2827
+4117297,Novo Itacolomi (PR),2010,Urbana,1588
+4117297,Novo Itacolomi (PR),2010,Rural,1239
+4117305,Ortigueira (PR),2010,Total,23380
+4117305,Ortigueira (PR),2010,Urbana,9587
+4117305,Ortigueira (PR),2010,Rural,13793
+4117404,Ourizona (PR),2010,Total,3380
+4117404,Ourizona (PR),2010,Urbana,3044
+4117404,Ourizona (PR),2010,Rural,336
+4117453,Ouro Verde do Oeste (PR),2010,Total,5692
+4117453,Ouro Verde do Oeste (PR),2010,Urbana,4039
+4117453,Ouro Verde do Oeste (PR),2010,Rural,1653
+4117503,Paiçandu (PR),2010,Total,35936
+4117503,Paiçandu (PR),2010,Urbana,35445
+4117503,Paiçandu (PR),2010,Rural,491
+4117602,Palmas (PR),2010,Total,42888
+4117602,Palmas (PR),2010,Urbana,39795
+4117602,Palmas (PR),2010,Rural,3093
+4117701,Palmeira (PR),2010,Total,32123
+4117701,Palmeira (PR),2010,Urbana,19375
+4117701,Palmeira (PR),2010,Rural,12748
+4117800,Palmital (PR),2010,Total,14865
+4117800,Palmital (PR),2010,Urbana,7399
+4117800,Palmital (PR),2010,Rural,7466
+4117909,Palotina (PR),2010,Total,28683
+4117909,Palotina (PR),2010,Urbana,24646
+4117909,Palotina (PR),2010,Rural,4037
+4118006,Paraíso do Norte (PR),2010,Total,11772
+4118006,Paraíso do Norte (PR),2010,Urbana,11099
+4118006,Paraíso do Norte (PR),2010,Rural,673
+4118105,Paranacity (PR),2010,Total,10250
+4118105,Paranacity (PR),2010,Urbana,9469
+4118105,Paranacity (PR),2010,Rural,781
+4118204,Paranaguá (PR),2010,Total,140469
+4118204,Paranaguá (PR),2010,Urbana,135386
+4118204,Paranaguá (PR),2010,Rural,5083
+4118303,Paranapoema (PR),2010,Total,2791
+4118303,Paranapoema (PR),2010,Urbana,2500
+4118303,Paranapoema (PR),2010,Rural,291
+4118402,Paranavaí (PR),2010,Total,81590
+4118402,Paranavaí (PR),2010,Urbana,77728
+4118402,Paranavaí (PR),2010,Rural,3862
+4118451,Pato Bragado (PR),2010,Total,4822
+4118451,Pato Bragado (PR),2010,Urbana,2993
+4118451,Pato Bragado (PR),2010,Rural,1829
+4118501,Pato Branco (PR),2010,Total,72370
+4118501,Pato Branco (PR),2010,Urbana,68091
+4118501,Pato Branco (PR),2010,Rural,4279
+4118600,Paula Freitas (PR),2010,Total,5434
+4118600,Paula Freitas (PR),2010,Urbana,2748
+4118600,Paula Freitas (PR),2010,Rural,2686
+4118709,Paulo Frontin (PR),2010,Total,6913
+4118709,Paulo Frontin (PR),2010,Urbana,2173
+4118709,Paulo Frontin (PR),2010,Rural,4740
+4118808,Peabiru (PR),2010,Total,13624
+4118808,Peabiru (PR),2010,Urbana,11009
+4118808,Peabiru (PR),2010,Rural,2615
+4118857,Perobal (PR),2010,Total,5653
+4118857,Perobal (PR),2010,Urbana,3080
+4118857,Perobal (PR),2010,Rural,2573
+4118907,Pérola (PR),2010,Total,10208
+4118907,Pérola (PR),2010,Urbana,8070
+4118907,Pérola (PR),2010,Rural,2138
+4119004,Pérola d'Oeste (PR),2010,Total,6761
+4119004,Pérola d'Oeste (PR),2010,Urbana,3187
+4119004,Pérola d'Oeste (PR),2010,Rural,3574
+4119103,Piên (PR),2010,Total,11236
+4119103,Piên (PR),2010,Urbana,4523
+4119103,Piên (PR),2010,Rural,6713
+4119152,Pinhais (PR),2010,Total,117008
+4119152,Pinhais (PR),2010,Urbana,117008
+4119152,Pinhais (PR),2010,Rural,0
+4119202,Pinhalão (PR),2010,Total,6215
+4119202,Pinhalão (PR),2010,Urbana,3924
+4119202,Pinhalão (PR),2010,Rural,2291
+4119251,Pinhal de São Bento (PR),2010,Total,2625
+4119251,Pinhal de São Bento (PR),2010,Urbana,1166
+4119251,Pinhal de São Bento (PR),2010,Rural,1459
+4119301,Pinhão (PR),2010,Total,30208
+4119301,Pinhão (PR),2010,Urbana,15317
+4119301,Pinhão (PR),2010,Rural,14891
+4119400,Piraí do Sul (PR),2010,Total,23424
+4119400,Piraí do Sul (PR),2010,Urbana,16102
+4119400,Piraí do Sul (PR),2010,Rural,7322
+4119509,Piraquara (PR),2010,Total,93207
+4119509,Piraquara (PR),2010,Urbana,45738
+4119509,Piraquara (PR),2010,Rural,47469
+4119608,Pitanga (PR),2010,Total,32638
+4119608,Pitanga (PR),2010,Urbana,20590
+4119608,Pitanga (PR),2010,Rural,12048
+4119657,Pitangueiras (PR),2010,Total,2814
+4119657,Pitangueiras (PR),2010,Urbana,2040
+4119657,Pitangueiras (PR),2010,Rural,774
+4119707,Planaltina do Paraná (PR),2010,Total,4095
+4119707,Planaltina do Paraná (PR),2010,Urbana,2773
+4119707,Planaltina do Paraná (PR),2010,Rural,1322
+4119806,Planalto (PR),2010,Total,13654
+4119806,Planalto (PR),2010,Urbana,6068
+4119806,Planalto (PR),2010,Rural,7586
+4119905,Ponta Grossa (PR),2010,Total,311611
+4119905,Ponta Grossa (PR),2010,Urbana,304733
+4119905,Ponta Grossa (PR),2010,Rural,6878
+4119954,Pontal do Paraná (PR),2010,Total,20920
+4119954,Pontal do Paraná (PR),2010,Urbana,20743
+4119954,Pontal do Paraná (PR),2010,Rural,177
+4120002,Porecatu (PR),2010,Total,14189
+4120002,Porecatu (PR),2010,Urbana,11442
+4120002,Porecatu (PR),2010,Rural,2747
+4120101,Porto Amazonas (PR),2010,Total,4514
+4120101,Porto Amazonas (PR),2010,Urbana,2948
+4120101,Porto Amazonas (PR),2010,Rural,1566
+4120150,Porto Barreiro (PR),2010,Total,3663
+4120150,Porto Barreiro (PR),2010,Urbana,691
+4120150,Porto Barreiro (PR),2010,Rural,2972
+4120200,Porto Rico (PR),2010,Total,2530
+4120200,Porto Rico (PR),2010,Urbana,1764
+4120200,Porto Rico (PR),2010,Rural,766
+4120309,Porto Vitória (PR),2010,Total,4020
+4120309,Porto Vitória (PR),2010,Urbana,2235
+4120309,Porto Vitória (PR),2010,Rural,1785
+4120333,Prado Ferreira (PR),2010,Total,3434
+4120333,Prado Ferreira (PR),2010,Urbana,3015
+4120333,Prado Ferreira (PR),2010,Rural,419
+4120358,Pranchita (PR),2010,Total,5628
+4120358,Pranchita (PR),2010,Urbana,3605
+4120358,Pranchita (PR),2010,Rural,2023
+4120408,Presidente Castelo Branco (PR),2010,Total,4784
+4120408,Presidente Castelo Branco (PR),2010,Urbana,4197
+4120408,Presidente Castelo Branco (PR),2010,Rural,587
+4120507,Primeiro de Maio (PR),2010,Total,10832
+4120507,Primeiro de Maio (PR),2010,Urbana,10083
+4120507,Primeiro de Maio (PR),2010,Rural,749
+4120606,Prudentópolis (PR),2010,Total,48792
+4120606,Prudentópolis (PR),2010,Urbana,22463
+4120606,Prudentópolis (PR),2010,Rural,26329
+4120655,Quarto Centenário (PR),2010,Total,4856
+4120655,Quarto Centenário (PR),2010,Urbana,2912
+4120655,Quarto Centenário (PR),2010,Rural,1944
+4120705,Quatiguá (PR),2010,Total,7045
+4120705,Quatiguá (PR),2010,Urbana,6372
+4120705,Quatiguá (PR),2010,Rural,673
+4120804,Quatro Barras (PR),2010,Total,19851
+4120804,Quatro Barras (PR),2010,Urbana,17941
+4120804,Quatro Barras (PR),2010,Rural,1910
+4120853,Quatro Pontes (PR),2010,Total,3803
+4120853,Quatro Pontes (PR),2010,Urbana,2437
+4120853,Quatro Pontes (PR),2010,Rural,1366
+4120903,Quedas do Iguaçu (PR),2010,Total,30605
+4120903,Quedas do Iguaçu (PR),2010,Urbana,20987
+4120903,Quedas do Iguaçu (PR),2010,Rural,9618
+4121000,Querência do Norte (PR),2010,Total,11729
+4121000,Querência do Norte (PR),2010,Urbana,7622
+4121000,Querência do Norte (PR),2010,Rural,4107
+4121109,Quinta do Sol (PR),2010,Total,5088
+4121109,Quinta do Sol (PR),2010,Urbana,3811
+4121109,Quinta do Sol (PR),2010,Rural,1277
+4121208,Quitandinha (PR),2010,Total,17089
+4121208,Quitandinha (PR),2010,Urbana,4887
+4121208,Quitandinha (PR),2010,Rural,12202
+4121257,Ramilândia (PR),2010,Total,4134
+4121257,Ramilândia (PR),2010,Urbana,2043
+4121257,Ramilândia (PR),2010,Rural,2091
+4121307,Rancho Alegre (PR),2010,Total,3955
+4121307,Rancho Alegre (PR),2010,Urbana,3470
+4121307,Rancho Alegre (PR),2010,Rural,485
+4121356,Rancho Alegre D'Oeste (PR),2010,Total,2847
+4121356,Rancho Alegre D'Oeste (PR),2010,Urbana,2303
+4121356,Rancho Alegre D'Oeste (PR),2010,Rural,544
+4121406,Realeza (PR),2010,Total,16338
+4121406,Realeza (PR),2010,Urbana,11796
+4121406,Realeza (PR),2010,Rural,4542
+4121505,Rebouças (PR),2010,Total,14176
+4121505,Rebouças (PR),2010,Urbana,7505
+4121505,Rebouças (PR),2010,Rural,6671
+4121604,Renascença (PR),2010,Total,6812
+4121604,Renascença (PR),2010,Urbana,3485
+4121604,Renascença (PR),2010,Rural,3327
+4121703,Reserva (PR),2010,Total,25172
+4121703,Reserva (PR),2010,Urbana,12206
+4121703,Reserva (PR),2010,Rural,12966
+4121752,Reserva do Iguaçu (PR),2010,Total,7307
+4121752,Reserva do Iguaçu (PR),2010,Urbana,3905
+4121752,Reserva do Iguaçu (PR),2010,Rural,3402
+4121802,Ribeirão Claro (PR),2010,Total,10678
+4121802,Ribeirão Claro (PR),2010,Urbana,7085
+4121802,Ribeirão Claro (PR),2010,Rural,3593
+4121901,Ribeirão do Pinhal (PR),2010,Total,13524
+4121901,Ribeirão do Pinhal (PR),2010,Urbana,11078
+4121901,Ribeirão do Pinhal (PR),2010,Rural,2446
+4122008,Rio Azul (PR),2010,Total,14093
+4122008,Rio Azul (PR),2010,Urbana,5012
+4122008,Rio Azul (PR),2010,Rural,9081
+4122107,Rio Bom (PR),2010,Total,3334
+4122107,Rio Bom (PR),2010,Urbana,2007
+4122107,Rio Bom (PR),2010,Rural,1327
+4122156,Rio Bonito do Iguaçu (PR),2010,Total,13661
+4122156,Rio Bonito do Iguaçu (PR),2010,Urbana,3322
+4122156,Rio Bonito do Iguaçu (PR),2010,Rural,10339
+4122172,Rio Branco do Ivaí (PR),2010,Total,3898
+4122172,Rio Branco do Ivaí (PR),2010,Urbana,919
+4122172,Rio Branco do Ivaí (PR),2010,Rural,2979
+4122206,Rio Branco do Sul (PR),2010,Total,30650
+4122206,Rio Branco do Sul (PR),2010,Urbana,22045
+4122206,Rio Branco do Sul (PR),2010,Rural,8605
+4122305,Rio Negro (PR),2010,Total,31274
+4122305,Rio Negro (PR),2010,Urbana,25710
+4122305,Rio Negro (PR),2010,Rural,5564
+4122404,Rolândia (PR),2010,Total,57862
+4122404,Rolândia (PR),2010,Urbana,54749
+4122404,Rolândia (PR),2010,Rural,3113
+4122503,Roncador (PR),2010,Total,11537
+4122503,Roncador (PR),2010,Urbana,7120
+4122503,Roncador (PR),2010,Rural,4417
+4122602,Rondon (PR),2010,Total,8996
+4122602,Rondon (PR),2010,Urbana,7196
+4122602,Rondon (PR),2010,Rural,1800
+4122651,Rosário do Ivaí (PR),2010,Total,5588
+4122651,Rosário do Ivaí (PR),2010,Urbana,2721
+4122651,Rosário do Ivaí (PR),2010,Rural,2867
+4122701,Sabáudia (PR),2010,Total,6096
+4122701,Sabáudia (PR),2010,Urbana,5097
+4122701,Sabáudia (PR),2010,Rural,999
+4122800,Salgado Filho (PR),2010,Total,4403
+4122800,Salgado Filho (PR),2010,Urbana,2254
+4122800,Salgado Filho (PR),2010,Rural,2149
+4122909,Salto do Itararé (PR),2010,Total,5178
+4122909,Salto do Itararé (PR),2010,Urbana,3723
+4122909,Salto do Itararé (PR),2010,Rural,1455
+4123006,Salto do Lontra (PR),2010,Total,13689
+4123006,Salto do Lontra (PR),2010,Urbana,7431
+4123006,Salto do Lontra (PR),2010,Rural,6258
+4123105,Santa Amélia (PR),2010,Total,3803
+4123105,Santa Amélia (PR),2010,Urbana,2886
+4123105,Santa Amélia (PR),2010,Rural,917
+4123204,Santa Cecília do Pavão (PR),2010,Total,3646
+4123204,Santa Cecília do Pavão (PR),2010,Urbana,3057
+4123204,Santa Cecília do Pavão (PR),2010,Rural,589
+4123303,Santa Cruz de Monte Castelo (PR),2010,Total,8092
+4123303,Santa Cruz de Monte Castelo (PR),2010,Urbana,5753
+4123303,Santa Cruz de Monte Castelo (PR),2010,Rural,2339
+4123402,Santa Fé (PR),2010,Total,10432
+4123402,Santa Fé (PR),2010,Urbana,9232
+4123402,Santa Fé (PR),2010,Rural,1200
+4123501,Santa Helena (PR),2010,Total,23413
+4123501,Santa Helena (PR),2010,Urbana,12586
+4123501,Santa Helena (PR),2010,Rural,10827
+4123600,Santa Inês (PR),2010,Total,1818
+4123600,Santa Inês (PR),2010,Urbana,1192
+4123600,Santa Inês (PR),2010,Rural,626
+4123709,Santa Isabel do Ivaí (PR),2010,Total,8760
+4123709,Santa Isabel do Ivaí (PR),2010,Urbana,7062
+4123709,Santa Isabel do Ivaí (PR),2010,Rural,1698
+4123808,Santa Izabel do Oeste (PR),2010,Total,13132
+4123808,Santa Izabel do Oeste (PR),2010,Urbana,7421
+4123808,Santa Izabel do Oeste (PR),2010,Rural,5711
+4123824,Santa Lúcia (PR),2010,Total,3925
+4123824,Santa Lúcia (PR),2010,Urbana,2536
+4123824,Santa Lúcia (PR),2010,Rural,1389
+4123857,Santa Maria do Oeste (PR),2010,Total,11500
+4123857,Santa Maria do Oeste (PR),2010,Urbana,3211
+4123857,Santa Maria do Oeste (PR),2010,Rural,8289
+4123907,Santa Mariana (PR),2010,Total,12435
+4123907,Santa Mariana (PR),2010,Urbana,8320
+4123907,Santa Mariana (PR),2010,Rural,4115
+4123956,Santa Mônica (PR),2010,Total,3571
+4123956,Santa Mônica (PR),2010,Urbana,1475
+4123956,Santa Mônica (PR),2010,Rural,2096
+4124004,Santana do Itararé (PR),2010,Total,5249
+4124004,Santana do Itararé (PR),2010,Urbana,3456
+4124004,Santana do Itararé (PR),2010,Rural,1793
+4124020,Santa Tereza do Oeste (PR),2010,Total,10332
+4124020,Santa Tereza do Oeste (PR),2010,Urbana,8035
+4124020,Santa Tereza do Oeste (PR),2010,Rural,2297
+4124053,Santa Terezinha de Itaipu (PR),2010,Total,20841
+4124053,Santa Terezinha de Itaipu (PR),2010,Urbana,18837
+4124053,Santa Terezinha de Itaipu (PR),2010,Rural,2004
+4124103,Santo Antônio da Platina (PR),2010,Total,42707
+4124103,Santo Antônio da Platina (PR),2010,Urbana,36944
+4124103,Santo Antônio da Platina (PR),2010,Rural,5763
+4124202,Santo Antônio do Caiuá (PR),2010,Total,2727
+4124202,Santo Antônio do Caiuá (PR),2010,Urbana,2123
+4124202,Santo Antônio do Caiuá (PR),2010,Rural,604
+4124301,Santo Antônio do Paraíso (PR),2010,Total,2408
+4124301,Santo Antônio do Paraíso (PR),2010,Urbana,1822
+4124301,Santo Antônio do Paraíso (PR),2010,Rural,586
+4124400,Santo Antônio do Sudoeste (PR),2010,Total,18893
+4124400,Santo Antônio do Sudoeste (PR),2010,Urbana,13711
+4124400,Santo Antônio do Sudoeste (PR),2010,Rural,5182
+4124509,Santo Inácio (PR),2010,Total,5269
+4124509,Santo Inácio (PR),2010,Urbana,4200
+4124509,Santo Inácio (PR),2010,Rural,1069
+4124608,São Carlos do Ivaí (PR),2010,Total,6354
+4124608,São Carlos do Ivaí (PR),2010,Urbana,5679
+4124608,São Carlos do Ivaí (PR),2010,Rural,675
+4124707,São Jerônimo da Serra (PR),2010,Total,11337
+4124707,São Jerônimo da Serra (PR),2010,Urbana,5661
+4124707,São Jerônimo da Serra (PR),2010,Rural,5676
+4124806,São João (PR),2010,Total,10599
+4124806,São João (PR),2010,Urbana,6735
+4124806,São João (PR),2010,Rural,3864
+4124905,São João do Caiuá (PR),2010,Total,5911
+4124905,São João do Caiuá (PR),2010,Urbana,5039
+4124905,São João do Caiuá (PR),2010,Rural,872
+4125001,São João do Ivaí (PR),2010,Total,11525
+4125001,São João do Ivaí (PR),2010,Urbana,8874
+4125001,São João do Ivaí (PR),2010,Rural,2651
+4125100,São João do Triunfo (PR),2010,Total,13704
+4125100,São João do Triunfo (PR),2010,Urbana,4048
+4125100,São João do Triunfo (PR),2010,Rural,9656
+4125209,São Jorge d'Oeste (PR),2010,Total,9085
+4125209,São Jorge d'Oeste (PR),2010,Urbana,5214
+4125209,São Jorge d'Oeste (PR),2010,Rural,3871
+4125308,São Jorge do Ivaí (PR),2010,Total,5517
+4125308,São Jorge do Ivaí (PR),2010,Urbana,4781
+4125308,São Jorge do Ivaí (PR),2010,Rural,736
+4125357,São Jorge do Patrocínio (PR),2010,Total,6041
+4125357,São Jorge do Patrocínio (PR),2010,Urbana,3539
+4125357,São Jorge do Patrocínio (PR),2010,Rural,2502
+4125407,São José da Boa Vista (PR),2010,Total,6511
+4125407,São José da Boa Vista (PR),2010,Urbana,3864
+4125407,São José da Boa Vista (PR),2010,Rural,2647
+4125456,São José das Palmeiras (PR),2010,Total,3830
+4125456,São José das Palmeiras (PR),2010,Urbana,2411
+4125456,São José das Palmeiras (PR),2010,Rural,1419
+4125506,São José dos Pinhais (PR),2010,Total,264210
+4125506,São José dos Pinhais (PR),2010,Urbana,236895
+4125506,São José dos Pinhais (PR),2010,Rural,27315
+4125555,São Manoel do Paraná (PR),2010,Total,2098
+4125555,São Manoel do Paraná (PR),2010,Urbana,1159
+4125555,São Manoel do Paraná (PR),2010,Rural,939
+4125605,São Mateus do Sul (PR),2010,Total,41257
+4125605,São Mateus do Sul (PR),2010,Urbana,25706
+4125605,São Mateus do Sul (PR),2010,Rural,15551
+4125704,São Miguel do Iguaçu (PR),2010,Total,25769
+4125704,São Miguel do Iguaçu (PR),2010,Urbana,16485
+4125704,São Miguel do Iguaçu (PR),2010,Rural,9284
+4125753,São Pedro do Iguaçu (PR),2010,Total,6491
+4125753,São Pedro do Iguaçu (PR),2010,Urbana,4055
+4125753,São Pedro do Iguaçu (PR),2010,Rural,2436
+4125803,São Pedro do Ivaí (PR),2010,Total,10167
+4125803,São Pedro do Ivaí (PR),2010,Urbana,8044
+4125803,São Pedro do Ivaí (PR),2010,Rural,2123
+4125902,São Pedro do Paraná (PR),2010,Total,2491
+4125902,São Pedro do Paraná (PR),2010,Urbana,1631
+4125902,São Pedro do Paraná (PR),2010,Rural,860
+4126009,São Sebastião da Amoreira (PR),2010,Total,8626
+4126009,São Sebastião da Amoreira (PR),2010,Urbana,7593
+4126009,São Sebastião da Amoreira (PR),2010,Rural,1033
+4126108,São Tomé (PR),2010,Total,5349
+4126108,São Tomé (PR),2010,Urbana,4446
+4126108,São Tomé (PR),2010,Rural,903
+4126207,Sapopema (PR),2010,Total,6736
+4126207,Sapopema (PR),2010,Urbana,3552
+4126207,Sapopema (PR),2010,Rural,3184
+4126256,Sarandi (PR),2010,Total,82847
+4126256,Sarandi (PR),2010,Urbana,82146
+4126256,Sarandi (PR),2010,Rural,701
+4126272,Saudade do Iguaçu (PR),2010,Total,5028
+4126272,Saudade do Iguaçu (PR),2010,Urbana,2503
+4126272,Saudade do Iguaçu (PR),2010,Rural,2525
+4126306,Sengés (PR),2010,Total,18414
+4126306,Sengés (PR),2010,Urbana,15107
+4126306,Sengés (PR),2010,Rural,3307
+4126355,Serranópolis do Iguaçu (PR),2010,Total,4568
+4126355,Serranópolis do Iguaçu (PR),2010,Urbana,2322
+4126355,Serranópolis do Iguaçu (PR),2010,Rural,2246
+4126405,Sertaneja (PR),2010,Total,5817
+4126405,Sertaneja (PR),2010,Urbana,5105
+4126405,Sertaneja (PR),2010,Rural,712
+4126504,Sertanópolis (PR),2010,Total,15638
+4126504,Sertanópolis (PR),2010,Urbana,13711
+4126504,Sertanópolis (PR),2010,Rural,1927
+4126603,Siqueira Campos (PR),2010,Total,18454
+4126603,Siqueira Campos (PR),2010,Urbana,13424
+4126603,Siqueira Campos (PR),2010,Rural,5030
+4126652,Sulina (PR),2010,Total,3394
+4126652,Sulina (PR),2010,Urbana,1390
+4126652,Sulina (PR),2010,Rural,2004
+4126678,Tamarana (PR),2010,Total,12262
+4126678,Tamarana (PR),2010,Urbana,5858
+4126678,Tamarana (PR),2010,Rural,6404
+4126702,Tamboara (PR),2010,Total,4664
+4126702,Tamboara (PR),2010,Urbana,3996
+4126702,Tamboara (PR),2010,Rural,668
+4126801,Tapejara (PR),2010,Total,14598
+4126801,Tapejara (PR),2010,Urbana,13166
+4126801,Tapejara (PR),2010,Rural,1432
+4126900,Tapira (PR),2010,Total,5836
+4126900,Tapira (PR),2010,Urbana,3435
+4126900,Tapira (PR),2010,Rural,2401
+4127007,Teixeira Soares (PR),2010,Total,10283
+4127007,Teixeira Soares (PR),2010,Urbana,4796
+4127007,Teixeira Soares (PR),2010,Rural,5487
+4127106,Telêmaco Borba (PR),2010,Total,69872
+4127106,Telêmaco Borba (PR),2010,Urbana,68440
+4127106,Telêmaco Borba (PR),2010,Rural,1432
+4127205,Terra Boa (PR),2010,Total,15776
+4127205,Terra Boa (PR),2010,Urbana,13051
+4127205,Terra Boa (PR),2010,Rural,2725
+4127304,Terra Rica (PR),2010,Total,15221
+4127304,Terra Rica (PR),2010,Urbana,12370
+4127304,Terra Rica (PR),2010,Rural,2851
+4127403,Terra Roxa (PR),2010,Total,16759
+4127403,Terra Roxa (PR),2010,Urbana,12801
+4127403,Terra Roxa (PR),2010,Rural,3958
+4127502,Tibagi (PR),2010,Total,19344
+4127502,Tibagi (PR),2010,Urbana,11668
+4127502,Tibagi (PR),2010,Rural,7676
+4127601,Tijucas do Sul (PR),2010,Total,14537
+4127601,Tijucas do Sul (PR),2010,Urbana,2285
+4127601,Tijucas do Sul (PR),2010,Rural,12252
+4127700,Toledo (PR),2010,Total,119313
+4127700,Toledo (PR),2010,Urbana,108259
+4127700,Toledo (PR),2010,Rural,11054
+4127809,Tomazina (PR),2010,Total,8791
+4127809,Tomazina (PR),2010,Urbana,4119
+4127809,Tomazina (PR),2010,Rural,4672
+4127858,Três Barras do Paraná (PR),2010,Total,11824
+4127858,Três Barras do Paraná (PR),2010,Urbana,6095
+4127858,Três Barras do Paraná (PR),2010,Rural,5729
+4127882,Tunas do Paraná (PR),2010,Total,6256
+4127882,Tunas do Paraná (PR),2010,Urbana,2792
+4127882,Tunas do Paraná (PR),2010,Rural,3464
+4127908,Tuneiras do Oeste (PR),2010,Total,8695
+4127908,Tuneiras do Oeste (PR),2010,Urbana,5973
+4127908,Tuneiras do Oeste (PR),2010,Rural,2722
+4127957,Tupãssi (PR),2010,Total,7997
+4127957,Tupãssi (PR),2010,Urbana,6286
+4127957,Tupãssi (PR),2010,Rural,1711
+4127965,Turvo (PR),2010,Total,13811
+4127965,Turvo (PR),2010,Urbana,5048
+4127965,Turvo (PR),2010,Rural,8763
+4128005,Ubiratã (PR),2010,Total,21558
+4128005,Ubiratã (PR),2010,Urbana,18397
+4128005,Ubiratã (PR),2010,Rural,3161
+4128104,Umuarama (PR),2010,Total,100676
+4128104,Umuarama (PR),2010,Urbana,93455
+4128104,Umuarama (PR),2010,Rural,7221
+4128203,União da Vitória (PR),2010,Total,52735
+4128203,União da Vitória (PR),2010,Urbana,49983
+4128203,União da Vitória (PR),2010,Rural,2752
+4128302,Uniflor (PR),2010,Total,2466
+4128302,Uniflor (PR),2010,Urbana,1987
+4128302,Uniflor (PR),2010,Rural,479
+4128401,Uraí (PR),2010,Total,11472
+4128401,Uraí (PR),2010,Urbana,9358
+4128401,Uraí (PR),2010,Rural,2114
+4128500,Wenceslau Braz (PR),2010,Total,19298
+4128500,Wenceslau Braz (PR),2010,Urbana,15509
+4128500,Wenceslau Braz (PR),2010,Rural,3789
+4128534,Ventania (PR),2010,Total,9957
+4128534,Ventania (PR),2010,Urbana,6511
+4128534,Ventania (PR),2010,Rural,3446
+4128559,Vera Cruz do Oeste (PR),2010,Total,8973
+4128559,Vera Cruz do Oeste (PR),2010,Urbana,6863
+4128559,Vera Cruz do Oeste (PR),2010,Rural,2110
+4128609,Verê (PR),2010,Total,7878
+4128609,Verê (PR),2010,Urbana,3281
+4128609,Verê (PR),2010,Rural,4597
+4128625,Alto Paraíso (PR),2010,Total,3206
+4128625,Alto Paraíso (PR),2010,Urbana,1772
+4128625,Alto Paraíso (PR),2010,Rural,1434
+4128633,Doutor Ulysses (PR),2010,Total,5727
+4128633,Doutor Ulysses (PR),2010,Urbana,929
+4128633,Doutor Ulysses (PR),2010,Rural,4798
+4128658,Virmond (PR),2010,Total,3950
+4128658,Virmond (PR),2010,Urbana,1880
+4128658,Virmond (PR),2010,Rural,2070
+4128708,Vitorino (PR),2010,Total,6513
+4128708,Vitorino (PR),2010,Urbana,3988
+4128708,Vitorino (PR),2010,Rural,2525
+4128807,Xambrê (PR),2010,Total,6012
+4128807,Xambrê (PR),2010,Urbana,1990
+4128807,Xambrê (PR),2010,Rural,4022
+4100103,Abatiá (PR),2022,Total,7241
+4100202,Adrianópolis (PR),2022,Total,6256
+4100301,Agudos do Sul (PR),2022,Total,10233
+4100400,Almirante Tamandaré (PR),2022,Total,119825
+4100459,Altamira do Paraná (PR),2022,Total,3590
+4100509,Altônia (PR),2022,Total,18742
+4100608,Alto Paraná (PR),2022,Total,13909
+4100707,Alto Piquiri (PR),2022,Total,9727
+4100806,Alvorada do Sul (PR),2022,Total,10326
+4100905,Amaporã (PR),2022,Total,4762
+4101002,Ampére (PR),2022,Total,19620
+4101051,Anahy (PR),2022,Total,2918
+4101101,Andirá (PR),2022,Total,19878
+4101150,Ângulo (PR),2022,Total,3235
+4101200,Antonina (PR),2022,Total,18091
+4101309,Antônio Olinto (PR),2022,Total,7018
+4101408,Apucarana (PR),2022,Total,130134
+4101507,Arapongas (PR),2022,Total,119138
+4101606,Arapoti (PR),2022,Total,25777
+4101655,Arapuã (PR),2022,Total,3527
+4101705,Araruna (PR),2022,Total,14485
+4101804,Araucária (PR),2022,Total,151666
+4101853,Ariranha do Ivaí (PR),2022,Total,2329
+4101903,Assaí (PR),2022,Total,13797
+4102000,Assis Chateaubriand (PR),2022,Total,36808
+4102109,Astorga (PR),2022,Total,25475
+4102208,Atalaia (PR),2022,Total,3980
+4102307,Balsa Nova (PR),2022,Total,13395
+4102406,Bandeirantes (PR),2022,Total,31273
+4102505,Barbosa Ferraz (PR),2022,Total,10795
+4102604,Barracão (PR),2022,Total,9759
+4102703,Barra do Jacaré (PR),2022,Total,2814
+4102752,Bela Vista da Caroba (PR),2022,Total,4031
+4102802,Bela Vista do Paraíso (PR),2022,Total,14833
+4102901,Bituruna (PR),2022,Total,15533
+4103008,Boa Esperança (PR),2022,Total,4558
+4103024,Boa Esperança do Iguaçu (PR),2022,Total,2455
+4103040,Boa Ventura de São Roque (PR),2022,Total,6378
+4103057,Boa Vista da Aparecida (PR),2022,Total,7924
+4103107,Bocaiúva do Sul (PR),2022,Total,13299
+4103156,Bom Jesus do Sul (PR),2022,Total,3980
+4103206,Bom Sucesso (PR),2022,Total,6581
+4103222,Bom Sucesso do Sul (PR),2022,Total,3202
+4103305,Borrazópolis (PR),2022,Total,7735
+4103354,Braganey (PR),2022,Total,4854
+4103370,Brasilândia do Sul (PR),2022,Total,3708
+4103404,Cafeara (PR),2022,Total,2627
+4103453,Cafelândia (PR),2022,Total,18997
+4103479,Cafezal do Sul (PR),2022,Total,4473
+4103503,Califórnia (PR),2022,Total,8710
+4103602,Cambará (PR),2022,Total,23212
+4103701,Cambé (PR),2022,Total,107208
+4103800,Cambira (PR),2022,Total,9460
+4103909,Campina da Lagoa (PR),2022,Total,15723
+4103958,Campina do Simão (PR),2022,Total,3936
+4104006,Campina Grande do Sul (PR),2022,Total,47825
+4104055,Campo Bonito (PR),2022,Total,4027
+4104105,Campo do Tenente (PR),2022,Total,7508
+4104204,Campo Largo (PR),2022,Total,136327
+4104253,Campo Magro (PR),2022,Total,30160
+4104303,Campo Mourão (PR),2022,Total,99432
+4104402,Cândido de Abreu (PR),2022,Total,15244
+4104428,Candói (PR),2022,Total,14973
+4104451,Cantagalo (PR),2022,Total,10933
+4104501,Capanema (PR),2022,Total,20481
+4104600,Capitão Leônidas Marques (PR),2022,Total,14648
+4104659,Carambeí (PR),2022,Total,23283
+4104709,Carlópolis (PR),2022,Total,16905
+4104808,Cascavel (PR),2022,Total,348051
+4104907,Castro (PR),2022,Total,73075
+4105003,Catanduvas (PR),2022,Total,10446
+4105102,Centenário do Sul (PR),2022,Total,10832
+4105201,Cerro Azul (PR),2022,Total,16134
+4105300,Céu Azul (PR),2022,Total,11087
+4105409,Chopinzinho (PR),2022,Total,21085
+4105508,Cianorte (PR),2022,Total,79527
+4105607,Cidade Gaúcha (PR),2022,Total,11467
+4105706,Clevelândia (PR),2022,Total,15070
+4105805,Colombo (PR),2022,Total,232212
+4105904,Colorado (PR),2022,Total,22896
+4106001,Congonhinhas (PR),2022,Total,8320
+4106100,Conselheiro Mairinck (PR),2022,Total,3461
+4106209,Contenda (PR),2022,Total,19128
+4106308,Corbélia (PR),2022,Total,17470
+4106407,Cornélio Procópio (PR),2022,Total,45206
+4106456,Coronel Domingos Soares (PR),2022,Total,5649
+4106506,Coronel Vivida (PR),2022,Total,23331
+4106555,Corumbataí do Sul (PR),2022,Total,3760
+4106571,Cruzeiro do Iguaçu (PR),2022,Total,4133
+4106605,Cruzeiro do Oeste (PR),2022,Total,23831
+4106704,Cruzeiro do Sul (PR),2022,Total,4494
+4106803,Cruz Machado (PR),2022,Total,15978
+4106852,Cruzmaltina (PR),2022,Total,2892
+4106902,Curitiba (PR),2022,Total,1773718
+4107009,Curiúva (PR),2022,Total,13647
+4107108,Diamante do Norte (PR),2022,Total,5142
+4107124,Diamante do Sul (PR),2022,Total,3171
+4107157,Diamante D'Oeste (PR),2022,Total,4557
+4107207,Dois Vizinhos (PR),2022,Total,44869
+4107256,Douradina (PR),2022,Total,9161
+4107306,Doutor Camargo (PR),2022,Total,6327
+4107405,Enéas Marques (PR),2022,Total,5999
+4107504,Engenheiro Beltrão (PR),2022,Total,12454
+4107520,Esperança Nova (PR),2022,Total,1849
+4107538,Entre Rios do Oeste (PR),2022,Total,4575
+4107546,Espigão Alto do Iguaçu (PR),2022,Total,4797
+4107553,Farol (PR),2022,Total,3039
+4107603,Faxinal (PR),2022,Total,16389
+4107652,Fazenda Rio Grande (PR),2022,Total,148873
+4107702,Fênix (PR),2022,Total,4492
+4107736,Fernandes Pinheiro (PR),2022,Total,6255
+4107751,Figueira (PR),2022,Total,8062
+4107801,Floraí (PR),2022,Total,4792
+4107850,Flor da Serra do Sul (PR),2022,Total,4364
+4107900,Floresta (PR),2022,Total,10458
+4108007,Florestópolis (PR),2022,Total,11446
+4108106,Flórida (PR),2022,Total,2652
+4108205,Formosa do Oeste (PR),2022,Total,7635
+4108304,Foz do Iguaçu (PR),2022,Total,285415
+4108320,Francisco Alves (PR),2022,Total,8116
+4108403,Francisco Beltrão (PR),2022,Total,96666
+4108452,Foz do Jordão (PR),2022,Total,4926
+4108502,General Carneiro (PR),2022,Total,11062
+4108551,Godoy Moreira (PR),2022,Total,2977
+4108601,Goioerê (PR),2022,Total,28437
+4108650,Goioxim (PR),2022,Total,6566
+4108700,Grandes Rios (PR),2022,Total,5641
+4108809,Guaíra (PR),2022,Total,32097
+4108908,Guairaçá (PR),2022,Total,6587
+4108957,Guamiranga (PR),2022,Total,7856
+4109005,Guapirama (PR),2022,Total,4626
+4109104,Guaporema (PR),2022,Total,2191
+4109203,Guaraci (PR),2022,Total,4748
+4109302,Guaraniaçu (PR),2022,Total,13735
+4109401,Guarapuava (PR),2022,Total,182093
+4109500,Guaraqueçaba (PR),2022,Total,7430
+4109609,Guaratuba (PR),2022,Total,42062
+4109658,Honório Serpa (PR),2022,Total,4941
+4109708,Ibaiti (PR),2022,Total,28830
+4109757,Ibema (PR),2022,Total,6218
+4109807,Ibiporã (PR),2022,Total,51603
+4109906,Icaraíma (PR),2022,Total,8991
+4110003,Iguaraçu (PR),2022,Total,5338
+4110052,Iguatu (PR),2022,Total,2144
+4110078,Imbaú (PR),2022,Total,14249
+4110102,Imbituva (PR),2022,Total,29924
+4110201,Inácio Martins (PR),2022,Total,9670
+4110300,Inajá (PR),2022,Total,2536
+4110409,Indianópolis (PR),2022,Total,4448
+4110508,Ipiranga (PR),2022,Total,14142
+4110607,Iporã (PR),2022,Total,15746
+4110656,Iracema do Oeste (PR),2022,Total,2343
+4110706,Irati (PR),2022,Total,59250
+4110805,Iretama (PR),2022,Total,10684
+4110904,Itaguajé (PR),2022,Total,4481
+4110953,Itaipulândia (PR),2022,Total,11485
+4111001,Itambaracá (PR),2022,Total,5908
+4111100,Itambé (PR),2022,Total,6111
+4111209,Itapejara d'Oeste (PR),2022,Total,12344
+4111258,Itaperuçu (PR),2022,Total,31217
+4111308,Itaúna do Sul (PR),2022,Total,3572
+4111407,Ivaí (PR),2022,Total,13229
+4111506,Ivaiporã (PR),2022,Total,32720
+4111555,Ivaté (PR),2022,Total,6831
+4111605,Ivatuba (PR),2022,Total,2708
+4111704,Jaboti (PR),2022,Total,5427
+4111803,Jacarezinho (PR),2022,Total,40375
+4111902,Jaguapitã (PR),2022,Total,15122
+4112009,Jaguariaíva (PR),2022,Total,35141
+4112108,Jandaia do Sul (PR),2022,Total,21408
+4112207,Janiópolis (PR),2022,Total,5870
+4112306,Japira (PR),2022,Total,4972
+4112405,Japurá (PR),2022,Total,9144
+4112504,Jardim Alegre (PR),2022,Total,12004
+4112603,Jardim Olinda (PR),2022,Total,1343
+4112702,Jataizinho (PR),2022,Total,11813
+4112751,Jesuítas (PR),2022,Total,10506
+4112801,Joaquim Távora (PR),2022,Total,11945
+4112900,Jundiaí do Sul (PR),2022,Total,3333
+4112959,Juranda (PR),2022,Total,7771
+4113007,Jussara (PR),2022,Total,6690
+4113106,Kaloré (PR),2022,Total,4582
+4113205,Lapa (PR),2022,Total,45003
+4113254,Laranjal (PR),2022,Total,5600
+4113304,Laranjeiras do Sul (PR),2022,Total,32227
+4113403,Leópolis (PR),2022,Total,3752
+4113429,Lidianópolis (PR),2022,Total,3938
+4113452,Lindoeste (PR),2022,Total,5175
+4113502,Loanda (PR),2022,Total,23225
+4113601,Lobato (PR),2022,Total,4601
+4113700,Londrina (PR),2022,Total,555965
+4113734,Luiziana (PR),2022,Total,6690
+4113759,Lunardelli (PR),2022,Total,4872
+4113809,Lupionópolis (PR),2022,Total,4813
+4113908,Mallet (PR),2022,Total,13428
+4114005,Mamborê (PR),2022,Total,13452
+4114104,Mandaguaçu (PR),2022,Total,31457
+4114203,Mandaguari (PR),2022,Total,36716
+4114302,Mandirituba (PR),2022,Total,27439
+4114351,Manfrinópolis (PR),2022,Total,2770
+4114401,Mangueirinha (PR),2022,Total,16603
+4114500,Manoel Ribas (PR),2022,Total,14240
+4114609,Marechal Cândido Rondon (PR),2022,Total,55836
+4114708,Maria Helena (PR),2022,Total,5865
+4114807,Marialva (PR),2022,Total,41851
+4114906,Marilândia do Sul (PR),2022,Total,8677
+4115002,Marilena (PR),2022,Total,7253
+4115101,Mariluz (PR),2022,Total,9847
+4115200,Maringá (PR),2022,Total,409657
+4115309,Mariópolis (PR),2022,Total,6371
+4115358,Maripá (PR),2022,Total,6555
+4115408,Marmeleiro (PR),2022,Total,15901
+4115457,Marquinho (PR),2022,Total,4504
+4115507,Marumbi (PR),2022,Total,4699
+4115606,Matelândia (PR),2022,Total,18450
+4115705,Matinhos (PR),2022,Total,39259
+4115739,Mato Rico (PR),2022,Total,3267
+4115754,Mauá da Serra (PR),2022,Total,9383
+4115804,Medianeira (PR),2022,Total,54369
+4115853,Mercedes (PR),2022,Total,5931
+4115903,Mirador (PR),2022,Total,2238
+4116000,Miraselva (PR),2022,Total,1966
+4116059,Missal (PR),2022,Total,11064
+4116109,Moreira Sales (PR),2022,Total,11175
+4116208,Morretes (PR),2022,Total,18309
+4116307,Munhoz de Melo (PR),2022,Total,3951
+4116406,Nossa Senhora das Graças (PR),2022,Total,3669
+4116505,Nova Aliança do Ivaí (PR),2022,Total,1323
+4116604,Nova América da Colina (PR),2022,Total,3280
+4116703,Nova Aurora (PR),2022,Total,13765
+4116802,Nova Cantu (PR),2022,Total,6790
+4116901,Nova Esperança (PR),2022,Total,26585
+4116950,Nova Esperança do Sudoeste (PR),2022,Total,5597
+4117008,Nova Fátima (PR),2022,Total,7225
+4117057,Nova Laranjeiras (PR),2022,Total,12074
+4117107,Nova Londrina (PR),2022,Total,12923
+4117206,Nova Olímpia (PR),2022,Total,5833
+4117214,Nova Santa Bárbara (PR),2022,Total,4184
+4117222,Nova Santa Rosa (PR),2022,Total,8322
+4117255,Nova Prata do Iguaçu (PR),2022,Total,12699
+4117271,Nova Tebas (PR),2022,Total,6848
+4117297,Novo Itacolomi (PR),2022,Total,3125
+4117305,Ortigueira (PR),2022,Total,24192
+4117404,Ourizona (PR),2022,Total,3187
+4117453,Ouro Verde do Oeste (PR),2022,Total,6785
+4117503,Paiçandu (PR),2022,Total,45962
+4117602,Palmas (PR),2022,Total,48247
+4117701,Palmeira (PR),2022,Total,33855
+4117800,Palmital (PR),2022,Total,13033
+4117909,Palotina (PR),2022,Total,35011
+4118006,Paraíso do Norte (PR),2022,Total,13245
+4118105,Paranacity (PR),2022,Total,9557
+4118204,Paranaguá (PR),2022,Total,145829
+4118303,Paranapoema (PR),2022,Total,2398
+4118402,Paranavaí (PR),2022,Total,92001
+4118451,Pato Bragado (PR),2022,Total,5733
+4118501,Pato Branco (PR),2022,Total,91836
+4118600,Paula Freitas (PR),2022,Total,5666
+4118709,Paulo Frontin (PR),2022,Total,6343
+4118808,Peabiru (PR),2022,Total,13346
+4118857,Perobal (PR),2022,Total,7189
+4118907,Pérola (PR),2022,Total,11878
+4119004,Pérola d'Oeste (PR),2022,Total,6221
+4119103,Piên (PR),2022,Total,13655
+4119152,Pinhais (PR),2022,Total,127019
+4119202,Pinhalão (PR),2022,Total,6566
+4119251,Pinhal de São Bento (PR),2022,Total,2761
+4119301,Pinhão (PR),2022,Total,29886
+4119400,Piraí do Sul (PR),2022,Total,23651
+4119509,Piraquara (PR),2022,Total,118730
+4119608,Pitanga (PR),2022,Total,33567
+4119657,Pitangueiras (PR),2022,Total,3046
+4119707,Planaltina do Paraná (PR),2022,Total,4070
+4119806,Planalto (PR),2022,Total,14374
+4119905,Ponta Grossa (PR),2022,Total,358371
+4119954,Pontal do Paraná (PR),2022,Total,30425
+4120002,Porecatu (PR),2022,Total,11624
+4120101,Porto Amazonas (PR),2022,Total,4098
+4120150,Porto Barreiro (PR),2022,Total,3110
+4120200,Porto Rico (PR),2022,Total,3182
+4120309,Porto Vitória (PR),2022,Total,3562
+4120333,Prado Ferreira (PR),2022,Total,3709
+4120358,Pranchita (PR),2022,Total,5737
+4120408,Presidente Castelo Branco (PR),2022,Total,4336
+4120507,Primeiro de Maio (PR),2022,Total,10082
+4120606,Prudentópolis (PR),2022,Total,49393
+4120655,Quarto Centenário (PR),2022,Total,4201
+4120705,Quatiguá (PR),2022,Total,8099
+4120804,Quatro Barras (PR),2022,Total,24191
+4120853,Quatro Pontes (PR),2022,Total,4480
+4120903,Quedas do Iguaçu (PR),2022,Total,30738
+4121000,Querência do Norte (PR),2022,Total,10685
+4121109,Quinta do Sol (PR),2022,Total,5001
+4121208,Quitandinha (PR),2022,Total,18398
+4121257,Ramilândia (PR),2022,Total,4221
+4121307,Rancho Alegre (PR),2022,Total,3512
+4121356,Rancho Alegre D'Oeste (PR),2022,Total,2618
+4121406,Realeza (PR),2022,Total,19247
+4121505,Rebouças (PR),2022,Total,14514
+4121604,Renascença (PR),2022,Total,6845
+4121703,Reserva (PR),2022,Total,24573
+4121752,Reserva do Iguaçu (PR),2022,Total,6553
+4121802,Ribeirão Claro (PR),2022,Total,12364
+4121901,Ribeirão do Pinhal (PR),2022,Total,13060
+4122008,Rio Azul (PR),2022,Total,14025
+4122107,Rio Bom (PR),2022,Total,3197
+4122156,Rio Bonito do Iguaçu (PR),2022,Total,13929
+4122172,Rio Branco do Ivaí (PR),2022,Total,3808
+4122206,Rio Branco do Sul (PR),2022,Total,37558
+4122305,Rio Negro (PR),2022,Total,31324
+4122404,Rolândia (PR),2022,Total,71670
+4122503,Roncador (PR),2022,Total,11251
+4122602,Rondon (PR),2022,Total,9097
+4122651,Rosário do Ivaí (PR),2022,Total,5435
+4122701,Sabáudia (PR),2022,Total,8822
+4122800,Salgado Filho (PR),2022,Total,4075
+4122909,Salto do Itararé (PR),2022,Total,5192
+4123006,Salto do Lontra (PR),2022,Total,15223
+4123105,Santa Amélia (PR),2022,Total,3394
+4123204,Santa Cecília do Pavão (PR),2022,Total,3365
+4123303,Santa Cruz de Monte Castelo (PR),2022,Total,8613
+4123402,Santa Fé (PR),2022,Total,11378
+4123501,Santa Helena (PR),2022,Total,25492
+4123600,Santa Inês (PR),2022,Total,1748
+4123709,Santa Isabel do Ivaí (PR),2022,Total,8912
+4123808,Santa Izabel do Oeste (PR),2022,Total,14070
+4123824,Santa Lúcia (PR),2022,Total,3644
+4123857,Santa Maria do Oeste (PR),2022,Total,9934
+4123907,Santa Mariana (PR),2022,Total,11066
+4123956,Santa Mônica (PR),2022,Total,3356
+4124004,Santana do Itararé (PR),2022,Total,5514
+4124020,Santa Tereza do Oeste (PR),2022,Total,13174
+4124053,Santa Terezinha de Itaipu (PR),2022,Total,24262
+4124103,Santo Antônio da Platina (PR),2022,Total,44369
+4124202,Santo Antônio do Caiuá (PR),2022,Total,2493
+4124301,Santo Antônio do Paraíso (PR),2022,Total,2125
+4124400,Santo Antônio do Sudoeste (PR),2022,Total,23673
+4124509,Santo Inácio (PR),2022,Total,6181
+4124608,São Carlos do Ivaí (PR),2022,Total,6587
+4124707,São Jerônimo da Serra (PR),2022,Total,10830
+4124806,São João (PR),2022,Total,11886
+4124905,São João do Caiuá (PR),2022,Total,5586
+4125001,São João do Ivaí (PR),2022,Total,10667
+4125100,São João do Triunfo (PR),2022,Total,13726
+4125209,São Jorge d'Oeste (PR),2022,Total,9378
+4125308,São Jorge do Ivaí (PR),2022,Total,5168
+4125357,São Jorge do Patrocínio (PR),2022,Total,6504
+4125407,São José da Boa Vista (PR),2022,Total,6040
+4125456,São José das Palmeiras (PR),2022,Total,3957
+4125506,São José dos Pinhais (PR),2022,Total,329628
+4125555,São Manoel do Paraná (PR),2022,Total,2138
+4125605,São Mateus do Sul (PR),2022,Total,42366
+4125704,São Miguel do Iguaçu (PR),2022,Total,29122
+4125753,São Pedro do Iguaçu (PR),2022,Total,5784
+4125803,São Pedro do Ivaí (PR),2022,Total,8690
+4125902,São Pedro do Paraná (PR),2022,Total,2661
+4126009,São Sebastião da Amoreira (PR),2022,Total,8063
+4126108,São Tomé (PR),2022,Total,5232
+4126207,Sapopema (PR),2022,Total,6695
+4126256,Sarandi (PR),2022,Total,118455
+4126272,Saudade do Iguaçu (PR),2022,Total,6108
+4126306,Sengés (PR),2022,Total,17270
+4126355,Serranópolis do Iguaçu (PR),2022,Total,5007
+4126405,Sertaneja (PR),2022,Total,5616
+4126504,Sertanópolis (PR),2022,Total,15930
+4126603,Siqueira Campos (PR),2022,Total,22811
+4126652,Sulina (PR),2022,Total,3440
+4126678,Tamarana (PR),2022,Total,10707
+4126702,Tamboara (PR),2022,Total,4880
+4126801,Tapejara (PR),2022,Total,15869
+4126900,Tapira (PR),2022,Total,5745
+4127007,Teixeira Soares (PR),2022,Total,9547
+4127106,Telêmaco Borba (PR),2022,Total,75042
+4127205,Terra Boa (PR),2022,Total,17568
+4127304,Terra Rica (PR),2022,Total,14842
+4127403,Terra Roxa (PR),2022,Total,18119
+4127502,Tibagi (PR),2022,Total,19961
+4127601,Tijucas do Sul (PR),2022,Total,17621
+4127700,Toledo (PR),2022,Total,150470
+4127809,Tomazina (PR),2022,Total,8426
+4127858,Três Barras do Paraná (PR),2022,Total,11135
+4127882,Tunas do Paraná (PR),2022,Total,6219
+4127908,Tuneiras do Oeste (PR),2022,Total,8067
+4127957,Tupãssi (PR),2022,Total,8077
+4127965,Turvo (PR),2022,Total,14231
+4128005,Ubiratã (PR),2022,Total,24749
+4128104,Umuarama (PR),2022,Total,117095
+4128203,União da Vitória (PR),2022,Total,55033
+4128302,Uniflor (PR),2022,Total,2136
+4128401,Uraí (PR),2022,Total,10406
+4128500,Wenceslau Braz (PR),2022,Total,19188
+4128534,Ventania (PR),2022,Total,9681
+4128559,Vera Cruz do Oeste (PR),2022,Total,8215
+4128609,Verê (PR),2022,Total,7932
+4128625,Alto Paraíso (PR),2022,Total,3055
+4128633,Doutor Ulysses (PR),2022,Total,5697
+4128658,Virmond (PR),2022,Total,3811
+4128708,Vitorino (PR),2022,Total,9706
+4128807,Xambrê (PR),2022,Total,5798
