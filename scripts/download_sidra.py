@@ -327,10 +327,10 @@ def download_all():
     else:
         print("AVISO: Nenhum dado de população foi baixado")
 
-    # 7. Pirâmide etária (opcional - demora mais)
+    # 7. Pirâmide etária (todos os municípios)
     print("-" * 40)
-    print("Baixando pirâmide etária 2022 (pode demorar)...")
-    data_piramide = download_piramide_etaria_2022(municipios_codes[:20])  # Apenas primeiros 20 para teste
+    print("Baixando pirâmide etária 2022 (todos os municípios, pode demorar)...")
+    data_piramide = download_piramide_etaria_2022(municipios_codes)  # Todos os municípios
 
     if data_piramide:
         with open(DATA_DIR / "piramide_2022.json", "w", encoding="utf-8") as f:
