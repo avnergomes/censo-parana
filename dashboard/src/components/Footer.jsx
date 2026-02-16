@@ -36,7 +36,7 @@ export default function Footer({ metadata }) {
             </h4>
             <div className="flex flex-wrap gap-1.5">
               <a
-                href="https://datageoparana.github.io/vbp-parana/"
+                href="https://avnergomes.github.io/vbp-parana/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
@@ -44,7 +44,7 @@ export default function Footer({ metadata }) {
                 VBP Parana
               </a>
               <a
-                href="https://datageoparana.github.io/precos-diarios/"
+                href="https://avnergomes.github.io/precos-diarios/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
@@ -52,7 +52,7 @@ export default function Footer({ metadata }) {
                 Precos Diarios
               </a>
               <a
-                href="https://datageoparana.github.io/precos-florestais/"
+                href="https://avnergomes.github.io/precos-florestais/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
@@ -60,7 +60,7 @@ export default function Footer({ metadata }) {
                 Precos Florestais
               </a>
               <a
-                href="https://datageoparana.github.io/precos-de-terras/"
+                href="https://avnergomes.github.io/precos-de-terras/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
@@ -68,7 +68,7 @@ export default function Footer({ metadata }) {
                 Precos de Terras
               </a>
               <a
-                href="https://datageoparana.github.io/comexstat-parana/"
+                href="https://avnergomes.github.io/comexstat-parana/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
@@ -76,7 +76,7 @@ export default function Footer({ metadata }) {
                 ComexStat Parana
               </a>
               <a
-                href="https://datageoparana.github.io/emprego-agro-parana/"
+                href="https://avnergomes.github.io/emprego-agro-parana/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
