@@ -14,14 +14,14 @@ export default function Footer({ metadata }) {
               Fonte de Dados
             </h4>
             <ul className="space-y-1.5 text-xs text-dark-600">
-              <li>IBGE - Instituto Brasileiro de Geografia e Estatistica</li>
-              <li>Censos Demograficos: 1991, 2000, 2010, 2022</li>
+              <li>IBGE - Instituto Brasileiro de Geografia e Estatística</li>
+              <li>Censos Demográficos: 1991, 2000, 2010, 2022</li>
               <li>API SIDRA - Tabelas 202 e 9923</li>
             </ul>
-            <p className="text-xs text-dark-400">399 municipios do Parana</p>
+            <p className="text-xs text-dark-400">399 municípios do Paraná</p>
           </div>
 
-          {/* Datageo Parana */}
+          {/* Datageo Paraná */}
           <div className="space-y-3">
             <h4 className="font-semibold text-dark-900 text-sm">
               <a
@@ -30,7 +30,7 @@ export default function Footer({ metadata }) {
                 rel="noopener noreferrer"
                 className="hover:text-accent-600 transition-colors inline-flex items-center gap-1"
               >
-                Datageo Parana
+                Datageo Paraná
                 <ExternalLink className="w-3 h-3" />
               </a>
             </h4>
@@ -41,7 +41,7 @@ export default function Footer({ metadata }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
               >
-                VBP Parana
+                VBP Paraná
               </a>
               <a
                 href="https://avnergomes.github.io/precos-diarios/"
@@ -73,7 +73,7 @@ export default function Footer({ metadata }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
               >
-                ComexStat Parana
+                ComexStat Paraná
               </a>
               <a
                 href="https://avnergomes.github.io/emprego-agro-parana/"
@@ -108,10 +108,10 @@ export default function Footer({ metadata }) {
 
         {/* Bottom */}
         <div className="mt-6 pt-4 border-t border-accent-200 flex flex-wrap items-center justify-between gap-2 text-[10px] text-dark-400">
-          <p>&copy; {currentYear} Censo Parana. Dados publicos.</p>
+          <p>&copy; {currentYear} Censo Paraná. Dados públicos.</p>
           <div className="flex gap-2">
             <span className="px-2 py-0.5 bg-accent-100 text-accent-700 rounded-full">4 censos</span>
-            <span className="px-2 py-0.5 bg-primary-100 text-primary-700 rounded-full">399 municipios</span>
+            <span className="px-2 py-0.5 bg-primary-100 text-primary-700 rounded-full">399 municípios</span>
           </div>
         </div>
       </div>

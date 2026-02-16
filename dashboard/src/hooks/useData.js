@@ -41,7 +41,7 @@ export function useData() {
           if (geoResponse.ok) {
             geoData = await geoResponse.json()
 
-            // Extrair lista de municipios com suas regionais
+            // Extrair lista de municípios com suas regionais
             const munMap = new Map()
             geoData.features.forEach(f => {
               const codigo = f.properties.CodIbge
@@ -50,7 +50,7 @@ export function useData() {
               munMap.set(codigo, { codigo, nome, regional })
             })
 
-            // Combinar com dados dos municipios do censo
+            // Combinar com dados dos municípios do censo
             if (aggregated.municipios) {
               municipiosComRegional = aggregated.municipios.map(mun => {
                 const geoInfo = munMap.get(mun.codigo)
@@ -63,7 +63,7 @@ export function useData() {
               municipiosComRegional = Array.from(munMap.values())
             }
 
-            // Extrair lista unica de regionais ordenada
+            // Extrair lista única de regionais ordenada
             regionais = [...new Set(municipiosComRegional.map(m => m.regional))]
               .filter(r => r && r !== 'Desconhecida')
               .sort((a, b) => a.localeCompare(b, 'pt-BR'))
@@ -95,7 +95,7 @@ export function useData() {
 }
 
 /**
- * Hook para filtrar dados por período, regional e municipio
+ * Hook para filtrar dados por período, regional e município
  */
 export function useFilteredData(data, filters) {
   return useMemo(() => {
@@ -106,7 +106,7 @@ export function useFilteredData(data, filters) {
     // Usar municipiosComRegional se disponível
     let municipios = data.municipiosComRegional || data.municipios || []
 
-    // Filtrar por municipio específico
+    // Filtrar por município específico
     if (municipio) {
       municipios = municipios.filter(m => m.codigo === municipio)
     }
@@ -168,7 +168,7 @@ export function useFilteredData(data, filters) {
 }
 
 /**
- * Calcula totais para os municipios filtrados
+ * Calcula totais para os municípios filtrados
  */
 function calcularTotaisFiltrados(municipios, totaisEstado, anoInicial, anoFinal) {
   if (!municipios || municipios.length === 0) return null

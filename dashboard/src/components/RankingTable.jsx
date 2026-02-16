@@ -7,7 +7,7 @@ export default function RankingTable({ data, title, type, limit = 10, showRegion
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="py-8 text-center text-dark-400">
-          Dados nao disponiveis
+          Dados não disponíveis
         </div>
       </div>
     )
@@ -32,11 +32,11 @@ export default function RankingTable({ data, title, type, limit = 10, showRegion
           <thead>
             <tr>
               <th className="w-12">#</th>
-              <th>Municipio</th>
+              <th>Município</th>
               {showRegional && <th>Regional</th>}
               <th className="text-right">Pop. Inicial</th>
               <th className="text-right">Pop. Final</th>
-              <th className="text-right">Variacao</th>
+              <th className="text-right">Variação</th>
             </tr>
           </thead>
           <tbody>
@@ -71,7 +71,7 @@ export default function RankingTable({ data, title, type, limit = 10, showRegion
 
       {data.length > limit && (
         <p className="text-sm text-dark-400 mt-4 text-center">
-          Mostrando {limit} de {data.length} municipios
+          Mostrando {limit} de {data.length} municípios
         </p>
       )}
     </div>

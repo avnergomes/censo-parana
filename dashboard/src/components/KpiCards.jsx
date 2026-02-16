@@ -4,7 +4,7 @@ import { formatNumber, formatPercent, formatVariation } from '../utils/format'
 export default function KpiCards({ stateTotals, contagens }) {
   const cards = [
     {
-      title: 'Populacao Atual',
+      title: 'População Atual',
       value: formatNumber(stateTotals?.populacaoAtual),
       subtitle: `Censo ${stateTotals?.anoFinal || 2022}`,
       icon: Users,
@@ -20,7 +20,7 @@ export default function KpiCards({ stateTotals, contagens }) {
       bgColor: 'bg-green-100',
     },
     {
-      title: 'Taxa de Urbanizacao',
+      title: 'Taxa de Urbanização',
       value: formatPercent(stateTotals?.taxaUrbanizacaoAtual),
       subtitle: `Era ${formatPercent(stateTotals?.taxaUrbanizacaoInicial)} em ${stateTotals?.anoInicial || 1991}`,
       icon: Building2,
@@ -28,9 +28,9 @@ export default function KpiCards({ stateTotals, contagens }) {
       bgColor: 'bg-amber-100',
     },
     {
-      title: 'Municipios com Evasao',
+      title: 'Municípios com Evasão',
       value: contagens?.municipios_evasao || 0,
-      subtitle: `De ${contagens?.total_municipios || 399} municipios`,
+      subtitle: `De ${contagens?.total_municipios || 399} municípios`,
       icon: TrendingDown,
       color: 'text-danger-600',
       bgColor: 'bg-red-100',

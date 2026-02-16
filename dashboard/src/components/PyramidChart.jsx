@@ -35,7 +35,7 @@ const FAIXAS_ORDEM = [
 export default function PyramidChart({ data, title, filterMunicipios = null }) {
   const [viewMode, setViewMode] = useState('absoluto') // 'absoluto' ou 'percentual'
 
-  // Agregar dados dos municipios selecionados (ou todos se nao filtrado)
+  // Agregar dados dos municípios selecionados (ou todos se não filtrado)
   const pyramidData = useMemo(() => {
     if (!data || !data['2022']) return []
 
@@ -45,13 +45,13 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
       mulheres: {},
     }
 
-    // Filtrar municipios se necessario
+    // Filtrar municípios se necessário
     let municipiosCodes = Object.keys(municipiosData)
     if (filterMunicipios && filterMunicipios.length > 0) {
       municipiosCodes = municipiosCodes.filter(code => filterMunicipios.includes(code))
     }
 
-    // Somar municipios selecionados
+    // Somar municípios selecionados
     municipiosCodes.forEach(code => {
       const mun = municipiosData[code]
       if (!mun) return
@@ -74,10 +74,10 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
     const totalGeral = Object.values(totais.homens).reduce((a, b) => a + b, 0) +
                        Object.values(totais.mulheres).reduce((a, b) => a + b, 0)
 
-    // Se nao tem dados, retornar vazio
+    // Se não tem dados, retornar vazio
     if (totalGeral === 0) return []
 
-    // Formatar para o grafico
+    // Formatar para o gráfico
     const chartData = FAIXAS_ORDEM
       .filter(faixa => totais.homens[faixa] || totais.mulheres[faixa])
       .map(faixa => {
@@ -100,7 +100,7 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
     return chartData
   }, [data, filterMunicipios])
 
-  // Valor maximo para o eixo X (dinamico baseado nos dados)
+  // Valor máximo para o eixo X (dinâmico baseado nos dados)
   const maxValue = useMemo(() => {
     if (pyramidData.length === 0) return 100000
 
@@ -155,7 +155,7 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="h-96 flex flex-col items-center justify-center text-dark-400">
-          <p>Dados da piramide etaria nao disponiveis</p>
+          <p>Dados da pirâmide etária não disponíveis</p>
           <p className="text-sm mt-2">
             Execute o script de download para obter os dados do Censo 2022.
           </p>
@@ -170,8 +170,8 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="h-96 flex items-center justify-center text-dark-400">
           {filterMunicipios && filterMunicipios.length > 0
-            ? 'Nenhum dado disponivel para os municipios selecionados'
-            : 'Processando dados da piramide...'}
+            ? 'Nenhum dado disponível para os municípios selecionados'
+            : 'Processando dados da pirâmide...'}
         </div>
       </div>
     )
@@ -234,14 +234,14 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
       {/* Info sobre filtro */}
       {filterMunicipios && filterMunicipios.length > 0 && filterMunicipios.length < 399 && (
         <div className="mt-3 text-xs text-dark-400 text-center">
-          Dados agregados de {filterMunicipios.length} municipio{filterMunicipios.length > 1 ? 's' : ''}
+          Dados agregados de {filterMunicipios.length} município{filterMunicipios.length > 1 ? 's' : ''}
         </div>
       )}
 
-      {/* Explicacao */}
+      {/* Explicação */}
       <div className="mt-4 text-sm text-dark-500 text-center">
-        <p>A piramide etaria mostra a distribuicao da populacao por idade e sexo.</p>
-        <p>Homens a esquerda (azul) e mulheres a direita (rosa).</p>
+        <p>A pirâmide etária mostra a distribuição da população por idade e sexo.</p>
+        <p>Homens à esquerda (azul) e mulheres à direita (rosa).</p>
       </div>
     </div>
   )

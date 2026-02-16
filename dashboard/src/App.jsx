@@ -13,11 +13,11 @@ import PyramidChart from './components/PyramidChart'
 import { useData, useFilteredData, useStateTotals } from './hooks/useData'
 
 const TABS = [
-  { id: 'visao-geral', label: 'Visao Geral', icon: 'LayoutDashboard' },
+  { id: 'visao-geral', label: 'Visão Geral', icon: 'LayoutDashboard' },
   { id: 'mapa', label: 'Mapa', icon: 'Map' },
   { id: 'rural-urbano', label: 'Rural vs Urbano', icon: 'Building2' },
   { id: 'ranking', label: 'Ranking', icon: 'Trophy' },
-  { id: 'piramide', label: 'Piramide Etaria', icon: 'Users' },
+  { id: 'piramide', label: 'Pirâmide Etária', icon: 'Users' },
 ]
 
 export default function App() {
@@ -46,7 +46,7 @@ export default function App() {
     return data.metadata.anos_censos
   }, [data])
 
-  // Titulo dinamico baseado nos filtros
+  // Título dinâmico baseado nos filtros
   const filterTitle = useMemo(() => {
     if (filters.municipio) {
       return filters.municipioNome
@@ -54,7 +54,7 @@ export default function App() {
     if (filters.regional && filters.regional !== 'todas') {
       return `Regional ${filters.regional}`
     }
-    return 'Parana'
+    return 'Paraná'
   }, [filters])
 
   // Rankings filtrados
@@ -122,7 +122,7 @@ export default function App() {
               <span className="font-medium">Visualizando:</span> {filterTitle}
               {filteredData.filteredCount !== data?.municipios?.length && (
                 <span className="ml-2 text-accent-500">
-                  ({filteredData.filteredCount} de {data?.municipios?.length} municipios)
+                  ({filteredData.filteredCount} de {data?.municipios?.length} municípios)
                 </span>
               )}
             </div>
@@ -152,26 +152,26 @@ export default function App() {
           onChange={setActiveTab}
         />
 
-        {/* Conteudo das Tabs */}
+        {/* Conteúdo das Tabs */}
         <div className="mt-6">
-          {/* Visao Geral */}
+          {/* Visão Geral */}
           {activeTab === 'visao-geral' && (
             <div className="space-y-6">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <TimeSeriesChart
                   data={stateTotals?.serieHistorica}
-                  title={`Evolucao Populacional - ${filterTitle}`}
+                  title={`Evolução Populacional - ${filterTitle}`}
                 />
                 <RuralUrbanChart
                   data={stateTotals?.serieHistorica}
-                  title={`Populacao Rural vs Urbana - ${filterTitle}`}
+                  title={`População Rural vs Urbana - ${filterTitle}`}
                 />
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <RankingTable
                   data={filteredRankings.top_evasao}
-                  title={`Top 10 - Maior Evasao${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
+                  title={`Top 10 - Maior Evasão${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
                   type="evasao"
                   limit={10}
                   showRegional={!filters.regional || filters.regional === 'todas'}
@@ -191,7 +191,7 @@ export default function App() {
           {activeTab === 'mapa' && (
             <PopulationMap
               data={filteredData?.municipios || data?.municipiosComRegional || data?.map_data}
-              title={`Variacao Populacional - ${filterTitle}`}
+              title={`Variação Populacional - ${filterTitle}`}
               periodo={`${filters.anoInicial} - ${filters.anoFinal}`}
               highlightRegional={filters.regional !== 'todas' ? filters.regional : null}
               highlightMunicipio={filters.municipio}
@@ -203,29 +203,29 @@ export default function App() {
             <div className="space-y-6">
               <RuralUrbanChart
                 data={stateTotals?.serieHistorica}
-                title={`Evolucao da Taxa de Urbanizacao - ${filterTitle}`}
+                title={`Evolução da Taxa de Urbanização - ${filterTitle}`}
                 showPercentage
               />
 
               <div className="chart-container">
                 <h3 className="text-lg font-semibold text-dark-800 mb-4">
-                  Analise do Exodo Rural {filteredData?.isFiltered ? `- ${filterTitle}` : ''}
+                  Análise do Êxodo Rural {filteredData?.isFiltered ? `- ${filterTitle}` : ''}
                 </h3>
                 <div className="prose prose-sm text-dark-600">
                   {stateTotals && (
                     <>
                       <p>
-                        {filters.municipio ? `O municipio de ${filters.municipioNome}` :
+                        {filters.municipio ? `O município de ${filters.municipioNome}` :
                          filters.regional !== 'todas' ? `A regional de ${filters.regional}` :
-                         'O Parana'} passou por uma intensa transformacao demografica nas ultimas decadas.
-                        A populacao urbana cresceu de {stateTotals.taxaUrbanizacaoInicial?.toFixed(1)}%
+                         'O Paraná'} passou por uma intensa transformação demográfica nas últimas décadas.
+                        A população urbana cresceu de {stateTotals.taxaUrbanizacaoInicial?.toFixed(1)}%
                         em {stateTotals.anoInicial} para {stateTotals.taxaUrbanizacaoAtual?.toFixed(1)}%
                         em {stateTotals.anoFinal}.
                       </p>
                       <p className="mt-2">
-                        Esta urbanizacao foi acompanhada pela reducao significativa da populacao rural,
-                        especialmente em municipios do interior do estado, caracterizando o fenomeno
-                        conhecido como exodo rural.
+                        Esta urbanização foi acompanhada pela redução significativa da população rural,
+                        especialmente em municípios do interior do estado, caracterizando o fenômeno
+                        conhecido como êxodo rural.
                       </p>
                     </>
                   )}
@@ -239,14 +239,14 @@ export default function App() {
             <div className="space-y-6">
               <RankingTable
                 data={filteredRankings.top_evasao}
-                title={`Municipios com Maior Evasao${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
+                title={`Municípios com Maior Evasão${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
                 type="evasao"
                 limit={20}
                 showRegional={!filters.regional || filters.regional === 'todas'}
               />
               <RankingTable
                 data={filteredRankings.top_crescimento}
-                title={`Municipios com Maior Crescimento${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
+                title={`Municípios com Maior Crescimento${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
                 type="crescimento"
                 limit={20}
                 showRegional={!filters.regional || filters.regional === 'todas'}
@@ -254,12 +254,12 @@ export default function App() {
             </div>
           )}
 
-          {/* Piramide Etaria */}
+          {/* Pirâmide Etária */}
           {activeTab === 'piramide' && (
             <div className="space-y-6">
               <PyramidChart
                 data={data?.detailed?.piramide}
-                title={`Piramide Etaria - ${filterTitle}`}
+                title={`Pirâmide Etária - ${filterTitle}`}
                 filterMunicipios={filters.municipio ? [filters.municipio] :
                   filteredData?.isFiltered ? filteredData.municipios.map(m => m.codigo) : null}
               />
@@ -270,11 +270,11 @@ export default function App() {
                 </h3>
                 <div className="prose prose-sm text-dark-600">
                   <p>
-                    A piramide etaria {filters.municipio ? `de ${filters.municipioNome}` :
+                    A pirâmide etária {filters.municipio ? `de ${filters.municipioNome}` :
                     filters.regional !== 'todas' ? `da regional ${filters.regional}` :
-                    'do Parana'} tem se transformado ao longo das decadas,
+                    'do Paraná'} tem se transformado ao longo das décadas,
                     refletindo a queda na taxa de natalidade e o aumento da expectativa de vida.
-                    A base mais estreita e o topo mais largo indicam o envelhecimento da populacao.
+                    A base mais estreita e o topo mais largo indicam o envelhecimento da população.
                   </p>
                 </div>
               </div>

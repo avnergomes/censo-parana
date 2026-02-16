@@ -27,7 +27,7 @@ export default function TimeSeriesChart({ data, title }) {
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="h-64 flex items-center justify-center text-dark-400">
-          Dados nao disponiveis
+          Dados não disponíveis
         </div>
       </div>
     )

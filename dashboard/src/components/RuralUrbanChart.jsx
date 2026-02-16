@@ -30,7 +30,7 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="h-64 flex items-center justify-center text-dark-400">
-          Dados nao disponiveis
+          Dados não disponíveis
         </div>
       </div>
     )
@@ -87,11 +87,11 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
       <div className="mt-4 flex items-center justify-center gap-6 text-sm">
         <div className="flex items-center gap-2">
           <div className="w-3 h-3 rounded bg-primary-600"></div>
-          <span className="text-dark-600">Populacao Urbana</span>
+          <span className="text-dark-600">População Urbana</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="w-3 h-3 rounded bg-green-500"></div>
-          <span className="text-dark-600">Populacao Rural</span>
+          <span className="text-dark-600">População Rural</span>
         </div>
       </div>
     </div>

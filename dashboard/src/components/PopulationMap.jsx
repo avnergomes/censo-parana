@@ -20,14 +20,14 @@ export default function PopulationMap({ data, title, periodo }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  // Centro do Parana
+  // Centro do Paraná
   const center = [-24.5, -51.5]
   const defaultBounds = [
     [-26.5, -55],
     [-22.5, -48],
   ]
 
-  // Carregar GeoJSON dos municipios
+  // Carregar GeoJSON dos municípios
   useEffect(() => {
     const loadGeoJSON = async () => {
       try {
@@ -50,7 +50,7 @@ export default function PopulationMap({ data, title, periodo }) {
     loadGeoJSON()
   }, [])
 
-  // Criar mapa de dados para lookup rapido
+  // Criar mapa de dados para lookup rápido
   const dataMap = useMemo(() => {
     if (!data) return {}
     const map = {}
@@ -60,7 +60,7 @@ export default function PopulationMap({ data, title, periodo }) {
     return map
   }, [data])
 
-  // Estilo do GeoJSON baseado na variacao
+  // Estilo do GeoJSON baseado na variação
   const getStyle = (feature) => {
     const codigo = feature.properties?.CodIbge
     const munData = dataMap[codigo]
@@ -97,7 +97,7 @@ export default function PopulationMap({ data, title, periodo }) {
               <span class="font-medium">${formatNumber(munData.pop_final)}</span>
             </div>
             <div class="flex justify-between pt-1 border-t border-dark-200">
-              <span class="text-dark-600">Variacao:</span>
+              <span class="text-dark-600">Variação:</span>
               <span class="font-bold" style="color: ${getVariationColor(munData.variacao || munData.variacao_total)}">
                 ${formatVariation(munData.variacao || munData.variacao_total)}
               </span>
@@ -108,7 +108,7 @@ export default function PopulationMap({ data, title, periodo }) {
       layer.bindPopup(popupContent)
       layer.bindTooltip(nome, { permanent: false, direction: 'top' })
     } else {
-      layer.bindTooltip(nome || 'Municipio', { permanent: false, direction: 'top' })
+      layer.bindTooltip(nome || 'Município', { permanent: false, direction: 'top' })
     }
 
     // Hover effect
@@ -133,7 +133,7 @@ export default function PopulationMap({ data, title, periodo }) {
     })
   }
 
-  // Key para forcar re-render do GeoJSON quando dados mudam
+  // Key para forçar re-render do GeoJSON quando dados mudam
   const geoJsonKey = useMemo(() => {
     return `geojson-${periodo}-${data?.length || 0}`
   }, [periodo, data])
@@ -169,7 +169,7 @@ export default function PopulationMap({ data, title, periodo }) {
         <h3 className="text-lg font-semibold text-dark-800">{title}</h3>
         {periodo && (
           <span className="text-sm text-dark-500 bg-dark-100 px-3 py-1 rounded-full">
-            Periodo: {periodo}
+            Período: {periodo}
           </span>
         )}
       </div>
@@ -200,15 +200,15 @@ export default function PopulationMap({ data, title, periodo }) {
 
       {/* Legenda */}
       <div className="mt-4 p-4 bg-dark-50 rounded-lg">
-        <p className="text-xs text-dark-500 mb-3 font-medium">Variacao populacional no periodo:</p>
+        <p className="text-xs text-dark-500 mb-3 font-medium">Variação populacional no período:</p>
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#ef4444' }}></div>
-            <span className="text-dark-600">Evasao (&lt;-10%)</span>
+            <span className="text-dark-600">Evasão (&lt;-10%)</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#f59e0b' }}></div>
-            <span className="text-dark-600">Reducao leve (-10% a 0%)</span>
+            <span className="text-dark-600">Redução leve (-10% a 0%)</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#86efac' }}></div>
@@ -222,7 +222,7 @@ export default function PopulationMap({ data, title, periodo }) {
       </div>
 
       <p className="text-xs text-dark-400 mt-3 text-center">
-        Clique em um municipio para ver detalhes. Dados: IBGE - Censos Demograficos.
+        Clique em um município para ver detalhes. Dados: IBGE - Censos Demográficos.
       </p>
     </div>
   )

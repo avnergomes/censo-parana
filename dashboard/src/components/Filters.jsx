@@ -49,7 +49,7 @@ export default function Filters({
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  // Selecionar municipio
+  // Selecionar município
   const selectMunicipio = (mun) => {
     handleChange('municipio', mun.codigo)
     handleChange('municipioNome', mun.nome)
@@ -57,18 +57,18 @@ export default function Filters({
     setShowDropdown(false)
   }
 
-  // Limpar municipio selecionado
+  // Limpar município selecionado
   const clearMunicipio = () => {
     handleChange('municipio', null)
     handleChange('municipioNome', null)
     setSearchTerm('')
   }
 
-  // Quando muda a regional, limpar municipio se não pertence à regional
+  // Quando muda a regional, limpar município se não pertence à regional
   const handleRegionalChange = (regional) => {
     handleChange('regional', regional)
 
-    // Se tem um municipio selecionado, verificar se pertence à nova regional
+    // Se tem um município selecionado, verificar se pertence à nova regional
     if (filters.municipio && regional !== 'todas') {
       const mun = municipios.find(m => m.codigo === filters.municipio)
       if (mun && mun.regional !== regional) {
@@ -97,7 +97,7 @@ export default function Filters({
               <option key={ano} value={ano}>{ano}</option>
             ))}
           </select>
-          <span className="text-dark-400">ate</span>
+          <span className="text-dark-400">até</span>
           <select
             value={filters.anoFinal}
             onChange={(e) => handleChange('anoFinal', Number(e.target.value))}
@@ -124,13 +124,13 @@ export default function Filters({
           </select>
         </div>
 
-        {/* Municipio - Autocomplete */}
+        {/* Município - Autocomplete */}
         <div className="relative" ref={dropdownRef}>
           <div className="flex items-center gap-2">
             <Building2 className="w-4 h-4 text-dark-400" />
 
             {filters.municipio ? (
-              // Municipio selecionado
+              // Município selecionado
               <div className="flex items-center gap-2 px-3 py-1.5 bg-accent-100 text-accent-800 rounded-lg text-sm">
                 <span>{filters.municipioNome}</span>
                 <button
@@ -154,7 +154,7 @@ export default function Filters({
                     setShowDropdown(true)
                   }}
                   onFocus={() => setShowDropdown(true)}
-                  placeholder="Buscar municipio..."
+                  placeholder="Buscar município..."
                   className="pl-9 pr-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 w-[200px]"
                 />
               </div>
@@ -177,7 +177,7 @@ export default function Filters({
                 ))
               ) : (
                 <div className="px-4 py-3 text-sm text-dark-400 text-center">
-                  {searchTerm ? 'Nenhum municipio encontrado' : 'Digite para buscar...'}
+                  {searchTerm ? 'Nenhum município encontrado' : 'Digite para buscar...'}
                 </div>
               )}
 
@@ -190,17 +190,17 @@ export default function Filters({
           )}
         </div>
 
-        {/* Classificacao */}
+        {/* Classificação */}
         <select
           value={filters.classificacao}
           onChange={(e) => handleChange('classificacao', e.target.value)}
           className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
         >
           <option value="todos">Todos os tipos</option>
-          <option value="evasao">Apenas com evasao</option>
+          <option value="evasao">Apenas com evasão</option>
           <option value="crescimento_alto">Crescimento alto</option>
           <option value="crescimento_moderado">Crescimento moderado</option>
-          <option value="estavel">Estaveis</option>
+          <option value="estavel">Estáveis</option>
         </select>
 
         {/* Botao limpar filtros */}
