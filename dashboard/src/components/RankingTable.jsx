@@ -1,7 +1,7 @@
 import { TrendingDown, TrendingUp } from 'lucide-react'
 import { formatNumber, formatVariation } from '../utils/format'
 
-export default function RankingTable({ data, title, type, limit = 10 }) {
+export default function RankingTable({ data, title, type, limit = 10, showRegional = true }) {
   if (!data || data.length === 0) {
     return (
       <div className="chart-container">
@@ -33,6 +33,7 @@ export default function RankingTable({ data, title, type, limit = 10 }) {
             <tr>
               <th className="w-12">#</th>
               <th>Municipio</th>
+              {showRegional && <th>Regional</th>}
               <th className="text-right">Pop. Inicial</th>
               <th className="text-right">Pop. Final</th>
               <th className="text-right">Variacao</th>
@@ -43,6 +44,9 @@ export default function RankingTable({ data, title, type, limit = 10 }) {
               <tr key={item.codigo || index}>
                 <td className="text-dark-400 font-medium">{index + 1}</td>
                 <td className="font-medium text-dark-800">{item.nome}</td>
+                {showRegional && (
+                  <td className="text-dark-500 text-sm">{item.regional || '-'}</td>
+                )}
                 <td className="text-right text-dark-600">
                   {formatNumber(item.pop_inicial)}
                 </td>

@@ -26,6 +26,9 @@ export default function App() {
     anoInicial: 1991,
     anoFinal: 2022,
     classificacao: 'todos',
+    regional: 'todas',
+    municipio: null,
+    municipioNome: null,
   })
 
   // Carregar dados
@@ -34,14 +37,54 @@ export default function App() {
   // Filtrar dados
   const filteredData = useFilteredData(data, filters)
 
-  // Totais do estado
-  const stateTotals = useStateTotals(data)
+  // Totais do estado ou da seleção filtrada
+  const stateTotals = useStateTotals(data, filteredData?.isFiltered ? filteredData : null)
 
   // Anos disponíveis para filtro
   const availableYears = useMemo(() => {
     if (!data?.metadata?.anos_censos) return [1991, 2000, 2010, 2022]
     return data.metadata.anos_censos
   }, [data])
+
+  // Titulo dinamico baseado nos filtros
+  const filterTitle = useMemo(() => {
+    if (filters.municipio) {
+      return filters.municipioNome
+    }
+    if (filters.regional && filters.regional !== 'todas') {
+      return `Regional ${filters.regional}`
+    }
+    return 'Parana'
+  }, [filters])
+
+  // Rankings filtrados
+  const filteredRankings = useMemo(() => {
+    if (!filteredData?.municipios) return { top_evasao: [], top_crescimento: [] }
+
+    const sorted = [...filteredData.municipios].sort((a, b) =>
+      (a.variacao_total || a.variacao || 0) - (b.variacao_total || b.variacao || 0)
+    )
+
+    const top_evasao = sorted.slice(0, 20).map(m => ({
+      nome: m.nome,
+      codigo: m.codigo,
+      regional: m.regional,
+      variacao: m.variacao_total || m.variacao,
+      pop_inicial: m.pop_inicial,
+      pop_final: m.pop_final,
+    }))
+
+    const top_crescimento = [...sorted].reverse().slice(0, 20).map(m => ({
+      nome: m.nome,
+      codigo: m.codigo,
+      regional: m.regional,
+      variacao: m.variacao_total || m.variacao,
+      pop_inicial: m.pop_inicial,
+      pop_final: m.pop_final,
+    }))
+
+    return { top_evasao, top_crescimento }
+  }, [filteredData])
 
   if (loading) {
     return <Loading />
@@ -59,7 +102,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dark-50 to-primary-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-dark-50 to-accent-50/30">
       <Header metadata={data?.metadata} />
 
       <main className="container mx-auto px-4 py-8">
@@ -68,12 +111,38 @@ export default function App() {
           filters={filters}
           onChange={setFilters}
           availableYears={availableYears}
+          municipios={data?.municipiosComRegional || []}
+          regionais={data?.regionais || []}
         />
+
+        {/* Indicador de filtro ativo */}
+        {filteredData?.isFiltered && (
+          <div className="mb-4 p-3 bg-accent-50 border border-accent-200 rounded-lg flex items-center justify-between">
+            <div className="text-sm text-accent-700">
+              <span className="font-medium">Visualizando:</span> {filterTitle}
+              {filteredData.filteredCount !== data?.municipios?.length && (
+                <span className="ml-2 text-accent-500">
+                  ({filteredData.filteredCount} de {data?.municipios?.length} municipios)
+                </span>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* KPIs */}
         <KpiCards
           stateTotals={stateTotals}
-          contagens={data?.agregacoes?.contagens}
+          contagens={
+            filteredData?.isFiltered
+              ? {
+                  total_municipios: filteredData.filteredCount,
+                  municipios_evasao: filteredData.municipios.filter(m => m.classificacao === 'evasao').length,
+                  municipios_crescimento: filteredData.municipios.filter(m =>
+                    ['crescimento_alto', 'crescimento_moderado'].includes(m.classificacao)
+                  ).length,
+                }
+              : data?.agregacoes?.contagens
+          }
         />
 
         {/* Tabs */}
@@ -91,26 +160,28 @@ export default function App() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <TimeSeriesChart
                   data={stateTotals?.serieHistorica}
-                  title="Evolucao Populacional do Parana"
+                  title={`Evolucao Populacional - ${filterTitle}`}
                 />
                 <RuralUrbanChart
                   data={stateTotals?.serieHistorica}
-                  title="Populacao Rural vs Urbana"
+                  title={`Populacao Rural vs Urbana - ${filterTitle}`}
                 />
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <RankingTable
-                  data={data?.agregacoes?.rankings?.top_evasao}
-                  title="Top 10 - Maior Evasao Populacional"
+                  data={filteredRankings.top_evasao}
+                  title={`Top 10 - Maior Evasao${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
                   type="evasao"
                   limit={10}
+                  showRegional={!filters.regional || filters.regional === 'todas'}
                 />
                 <RankingTable
-                  data={data?.agregacoes?.rankings?.top_crescimento}
-                  title="Top 10 - Maior Crescimento"
+                  data={filteredRankings.top_crescimento}
+                  title={`Top 10 - Maior Crescimento${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
                   type="crescimento"
                   limit={10}
+                  showRegional={!filters.regional || filters.regional === 'todas'}
                 />
               </div>
             </div>
@@ -119,9 +190,11 @@ export default function App() {
           {/* Mapa */}
           {activeTab === 'mapa' && (
             <PopulationMap
-              data={filteredData?.municipios || data?.map_data}
-              title="Variacao Populacional por Municipio"
+              data={filteredData?.municipios || data?.municipiosComRegional || data?.map_data}
+              title={`Variacao Populacional - ${filterTitle}`}
               periodo={`${filters.anoInicial} - ${filters.anoFinal}`}
+              highlightRegional={filters.regional !== 'todas' ? filters.regional : null}
+              highlightMunicipio={filters.municipio}
             />
           )}
 
@@ -130,26 +203,32 @@ export default function App() {
             <div className="space-y-6">
               <RuralUrbanChart
                 data={stateTotals?.serieHistorica}
-                title="Evolucao da Taxa de Urbanizacao"
+                title={`Evolucao da Taxa de Urbanizacao - ${filterTitle}`}
                 showPercentage
               />
 
               <div className="chart-container">
                 <h3 className="text-lg font-semibold text-dark-800 mb-4">
-                  Analise do Exodo Rural
+                  Analise do Exodo Rural {filteredData?.isFiltered ? `- ${filterTitle}` : ''}
                 </h3>
                 <div className="prose prose-sm text-dark-600">
-                  <p>
-                    O Parana passou por uma intensa transformacao demografica nas ultimas decadas.
-                    A populacao urbana cresceu de {stateTotals?.taxaUrbanizacaoInicial?.toFixed(1)}%
-                    em {stateTotals?.anoInicial} para {stateTotals?.taxaUrbanizacaoAtual?.toFixed(1)}%
-                    em {stateTotals?.anoFinal}.
-                  </p>
-                  <p className="mt-2">
-                    Esta urbanizacao foi acompanhada pela reducao significativa da populacao rural,
-                    especialmente em municipios do interior do estado, caracterizando o fenomeno
-                    conhecido como exodo rural.
-                  </p>
+                  {stateTotals && (
+                    <>
+                      <p>
+                        {filters.municipio ? `O municipio de ${filters.municipioNome}` :
+                         filters.regional !== 'todas' ? `A regional de ${filters.regional}` :
+                         'O Parana'} passou por uma intensa transformacao demografica nas ultimas decadas.
+                        A populacao urbana cresceu de {stateTotals.taxaUrbanizacaoInicial?.toFixed(1)}%
+                        em {stateTotals.anoInicial} para {stateTotals.taxaUrbanizacaoAtual?.toFixed(1)}%
+                        em {stateTotals.anoFinal}.
+                      </p>
+                      <p className="mt-2">
+                        Esta urbanizacao foi acompanhada pela reducao significativa da populacao rural,
+                        especialmente em municipios do interior do estado, caracterizando o fenomeno
+                        conhecido como exodo rural.
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -159,16 +238,18 @@ export default function App() {
           {activeTab === 'ranking' && (
             <div className="space-y-6">
               <RankingTable
-                data={data?.agregacoes?.rankings?.top_evasao}
-                title="Municipios com Maior Evasao Populacional"
+                data={filteredRankings.top_evasao}
+                title={`Municipios com Maior Evasao${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
                 type="evasao"
                 limit={20}
+                showRegional={!filters.regional || filters.regional === 'todas'}
               />
               <RankingTable
-                data={data?.agregacoes?.rankings?.top_crescimento}
-                title="Municipios com Maior Crescimento"
+                data={filteredRankings.top_crescimento}
+                title={`Municipios com Maior Crescimento${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
                 type="crescimento"
                 limit={20}
+                showRegional={!filters.regional || filters.regional === 'todas'}
               />
             </div>
           )}
@@ -178,7 +259,9 @@ export default function App() {
             <div className="space-y-6">
               <PyramidChart
                 data={data?.detailed?.piramide}
-                title="Piramide Etaria do Parana"
+                title={`Piramide Etaria - ${filterTitle}`}
+                filterMunicipios={filters.municipio ? [filters.municipio] :
+                  filteredData?.isFiltered ? filteredData.municipios.map(m => m.codigo) : null}
               />
 
               <div className="chart-container">
@@ -187,7 +270,9 @@ export default function App() {
                 </h3>
                 <div className="prose prose-sm text-dark-600">
                   <p>
-                    A piramide etaria do Parana tem se transformado ao longo das decadas,
+                    A piramide etaria {filters.municipio ? `de ${filters.municipioNome}` :
+                    filters.regional !== 'todas' ? `da regional ${filters.regional}` :
+                    'do Parana'} tem se transformado ao longo das decadas,
                     refletindo a queda na taxa de natalidade e o aumento da expectativa de vida.
                     A base mais estreita e o topo mais largo indicam o envelhecimento da populacao.
                   </p>

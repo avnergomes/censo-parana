@@ -4,12 +4,147 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/censo-parana/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Censo Paraná | Evolução Demográfica</title>
-    <meta name="description" content="Dashboard interativo com dados históricos do Censo IBGE - Evolução populacional, urbanização e êxodo rural no Paraná" />
+
+    <!-- SEO Meta Tags -->
+    <title>Censo Paraná | Evolução Demográfica 1991-2022</title>
+    <meta name="description" content="Dashboard interativo com dados históricos do Censo IBGE - Evolução populacional, urbanização e êxodo rural no Paraná. Dados de 399 municípios de 1991 a 2022." />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="censo Paraná, IBGE, população rural urbana, êxodo rural, urbanização, pirâmide etária, demografia Paraná, evolução populacional, municipios Paraná, censo demográfico 2022" />
+    <meta name="author" content="Avner Gomes" />
+    <meta name="geo.region" content="BR-PR" />
+    <meta name="geo.placename" content="Paraná, Brasil" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://datageoparana.github.io/censo-parana/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Censo Paraná - Evolução Demográfica 1991-2022" />
+    <meta property="og:description" content="Dashboard interativo com dados históricos do Censo IBGE - Evolução populacional, urbanização e êxodo rural no Paraná." />
+    <meta property="og:url" content="https://datageoparana.github.io/censo-parana/" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Censo Paraná" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Censo Paraná - Evolução Demográfica" />
+    <meta name="twitter:description" content="Dashboard interativo com dados do Censo IBGE - População, urbanização e êxodo rural no Paraná." />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Censo Paraná",
+      "description": "Dashboard interativo com dados históricos do Censo IBGE mostrando evolução populacional, urbanização e êxodo rural no Paraná de 1991 a 2022.",
+      "url": "https://datageoparana.github.io/censo-parana/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Paraná",
+        "addressCountry": "BR"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Avner Gomes",
+        "url": "https://avnergomes.github.io/portfolio/"
+      },
+      "keywords": ["censo", "IBGE", "Paraná", "população", "êxodo rural", "urbanização", "demografia"]
+    }
+    </script>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Tracking LGPD-compliant (18 campos anonimos) -->
+    <script>
+      (function() {
+        function getDeviceType() {
+          var ua = navigator.userAgent;
+          if (/tablet|ipad|playbook|silk/i.test(ua)) return 'Tablet';
+          if (/Mobile|Android|iPhone|iPod|webOS|BlackBerry|Opera Mini|IEMobile/i.test(ua)) return 'Mobile';
+          return 'Desktop';
+        }
+
+        function getConnectionType() {
+          if (navigator.connection) {
+            return navigator.connection.effectiveType || 'unknown';
+          }
+          return 'unknown';
+        }
+
+        function getUTMParams() {
+          var params = new URLSearchParams(window.location.search);
+          return {
+            utmSource: params.get('utm_source') || '',
+            utmMedium: params.get('utm_medium') || '',
+            utmCampaign: params.get('utm_campaign') || '',
+            utmTerm: params.get('utm_term') || '',
+            utmContent: params.get('utm_content') || ''
+          };
+        }
+
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            var loadTime = 0;
+            if (window.performance && window.performance.timing) {
+              var timing = window.performance.timing;
+              loadTime = timing.loadEventEnd - timing.navigationStart;
+            }
+
+            var utmParams = getUTMParams();
+
+            var data = {
+              origin: window.location.origin,
+              timestamp: new Date().toISOString(),
+              timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+              timezoneOffset: new Date().getTimezoneOffset(),
+              page: window.location.href,
+              pathname: window.location.pathname,
+              referrer: document.referrer || '',
+              pageTitle: document.title,
+              language: navigator.language,
+              deviceType: getDeviceType(),
+              screenOrientation: screen.orientation ? screen.orientation.type : 'unknown',
+              connectionType: getConnectionType(),
+              loadTime: loadTime > 0 ? loadTime : '',
+              utmSource: utmParams.utmSource,
+              utmMedium: utmParams.utmMedium,
+              utmCampaign: utmParams.utmCampaign,
+              utmTerm: utmParams.utmTerm,
+              utmContent: utmParams.utmContent,
+              prefersColorScheme: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+            };
+
+            var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyk8VzLygqFmid0cSB5Qge8yRKRV-hJNvWlCSZBPrOCnyJyTd21d-6mNRjyJ7NIr_-36Q/exec';
+
+            fetch(SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+              }).then(function() {
+                console.log('[Tracking] Data sent');
+              }).catch(function(err) {
+                console.log('[Tracking] Error:', err);
+              });
+          }, 100);
+        });
+      })();
+    </script>
   </body>
 </html>

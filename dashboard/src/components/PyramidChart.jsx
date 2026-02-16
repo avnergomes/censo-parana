@@ -32,21 +32,30 @@ const FAIXAS_ORDEM = [
   '80 anos ou mais',
 ]
 
-export default function PyramidChart({ data, title }) {
+export default function PyramidChart({ data, title, filterMunicipios = null }) {
   const [viewMode, setViewMode] = useState('absoluto') // 'absoluto' ou 'percentual'
 
-  // Agregar dados de todos os municipios em totais do estado
+  // Agregar dados dos municipios selecionados (ou todos se nao filtrado)
   const pyramidData = useMemo(() => {
     if (!data || !data['2022']) return []
 
-    const municipios = data['2022']
+    const municipiosData = data['2022']
     const totais = {
       homens: {},
       mulheres: {},
     }
 
-    // Somar todos os municipios
-    Object.values(municipios).forEach(mun => {
+    // Filtrar municipios se necessario
+    let municipiosCodes = Object.keys(municipiosData)
+    if (filterMunicipios && filterMunicipios.length > 0) {
+      municipiosCodes = municipiosCodes.filter(code => filterMunicipios.includes(code))
+    }
+
+    // Somar municipios selecionados
+    municipiosCodes.forEach(code => {
+      const mun = municipiosData[code]
+      if (!mun) return
+
       // Homens
       if (mun.homens) {
         Object.entries(mun.homens).forEach(([faixa, valor]) => {
@@ -64,6 +73,9 @@ export default function PyramidChart({ data, title }) {
     // Calcular total geral para percentuais
     const totalGeral = Object.values(totais.homens).reduce((a, b) => a + b, 0) +
                        Object.values(totais.mulheres).reduce((a, b) => a + b, 0)
+
+    // Se nao tem dados, retornar vazio
+    if (totalGeral === 0) return []
 
     // Formatar para o grafico
     const chartData = FAIXAS_ORDEM
@@ -86,9 +98,9 @@ export default function PyramidChart({ data, title }) {
       .reverse() // Inverter para faixas mais velhas em cima
 
     return chartData
-  }, [data])
+  }, [data, filterMunicipios])
 
-  // Valor maximo para o eixo X
+  // Valor maximo para o eixo X (dinamico baseado nos dados)
   const maxValue = useMemo(() => {
     if (pyramidData.length === 0) return 100000
 
@@ -96,7 +108,13 @@ export default function PyramidChart({ data, title }) {
       ...pyramidData.map(d => Math.abs(d.homens)),
       ...pyramidData.map(d => d.mulheres)
     )
-    return Math.ceil(max / 50000) * 50000
+
+    // Arredondar para um valor bonito
+    if (max >= 1000000) return Math.ceil(max / 500000) * 500000
+    if (max >= 100000) return Math.ceil(max / 50000) * 50000
+    if (max >= 10000) return Math.ceil(max / 5000) * 5000
+    if (max >= 1000) return Math.ceil(max / 500) * 500
+    return Math.ceil(max / 100) * 100
   }, [pyramidData])
 
   // Custom tooltip
@@ -151,7 +169,9 @@ export default function PyramidChart({ data, title }) {
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
         <div className="h-96 flex items-center justify-center text-dark-400">
-          Processando dados da piramide...
+          {filterMunicipios && filterMunicipios.length > 0
+            ? 'Nenhum dado disponivel para os municipios selecionados'
+            : 'Processando dados da piramide...'}
         </div>
       </div>
     )
@@ -210,6 +230,13 @@ export default function PyramidChart({ data, title }) {
           </BarChart>
         </ResponsiveContainer>
       </div>
+
+      {/* Info sobre filtro */}
+      {filterMunicipios && filterMunicipios.length > 0 && filterMunicipios.length < 399 && (
+        <div className="mt-3 text-xs text-dark-400 text-center">
+          Dados agregados de {filterMunicipios.length} municipio{filterMunicipios.length > 1 ? 's' : ''}
+        </div>
+      )}
 
       {/* Explicacao */}
       <div className="mt-4 text-sm text-dark-500 text-center">
