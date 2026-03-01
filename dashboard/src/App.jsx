@@ -202,7 +202,7 @@ export default function App() {
           {/* Mapa */}
           {activeTab === 'mapa' && (
             <PopulationMap
-              data={filteredData?.municipios || data?.municipiosComRegional || data?.map_data}
+              data={filteredData?.municipios || data?.municipiosComRegional || data?.municipios}
               title={`Variação Populacional - ${filterTitle}`}
               periodo={`${filters.anoInicial} - ${filters.anoFinal}`}
               highlightRegional={filters.regional !== 'todas' ? filters.regional : null}

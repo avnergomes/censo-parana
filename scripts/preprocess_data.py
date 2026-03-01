@@ -287,7 +287,6 @@ def main():
         },
         "municipios": municipios,
         "agregacoes": agregacoes,
-        "map_data": municipios,
     }
 
     # 8. Salvar JSONs
