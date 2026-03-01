@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Loading from './components/Loading'
@@ -33,6 +33,18 @@ export default function App() {
 
   // Carregar dados
   const { data, loading, error } = useData()
+
+  // Inicializar anos dos filtros a partir do metadata
+  useEffect(() => {
+    if (data?.metadata?.anos_censos?.length) {
+      const anos = data.metadata.anos_censos
+      setFilters(prev => ({
+        ...prev,
+        anoInicial: anos[0],
+        anoFinal: anos[anos.length - 1],
+      }))
+    }
+  }, [data?.metadata?.anos_censos])
 
   // Filtrar dados
   const filteredData = useFilteredData(data, filters)
