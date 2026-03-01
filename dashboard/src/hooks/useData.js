@@ -121,7 +121,11 @@ export function useFilteredData(data, filters) {
     }
 
     // Recalcular variações se período customizado
-    if (anoInicial && anoFinal && (anoInicial !== 1991 || anoFinal !== 2022)) {
+    const anosDisponiveis = data?.metadata?.anos_censos || [1991, 2000, 2010, 2022]
+    const primeiroAnoCenso = anosDisponiveis[0] || 1991
+    const ultimoAnoCenso = anosDisponiveis[anosDisponiveis.length - 1] || 2022
+
+    if (anoInicial && anoFinal && (anoInicial !== primeiroAnoCenso || anoFinal !== ultimoAnoCenso)) {
       municipios = municipios.map(mun => {
         const dadoInicial = mun.dados?.find(d => d.ano === anoInicial)
         const dadoFinal = mun.dados?.find(d => d.ano === anoFinal)
@@ -155,7 +159,7 @@ export function useFilteredData(data, filters) {
     }
 
     // Calcular totais filtrados
-    const totaisFiltrados = calcularTotaisFiltrados(municipios, data.agregacoes?.totais_estado, anoInicial, anoFinal)
+    const totaisFiltrados = calcularTotaisFiltrados(municipios, data.agregacoes?.totais_estado, anoInicial, anoFinal, anosDisponiveis)
 
     return {
       ...data,
@@ -170,10 +174,10 @@ export function useFilteredData(data, filters) {
 /**
  * Calcula totais para os municípios filtrados
  */
-function calcularTotaisFiltrados(municipios, totaisEstado, anoInicial, anoFinal) {
+function calcularTotaisFiltrados(municipios, totaisEstado, anoInicial, anoFinal, anosDisponiveis) {
   if (!municipios || municipios.length === 0) return null
 
-  const anos = [1991, 2000, 2010, 2022].filter(a => a >= anoInicial && a <= anoFinal)
+  const anos = (anosDisponiveis || [1991, 2000, 2010, 2022]).filter(a => a >= anoInicial && a <= anoFinal)
   const totais = {}
 
   anos.forEach(ano => {
