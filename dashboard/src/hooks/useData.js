@@ -11,34 +11,46 @@ export function useData() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
+    const controller = new AbortController()
+    const { signal } = controller
+
     async function fetchData() {
       try {
         setLoading(true)
 
-        // Carregar dados agregados
-        const aggResponse = await fetch(`${BASE_URL}data/aggregated.json`)
+        // Carregar todos os dados em paralelo
+        const [aggResponse, detResponse, geoResponse] = await Promise.all([
+          fetch(`${BASE_URL}data/aggregated.json`, { signal }),
+          fetch(`${BASE_URL}data/detailed.json`, { signal }).catch(() => null),
+          fetch(`${BASE_URL}assets/mun_PR.json`, { signal }).catch(() => null)
+        ])
+
+        if (signal.aborted) return
+
         if (!aggResponse.ok) throw new Error('Erro ao carregar dados agregados')
         const aggregated = await aggResponse.json()
 
-        // Carregar dados detalhados (opcional)
+        if (signal.aborted) return
+
+        // Processar dados detalhados (opcional)
         let detailed = null
-        try {
-          const detResponse = await fetch(`${BASE_URL}data/detailed.json`)
-          if (detResponse.ok) {
+        if (detResponse?.ok) {
+          try {
             detailed = await detResponse.json()
+          } catch (e) {
+            console.warn('Dados detalhados não disponíveis:', e)
           }
-        } catch (e) {
-          console.warn('Dados detalhados não disponíveis:', e)
         }
 
-        // Carregar GeoJSON para obter regionais
+        if (signal.aborted) return
+
+        // Processar GeoJSON para obter regionais
         let geoData = null
         let municipiosComRegional = []
         let regionais = []
 
-        try {
-          const geoResponse = await fetch(`${BASE_URL}assets/mun_PR.json`)
-          if (geoResponse.ok) {
+        if (geoResponse?.ok) {
+          try {
             geoData = await geoResponse.json()
 
             // Extrair lista de municípios com suas regionais
@@ -67,28 +79,35 @@ export function useData() {
             regionais = [...new Set(municipiosComRegional.map(m => m.regional))]
               .filter(r => r && r !== 'Desconhecida')
               .sort((a, b) => a.localeCompare(b, 'pt-BR'))
+          } catch (e) {
+            console.warn('GeoJSON não disponível:', e)
           }
-        } catch (e) {
-          console.warn('GeoJSON não disponível:', e)
         }
 
-        setData({
-          ...aggregated,
-          detailed,
-          geoData,
-          municipiosComRegional,
-          regionais
-        })
-        setError(null)
+        if (!signal.aborted) {
+          setData({
+            ...aggregated,
+            detailed,
+            geoData,
+            municipiosComRegional,
+            regionais
+          })
+          setError(null)
+        }
       } catch (err) {
-        console.error('Erro ao carregar dados:', err)
-        setError(err.message)
+        if (err.name !== 'AbortError' && !signal.aborted) {
+          console.error('Erro ao carregar dados:', err)
+          setError(err.message)
+        }
       } finally {
-        setLoading(false)
+        if (!signal.aborted) {
+          setLoading(false)
+        }
       }
     }
 
     fetchData()
+    return () => controller.abort()
   }, [])
 
   return { data, loading, error }
