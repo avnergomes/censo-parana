@@ -3,6 +3,18 @@ import { useState, useEffect, useMemo } from 'react'
 const BASE_URL = import.meta.env.BASE_URL || '/censo-parana/'
 
 /**
+ * Extract available years from municipality data (fallback when metadata.anos_censos is missing)
+ */
+function extractAnosFromData(data) {
+  if (!data?.municipios) return []
+  const anosSet = new Set()
+  data.municipios.forEach(mun => {
+    (mun.dados || []).forEach(d => { if (d.ano) anosSet.add(d.ano) })
+  })
+  return Array.from(anosSet).sort((a, b) => a - b)
+}
+
+/**
  * Hook principal para carregar dados do censo
  */
 export function useData() {
@@ -140,9 +152,9 @@ export function useFilteredData(data, filters) {
     }
 
     // Recalcular variações se período customizado
-    const anosDisponiveis = data?.metadata?.anos_censos || [1991, 2000, 2010, 2022]
-    const primeiroAnoCenso = anosDisponiveis[0] || 1991
-    const ultimoAnoCenso = anosDisponiveis[anosDisponiveis.length - 1] || 2022
+    const anosDisponiveis = data?.metadata?.anos_censos || extractAnosFromData(data)
+    const primeiroAnoCenso = anosDisponiveis[0]
+    const ultimoAnoCenso = anosDisponiveis[anosDisponiveis.length - 1]
 
     if (anoInicial && anoFinal && (anoInicial !== primeiroAnoCenso || anoFinal !== ultimoAnoCenso)) {
       municipios = municipios.map(mun => {
@@ -196,7 +208,7 @@ export function useFilteredData(data, filters) {
 function calcularTotaisFiltrados(municipios, totaisEstado, anoInicial, anoFinal, anosDisponiveis) {
   if (!municipios || municipios.length === 0) return null
 
-  const anos = (anosDisponiveis || [1991, 2000, 2010, 2022]).filter(a => a >= anoInicial && a <= anoFinal)
+  const anos = anosDisponiveis.filter(a => a >= anoInicial && a <= anoFinal)
   const totais = {}
 
   anos.forEach(ano => {
