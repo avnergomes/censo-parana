@@ -81,6 +81,84 @@ body {
   @apply text-dark-600 hover:bg-dark-100;
 }
 
+/* Filter panel collapse animation */
+.filter-panel {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+.filter-panel.collapsed {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.filter-panel > div {
+  overflow: hidden;
+}
+
+/* Active filter badge */
+.active-filter-badge {
+  @apply inline-flex items-center justify-center w-5 h-5 rounded-full bg-accent-600 text-white text-xs font-bold leading-none;
+}
+
+/* Skeleton loading shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #e2e5f1 25%, #d0d4e8 50%, #e2e5f1 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+
+/* Chart container title & description */
+.chart-container-title {
+  @apply text-base font-semibold text-dark-800 mb-1;
+}
+
+.chart-container-desc {
+  @apply text-xs text-dark-400 mb-4;
+}
+
+/* Tab scroll indicators */
+.tab-scroll-container {
+  position: relative;
+}
+
+.tab-scroll-container::before,
+.tab-scroll-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.tab-scroll-container.can-scroll-left::before {
+  left: 0;
+  opacity: 1;
+  background: linear-gradient(to right, rgba(255,255,255,0.9), transparent);
+}
+
+.tab-scroll-container.can-scroll-right::after {
+  right: 0;
+  opacity: 1;
+  background: linear-gradient(to left, rgba(255,255,255,0.9), transparent);
+}
+
 /* Loading spinner */
 @keyframes spin {
   to {

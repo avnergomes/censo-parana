@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
-import { Calendar, Filter, MapPin, Building2, X, Search } from 'lucide-react'
+import { Calendar, Filter, MapPin, Building2, X, Search, ChevronDown } from 'lucide-react'
 
 export default function Filters({
   filters,
@@ -77,13 +77,37 @@ export default function Filters({
     }
   }
 
+  const [collapsed, setCollapsed] = useState(false)
+
+  // Count active filters (beyond defaults)
+  const activeFilterCount = useMemo(() => {
+    let count = 0
+    if (filters.regional && filters.regional !== 'todas') count++
+    if (filters.municipio) count++
+    if (filters.classificacao && filters.classificacao !== 'todos') count++
+    return count
+  }, [filters.regional, filters.municipio, filters.classificacao])
+
   return (
     <div className="bg-white rounded-xl shadow-sm border border-dark-100 p-4 mb-6">
-      <div className="flex flex-wrap items-start gap-4">
-        <div className="flex items-center gap-2 text-dark-600 pt-2">
-          <Filter className="w-4 h-4" />
-          <span className="font-medium text-sm">Filtros:</span>
-        </div>
+      <button
+        onClick={() => setCollapsed(prev => !prev)}
+        aria-label={collapsed ? 'Expandir filtros' : 'Recolher filtros'}
+        className="flex items-center gap-2 text-dark-600 w-full"
+      >
+        <Filter className="w-4 h-4" />
+        <span className="font-medium text-sm">Filtros</span>
+        {activeFilterCount > 0 && (
+          <span className="active-filter-badge">{activeFilterCount}</span>
+        )}
+        <ChevronDown
+          className={`w-4 h-4 ml-auto transition-transform duration-300 ${collapsed ? '' : 'rotate-180'}`}
+        />
+      </button>
+
+      <div className={`filter-panel ${collapsed ? 'collapsed' : ''}`}>
+        <div>
+      <div className="flex flex-wrap items-start gap-4 mt-3 pt-3 border-t border-dark-100">
 
         {/* Periodo */}
         <div className="flex items-center gap-2">
@@ -222,6 +246,8 @@ export default function Filters({
             Limpar filtros
           </button>
         )}
+      </div>
+      </div>
       </div>
 
       {/* Resumo dos filtros ativos */}

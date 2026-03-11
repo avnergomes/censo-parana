@@ -1,7 +1,30 @@
 import { Users, TrendingUp, TrendingDown, Building2 } from 'lucide-react'
 import { formatNumber, formatPercent, formatVariation } from '../utils/format'
 
+function SkeletonGrid() {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      {[0, 1, 2, 3].map(i => (
+        <div key={i} className="kpi-card">
+          <div className="flex items-start justify-between">
+            <div className="flex-1">
+              <div className="skeleton h-4 w-24 mb-3" />
+              <div className="skeleton h-7 w-32 mb-2" />
+              <div className="skeleton h-3 w-20" />
+            </div>
+            <div className="skeleton w-9 h-9 rounded-lg" />
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function KpiCards({ stateTotals, contagens }) {
+  if (!stateTotals && !contagens) {
+    return <SkeletonGrid />
+  }
+
   const cards = [
     {
       title: 'População Atual',
