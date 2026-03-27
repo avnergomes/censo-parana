@@ -47,3 +47,6 @@ CLAUDE.md
 # Misc
 *.tgz
 .cache/
+
+dashboard/public/data/municipios.geojson
+dashboard/public/assets/mun_PR.json

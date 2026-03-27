@@ -1,6 +1,8 @@
 import { useState, useEffect, useMemo } from 'react'
+import { feature } from 'topojson-client'
 
 const BASE_URL = import.meta.env.BASE_URL || '/censo-parana/'
+const TOPO_URL = 'https://cdn.jsdelivr.net/gh/datageoparana/datageoparana.github.io@main/assets/parana-municipalities.topojson'
 
 /**
  * Extract available years from municipality data (fallback when metadata.anos_censos is missing)
@@ -34,7 +36,7 @@ export function useData() {
         const [aggResponse, detResponse, geoResponse] = await Promise.all([
           fetch(`${BASE_URL}data/aggregated.json`, { signal }),
           fetch(`${BASE_URL}data/detailed.json`, { signal }).catch(() => null),
-          fetch(`${BASE_URL}assets/mun_PR.json`, { signal }).catch(() => null)
+          fetch(TOPO_URL, { signal }).catch(() => null)
         ])
 
         if (signal.aborted) return
@@ -63,7 +65,8 @@ export function useData() {
 
         if (geoResponse?.ok) {
           try {
-            geoData = await geoResponse.json()
+            const topo = await geoResponse.json()
+            geoData = feature(topo, topo.objects.municipalities)
 
             // Extrair lista de municípios com suas regionais
             const munMap = new Map()
