@@ -99,6 +99,14 @@ export default function Footer({ metadata }) {
               >
                 Saúde Paraná
               </a>
+              <a
+                href="https://avnergomes.github.io/seguranca-parana/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-2.5 py-1 text-[10px] rounded-full border border-accent-200 bg-white/70 text-dark-600 hover:text-accent-600 hover:border-accent-300 transition-colors"
+              >
+                Seguranca Parana
+              </a>
             </div>
           </div>
 
