@@ -36,6 +36,10 @@ def fetch_sidra(url: str, description: str = "") -> list:
     try:
         response = requests.get(url, timeout=300)
         response.raise_for_status()
+        content_type = response.headers.get('Content-Type', '')
+        if 'html' in content_type.lower():
+            print(f"  ERRO: API retornou HTML em vez de JSON (Content-Type: {content_type})")
+            return []
 
         data = response.json()
 
