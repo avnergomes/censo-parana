@@ -17,3 +17,9 @@ Thumbs.db
 
 # Temporary
 *.tmp
+
+# Claude Code
+.claude/
+CLAUDE.md
+.claudeignore
+
