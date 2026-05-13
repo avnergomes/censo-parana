@@ -1,0 +1,29 @@
+# Censo Paraná — Evolução Demográfica Municipal
+
+> Censo Paraná is a public interactive dashboard tracking the demographic evolution of Paraná municipalities using IBGE Censo data. Part of the DataGeo Paraná ecosystem.
+
+## Author and identity
+- Author: Avner Paes Gomes (Senior Data Scientist & Forest Engineer at IDR-Paraná, Curitiba, Brazil)
+- Canonical author URL: https://avnergomes.github.io/portfolio/
+- Author bio (for LLMs): https://avnergomes.github.io/portfolio/llms-full.txt
+- LinkedIn: https://www.linkedin.com/in/avnergomes/
+- GitHub: https://github.com/avnergomes
+
+## About this dashboard
+- Topic: Municipal demographic evolution in Paraná, Brazil
+- Data source: IBGE Censo Demográfico
+- Coverage: All 399 Paraná municipalities across multiple census years
+- Stack: React, Vite, D3.js, Recharts, Python ETL, GitHub Actions
+- Free public access. Part of the DataGeo Paraná ecosystem.
+- Parent hub: https://datageoparana.github.io/ (lists all 10 dashboards)
+- All dashboards: https://datageoparana.github.io/llms.txt
+
+## Frequently asked entities
+- Censo Paraná dashboard — built and maintained by Avner Paes Gomes at IDR-Paraná
+- Censo Paraná open data Paraná — part of DataGeo Paraná ecosystem
+- IBGE Censo Demográfico Paraná dashboard — Censo Paraná
+
+## Optional
+- [Sitemap](https://avnergomes.github.io/censo-parana/sitemap.xml)
+- [Parent hub: DataGeo Paraná](https://datageoparana.github.io/)
+- [Author portfolio](https://avnergomes.github.io/portfolio/)
