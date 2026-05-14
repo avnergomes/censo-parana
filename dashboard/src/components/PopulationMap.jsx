@@ -1,3 +1,4 @@
+// ATLAS-A11Y-HEX-SWEPT
 import { useEffect, useState, useMemo } from 'react'
 import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import { formatNumber, formatVariation, getVariationColor } from '../utils/format'
@@ -203,19 +204,19 @@ export default function PopulationMap({ data, title, periodo }) {
         <p className="text-xs text-dark-500 mb-3 font-medium">Variação populacional no período:</p>
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#ef4444' }}></div>
+            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#D55E00' }}></div>
             <span className="text-dark-600">Evasão (&lt;-10%)</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#f59e0b' }}></div>
+            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#c89b3c' }}></div>
             <span className="text-dark-600">Redução leve (-10% a 0%)</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#86efac' }}></div>
+            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#87afcd' }}></div>
             <span className="text-dark-600">Crescimento (0% a 20%)</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#22c55e' }}></div>
+            <div className="w-4 h-4 rounded shadow-sm" style={{ backgroundColor: '#0072B2' }}></div>
             <span className="text-dark-600">Crescimento alto (&gt;20%)</span>
           </div>
         </div>

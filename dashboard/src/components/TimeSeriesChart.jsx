@@ -1,3 +1,4 @@
+// ATLAS-A11Y-HEX-SWEPT
 import { useMemo } from 'react'
 import {
   LineChart,
@@ -71,17 +72,17 @@ export default function TimeSeriesChart({ data, title }) {
             type="monotone"
             dataKey="urbana"
             name="Urbana"
-            stroke="#22c55e"
+            stroke="#0072B2"
             strokeWidth={2}
-            dot={{ fill: '#22c55e', r: 4 }}
+            dot={{ fill: '#0072B2', r: 4 }}
           />
           <Line
             type="monotone"
             dataKey="rural"
             name="Rural"
-            stroke="#f59e0b"
+            stroke="#c89b3c"
             strokeWidth={2}
-            dot={{ fill: '#f59e0b', r: 4 }}
+            dot={{ fill: '#c89b3c', r: 4 }}
           />
         </LineChart>
       </ResponsiveContainer>

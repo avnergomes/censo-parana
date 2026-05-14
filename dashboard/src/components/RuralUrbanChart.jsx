@@ -1,3 +1,4 @@
+// ATLAS-A11Y-HEX-SWEPT
 import { useMemo } from 'react'
 import {
   AreaChart,
@@ -76,8 +77,8 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
             dataKey="rural"
             name="Rural"
             stackId="1"
-            stroke="#22c55e"
-            fill="#22c55e"
+            stroke="#0072B2"
+            fill="#0072B2"
             fillOpacity={0.8}
           />
         </AreaChart>

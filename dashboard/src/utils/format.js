@@ -1,3 +1,4 @@
+// ATLAS-A11Y-HEX-SWEPT
 /**
  * Formata número com separador de milhares brasileiro
  */
@@ -27,10 +28,10 @@ export function formatVariation(value) {
  * Retorna cor baseada na variação
  */
 export function getVariationColor(value) {
-  if (value < -10) return '#ef4444' // danger
-  if (value < 0) return '#f59e0b' // warning
-  if (value > 20) return '#22c55e' // success strong
-  if (value > 0) return '#86efac' // success light
+  if (value < -10) return '#D55E00' // danger
+  if (value < 0) return '#c89b3c' // warning
+  if (value > 20) return '#0072B2' // success strong
+  if (value > 0) return '#87afcd' // success light
   return '#6b7280' // neutral
 }
 
@@ -51,3 +52,7 @@ export function getClassificationStyle(classification) {
       return { bg: 'bg-gray-100', text: 'text-gray-600', label: '-' }
   }
 }
+
+// ATLAS-PALETTE-V1
+// Re-export the shared Atlas Editorial palette (daltonic-safe).
+export { CHART_COLORS, MAP_GRADIENTS, ATLAS_CATEGORICAL, ATLAS_FOREST, ATLAS_WATER, ATLAS_CLAY, ATLAS_EARTH, ATLAS_HARVEST, ATLAS_DIVERGING, ATLAS_CHROME, categoricalColor, sequentialColor } from './chart-palette.js';
