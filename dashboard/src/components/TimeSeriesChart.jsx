@@ -63,9 +63,9 @@ export default function TimeSeriesChart({ data, title }) {
             type="monotone"
             dataKey="total"
             name="Total"
-            stroke="#0c8be7"
+            stroke="#2a2419"
             strokeWidth={2}
-            dot={{ fill: '#0c8be7', r: 4 }}
+            dot={{ fill: '#2a2419', r: 4 }}
             activeDot={{ r: 6 }}
           />
           <Line

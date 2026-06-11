@@ -50,3 +50,6 @@ CLAUDE.md
 
 dashboard/public/data/municipios.geojson
 dashboard/public/assets/mun_PR.json
+
+# Artefatos locais do understand-anything
+.understand-anything/

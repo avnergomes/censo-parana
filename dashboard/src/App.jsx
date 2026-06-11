@@ -203,6 +203,7 @@ export default function App() {
           {activeTab === 'mapa' && (
             <PopulationMap
               data={filteredData?.municipios || data?.municipiosComRegional || data?.municipios}
+              geoData={data?.geoData}
               title={`Variação Populacional - ${filterTitle}`}
               periodo={`${filters.anoInicial} - ${filters.anoFinal}`}
               highlightRegional={filters.regional !== 'todas' ? filters.regional : null}

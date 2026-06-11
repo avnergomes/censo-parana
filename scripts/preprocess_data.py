@@ -206,6 +206,13 @@ def process_piramide(filepath: Path) -> dict:
     if not data:
         return {}
 
+    # Grupos 80+ vêm separados na classificação c287 do SIDRA; a pirâmide
+    # do dashboard exibe a faixa agregada '80 anos ou mais'.
+    faixas_80_mais = {
+        "80 a 84 anos", "85 a 89 anos", "90 a 94 anos",
+        "95 a 99 anos", "100 anos ou mais",
+    }
+
     # Processar por município e faixa etária
     piramide = {}
 
@@ -223,13 +230,16 @@ def process_piramide(filepath: Path) -> dict:
         except (ValueError, TypeError):
             continue
 
+        if faixa in faixas_80_mais:
+            faixa = "80 anos ou mais"
+
         if cod_mun not in piramide:
             piramide[cod_mun] = {"homens": {}, "mulheres": {}}
 
         if sexo == "Homens":
-            piramide[cod_mun]["homens"][faixa] = valor
+            piramide[cod_mun]["homens"][faixa] = piramide[cod_mun]["homens"].get(faixa, 0) + valor
         elif sexo == "Mulheres":
-            piramide[cod_mun]["mulheres"][faixa] = valor
+            piramide[cod_mun]["mulheres"][faixa] = piramide[cod_mun]["mulheres"].get(faixa, 0) + valor
 
     return piramide
 

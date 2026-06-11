@@ -41,9 +41,9 @@ export function getVariationColor(value) {
 export function getClassificationStyle(classification) {
   switch (classification) {
     case 'evasao':
-      return { bg: 'bg-red-100', text: 'text-red-700', label: 'Evasão' }
+      return { bg: 'bg-orange-100', text: 'text-orange-800', label: 'Evasão' }
     case 'crescimento_alto':
-      return { bg: 'bg-green-100', text: 'text-green-700', label: 'Crescimento Alto' }
+      return { bg: 'bg-sky-100', text: 'text-sky-800', label: 'Crescimento Alto' }
     case 'crescimento_moderado':
       return { bg: 'bg-emerald-100', text: 'text-emerald-700', label: 'Crescimento' }
     case 'estavel':

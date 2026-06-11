@@ -40,7 +40,7 @@ export default function KpiCards({ stateTotals, contagens }) {
       subtitle: `${stateTotals?.anoInicial || 1991} - ${stateTotals?.anoFinal || 2022}`,
       icon: TrendingUp,
       color: 'text-success-600',
-      bgColor: 'bg-green-100',
+      bgColor: 'bg-sky-100',
     },
     {
       title: 'Taxa de Urbanização',
@@ -56,7 +56,7 @@ export default function KpiCards({ stateTotals, contagens }) {
       subtitle: `De ${contagens?.total_municipios || 399} municípios`,
       icon: TrendingDown,
       color: 'text-danger-600',
-      bgColor: 'bg-red-100',
+      bgColor: 'bg-orange-100',
     },
   ]
 

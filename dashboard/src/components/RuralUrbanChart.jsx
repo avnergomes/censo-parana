@@ -68,8 +68,8 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
             dataKey="urbana"
             name="Urbana"
             stackId="1"
-            stroke="#0c8be7"
-            fill="#0c8be7"
+            stroke="#0072B2"
+            fill="#0072B2"
             fillOpacity={0.8}
           />
           <Area
@@ -77,8 +77,8 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
             dataKey="rural"
             name="Rural"
             stackId="1"
-            stroke="#0072B2"
-            fill="#0072B2"
+            stroke="#E69F00"
+            fill="#E69F00"
             fillOpacity={0.8}
           />
         </AreaChart>
@@ -87,11 +87,11 @@ export default function RuralUrbanChart({ data, title, showPercentage = false })
       {/* Legenda explicativa */}
       <div className="mt-4 flex items-center justify-center gap-6 text-sm">
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded bg-primary-600"></div>
+          <div className="w-3 h-3 rounded" style={{ backgroundColor: '#0072B2' }}></div>
           <span className="text-dark-600">População Urbana</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded bg-green-500"></div>
+          <div className="w-3 h-3 rounded" style={{ backgroundColor: '#E69F00' }}></div>
           <span className="text-dark-600">População Rural</span>
         </div>
       </div>

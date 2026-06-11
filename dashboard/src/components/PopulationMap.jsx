@@ -1,5 +1,5 @@
 // ATLAS-A11Y-HEX-SWEPT
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import { formatNumber, formatVariation, getVariationColor } from '../utils/format'
 
@@ -16,10 +16,12 @@ function MapController({ bounds }) {
   return null
 }
 
-export default function PopulationMap({ data, title, periodo }) {
-  const [geoData, setGeoData] = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+export default function PopulationMap({ data, geoData, title, periodo }) {
+  // GeoJSON vem por prop (useData já converte o TopoJSON do hub).
+  // O fetch local de assets/mun_PR.json quebrava em produção: o arquivo
+  // está no .gitignore e nunca era deployado (404 ao vivo).
+  const loading = !geoData
+  const error = null
 
   // Centro do Paraná
   const center = [-24.5, -51.5]
@@ -27,29 +29,6 @@ export default function PopulationMap({ data, title, periodo }) {
     [-26.5, -55],
     [-22.5, -48],
   ]
-
-  // Carregar GeoJSON dos municípios
-  useEffect(() => {
-    const loadGeoJSON = async () => {
-      try {
-        setLoading(true)
-        const response = await fetch(`${import.meta.env.BASE_URL}assets/mun_PR.json`)
-        if (!response.ok) {
-          throw new Error('Erro ao carregar GeoJSON')
-        }
-        const json = await response.json()
-        setGeoData(json)
-        setError(null)
-      } catch (err) {
-        console.error('Erro ao carregar GeoJSON:', err)
-        setError(err.message)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadGeoJSON()
-  }, [])
 
   // Criar mapa de dados para lookup rápido
   const dataMap = useMemo(() => {

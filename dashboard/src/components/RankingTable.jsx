@@ -21,9 +21,9 @@ export default function RankingTable({ data, title, type, limit = 10, showRegion
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold text-dark-800">{title}</h3>
         {isEvasao ? (
-          <TrendingDown className="w-5 h-5 text-red-500" />
+          <TrendingDown className="w-5 h-5 text-orange-700" />
         ) : (
-          <TrendingUp className="w-5 h-5 text-green-500" />
+          <TrendingUp className="w-5 h-5 text-sky-700" />
         )}
       </div>
 
@@ -57,7 +57,7 @@ export default function RankingTable({ data, title, type, limit = 10, showRegion
                   <span
                     className={`
                       px-2 py-1 rounded text-sm font-medium
-                      ${isEvasao ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}
+                      ${isEvasao ? 'bg-orange-100 text-orange-800' : 'bg-sky-100 text-sky-800'}
                     `}
                   >
                     {formatVariation(item.variacao)}

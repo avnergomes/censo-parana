@@ -10,6 +10,26 @@ export default {
   theme: {
     extend: {
       colors: {
+        /* Aliases semânticos usados em KpiCards/Header (success/warning/
+           danger não existiam no tema atlas — as classes não geravam CSS). */
+        success: {
+          100: '#e6ebd5',
+          500: '#678338',
+          600: '#3d5320',
+          700: '#2d3f1f',
+        },
+        warning: {
+          100: '#f6e9c5',
+          500: '#c89b3c',
+          600: '#876522',
+          700: '#6b5018',
+        },
+        danger: {
+          100: '#f6e2d3',
+          500: '#c0532e',
+          600: '#a8482c',
+          700: '#893824',
+        },
         /* primary = forest (was teal). Anchor #2d3f1f. */
         primary: {
           50:  '#f4f6ed',

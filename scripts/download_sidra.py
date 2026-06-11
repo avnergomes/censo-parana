@@ -7,6 +7,7 @@ Tabelas: 202 (população rural/urbana), 4714 (censo 2022), 9514 (pirâmide etá
 import requests
 import pandas as pd
 import json
+import sys
 import time
 from pathlib import Path
 
@@ -17,6 +18,9 @@ DATA_DIR.mkdir(exist_ok=True)
 
 # Código do Paraná
 PR_CODE = "41"
+
+
+FALHAS = []  # lotes que falharam ou voltaram vazios — usado para falhar o job no fim
 
 
 def fetch_sidra(url: str, description: str = "") -> list:
@@ -45,10 +49,10 @@ def fetch_sidra(url: str, description: str = "") -> list:
 
         if not data or len(data) <= 1:
             print(f"  AVISO: Resposta vazia ou apenas cabeçalho")
+            FALHAS.append(description or url)
             return []
 
         # Primeira linha é o cabeçalho
-        headers = data[0]
         rows = data[1:]
 
         print(f"  OK: {len(rows)} registros")
@@ -56,6 +60,7 @@ def fetch_sidra(url: str, description: str = "") -> list:
 
     except requests.exceptions.RequestException as e:
         print(f"  ERRO: {e}")
+        FALHAS.append(description or url)
         return []
 
 
@@ -187,8 +192,10 @@ def download_piramide_etaria_2022(municipios_codes: list):
     all_data = []
     batch_size = 20  # Menor lote porque tem mais dados
 
-    # Faixas etárias principais
-    faixas = "93070,93084,93085,93086,93087,93088,93089,93090,93091,93092,93093,93094,93095,93096,93097,93098,93099,93100"
+    # Faixas etárias principais. Os grupos 80+ (49108=80-84, 49109=85-89,
+    # 60040=90-94, 60041=95-99, 6653=100+) são agregados no preprocess em
+    # '80 anos ou mais' — sem eles a pirâmide perdia a última faixa.
+    faixas = "93070,93084,93085,93086,93087,93088,93089,93090,93091,93092,93093,93094,93095,93096,93097,93098,93099,93100,49108,49109,60040,60041,6653"
 
     for i in range(0, len(municipios_codes), batch_size):
         batch = municipios_codes[i:i + batch_size]
@@ -346,6 +353,14 @@ def download_all():
     print("Download concluído!")
     print(f"Arquivos salvos em: {DATA_DIR}")
     print("=" * 60)
+
+    if FALHAS:
+        # Falhar alto: antes os lotes com erro eram engolidos e o pipeline
+        # seguia "verde" com dados incompletos.
+        print(f"ERRO: {len(FALHAS)} lote(s) falharam ou voltaram vazios:")
+        for item in FALHAS:
+            print(f"  - {item}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
