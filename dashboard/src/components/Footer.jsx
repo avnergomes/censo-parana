@@ -3,6 +3,15 @@ import { Database, ExternalLink } from 'lucide-react';
 export default function Footer({ metadata }) {
   const currentYear = new Date().getFullYear();
 
+  // Data de processamento dos dados (metadata.data_processamento no aggregated.json)
+  let dataAtualizacao = null;
+  if (metadata?.data_processamento) {
+    const d = new Date(metadata.data_processamento);
+    if (!Number.isNaN(d.getTime())) {
+      dataAtualizacao = d.toLocaleDateString('pt-BR');
+    }
+  }
+
   return (
     <footer className="mt-12 border-t border-accent-200 bg-gradient-to-b from-neutral-50 to-accent-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8">
@@ -133,6 +142,9 @@ export default function Footer({ metadata }) {
         {/* Bottom */}
         <div className="mt-6 pt-4 border-t border-accent-200 flex flex-wrap items-center justify-between gap-2 text-[10px] text-dark-400">
           <p>&copy; {currentYear} Censo Paraná. Dados públicos.</p>
+          {dataAtualizacao && (
+            <p>Dados atualizados em {dataAtualizacao}</p>
+          )}
           <div className="flex gap-2">
             <span className="px-2 py-0.5 bg-accent-100 text-accent-700 rounded-full">4 censos</span>
             <span className="px-2 py-0.5 bg-primary-100 text-primary-700 rounded-full">399 municípios</span>

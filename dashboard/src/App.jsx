@@ -32,7 +32,7 @@ export default function App() {
   })
 
   // Carregar dados
-  const { data, loading, error } = useData()
+  const { data, loading, error, geoError, retryGeo } = useData()
 
   // Inicializar anos dos filtros a partir do metadata
   useEffect(() => {
@@ -49,8 +49,11 @@ export default function App() {
   // Filtrar dados
   const filteredData = useFilteredData(data, filters)
 
-  // Totais do estado ou da seleção filtrada
-  const stateTotals = useStateTotals(data, filteredData?.isFiltered ? filteredData : null)
+  // Totais do estado ou da seleção filtrada (inclui filtro de período)
+  const stateTotals = useStateTotals(
+    data,
+    (filteredData?.isFiltered || filteredData?.isPeriodFiltered) ? filteredData : null
+  )
 
   // Anos disponíveis para filtro
   const availableYears = useMemo(() => {
@@ -70,18 +73,21 @@ export default function App() {
   }, [filters])
 
   // Rankings filtrados
+  // A variação recalculada para o período (m.variacao) tem precedência sobre a
+  // do período completo (m.variacao_total), para a linha do ranking mostrar
+  // variação e populações do MESMO período.
   const filteredRankings = useMemo(() => {
     if (!filteredData?.municipios) return { top_evasao: [], top_crescimento: [] }
 
     const sorted = [...filteredData.municipios].sort((a, b) =>
-      (a.variacao_total || a.variacao || 0) - (b.variacao_total || b.variacao || 0)
+      (a.variacao ?? a.variacao_total ?? 0) - (b.variacao ?? b.variacao_total ?? 0)
     )
 
     const top_evasao = sorted.slice(0, 20).map(m => ({
       nome: m.nome,
       codigo: m.codigo,
       regional: m.regional,
-      variacao: m.variacao_total || m.variacao,
+      variacao: m.variacao ?? m.variacao_total,
       pop_inicial: m.pop_inicial,
       pop_final: m.pop_final,
     }))
@@ -90,13 +96,26 @@ export default function App() {
       nome: m.nome,
       codigo: m.codigo,
       regional: m.regional,
-      variacao: m.variacao_total || m.variacao,
+      variacao: m.variacao ?? m.variacao_total,
       pop_inicial: m.pop_inicial,
       pop_final: m.pop_final,
     }))
 
     return { top_evasao, top_crescimento }
   }, [filteredData])
+
+  // Filtros que não retornam nenhum município: mostrar empty state explícito
+  const hasEmptyResult = !!(filteredData?.isFiltered && filteredData.filteredCount === 0)
+
+  const clearFilters = () => {
+    setFilters(prev => ({
+      ...prev,
+      regional: 'todas',
+      municipio: null,
+      municipioNome: null,
+      classificacao: 'todos',
+    }))
+  }
 
   if (loading) {
     return <Loading />
@@ -128,19 +147,44 @@ export default function App() {
         />
 
         {/* Indicador de filtro ativo */}
-        {filteredData?.isFiltered && (
+        {(filteredData?.isFiltered || filteredData?.isPeriodFiltered) && (
           <div className="mb-4 p-3 bg-accent-50 border border-accent-200 rounded-lg flex items-center justify-between">
             <div className="text-sm text-accent-700">
               <span className="font-medium">Visualizando:</span> {filterTitle}
-              {filteredData.filteredCount !== data?.municipios?.length && (
+              {filteredData?.isPeriodFiltered && (
+                <span className="ml-2">
+                  {'· '}Período: {filters.anoInicial} até {filters.anoFinal}
+                </span>
+              )}
+              {filteredData.isFiltered && filteredData.filteredCount !== data?.municipios?.length && (
                 <span className="ml-2 text-accent-500">
-                  ({filteredData.filteredCount} de {data?.municipios?.length} municípios)
+                  ({filteredData.filteredCount} de {data?.municipios?.length} municípios{')'}
                 </span>
               )}
             </div>
           </div>
         )}
 
+        {/* Empty state: nenhum município atende aos filtros */}
+        {hasEmptyResult && (
+          <div className="chart-container text-center py-16">
+            <p className="text-lg font-medium text-dark-700 mb-2">
+              Nenhum município atende aos filtros selecionados
+            </p>
+            <p className="text-sm text-dark-500 mb-5">
+              Ajuste os filtros ou limpe a seleção para ver os dados.
+            </p>
+            <button
+              onClick={clearFilters}
+              className="px-4 py-2 text-sm rounded-lg bg-accent-600 text-white hover:bg-accent-700 transition-colors"
+            >
+              Limpar filtros
+            </button>
+          </div>
+        )}
+
+        {!hasEmptyResult && (
+        <>
         {/* KPIs */}
         <KpiCards
           stateTotals={stateTotals}
@@ -172,25 +216,25 @@ export default function App() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <TimeSeriesChart
                   data={stateTotals?.serieHistorica}
-                  title={`Evolução Populacional - ${filterTitle}`}
+                  title={<>{'Evolução Populacional'} - {filterTitle}</>}
                 />
                 <RuralUrbanChart
                   data={stateTotals?.serieHistorica}
-                  title={`População Rural vs Urbana - ${filterTitle}`}
+                  title={<>{'População Rural vs Urbana'} - {filterTitle}</>}
                 />
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <RankingTable
                   data={filteredRankings.top_evasao}
-                  title={`Top 10 - Maior Evasão${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
+                  title={<>{'Top 10 - Maior Evasão'}{filteredData?.isFiltered ? ` (${filterTitle})` : ''}</>}
                   type="evasao"
                   limit={10}
                   showRegional={!filters.regional || filters.regional === 'todas'}
                 />
                 <RankingTable
                   data={filteredRankings.top_crescimento}
-                  title={`Top 10 - Maior Crescimento${filteredData?.isFiltered ? ` (${filterTitle})` : ''}`}
+                  title={<>{'Top 10 - Maior Crescimento'}{filteredData?.isFiltered ? ` (${filterTitle})` : ''}</>}
                   type="crescimento"
                   limit={10}
                   showRegional={!filters.regional || filters.regional === 'todas'}
@@ -204,7 +248,9 @@ export default function App() {
             <PopulationMap
               data={filteredData?.municipios || data?.municipiosComRegional || data?.municipios}
               geoData={data?.geoData}
-              title={`Variação Populacional - ${filterTitle}`}
+              geoError={geoError}
+              onRetry={retryGeo}
+              title={<>{'Variação Populacional'} - {filterTitle}</>}
               periodo={`${filters.anoInicial} - ${filters.anoFinal}`}
               highlightRegional={filters.regional !== 'todas' ? filters.regional : null}
               highlightMunicipio={filters.municipio}
@@ -216,7 +262,7 @@ export default function App() {
             <div className="space-y-6">
               <RuralUrbanChart
                 data={stateTotals?.serieHistorica}
-                title={`Evolução da Taxa de Urbanização - ${filterTitle}`}
+                title={<>{'Evolução da Taxa de Urbanização'} - {filterTitle}</>}
                 showPercentage
               />
 
@@ -228,9 +274,12 @@ export default function App() {
                   {stateTotals && (
                     <>
                       <p>
-                        {filters.municipio ? `O município de ${filters.municipioNome}` :
-                         filters.regional !== 'todas' ? `A regional de ${filters.regional}` :
-                         'O Paraná'} passou por uma intensa transformação demográfica nas últimas décadas.
+                        <span key={filterTitle}>
+                          {filters.municipio ? <>O município de {filters.municipioNome}</> :
+                           filters.regional !== 'todas' ? <>A regional de {filters.regional}</> :
+                           'O Paraná'}
+                        </span>{' '}
+                        passou por uma intensa transformação demográfica nas últimas décadas.
                         A população urbana cresceu de {stateTotals.taxaUrbanizacaoInicial?.toFixed(1)}%
                         em {stateTotals.anoInicial} para {stateTotals.taxaUrbanizacaoAtual?.toFixed(1)}%
                         em {stateTotals.anoFinal}.
@@ -252,14 +301,14 @@ export default function App() {
             <div className="space-y-6">
               <RankingTable
                 data={filteredRankings.top_evasao}
-                title={`Municípios com Maior Evasão${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
+                title={<>{'Municípios com Maior Evasão'}{filteredData?.isFiltered ? ` - ${filterTitle}` : ''}</>}
                 type="evasao"
                 limit={20}
                 showRegional={!filters.regional || filters.regional === 'todas'}
               />
               <RankingTable
                 data={filteredRankings.top_crescimento}
-                title={`Municípios com Maior Crescimento${filteredData?.isFiltered ? ` - ${filterTitle}` : ''}`}
+                title={<>{'Municípios com Maior Crescimento'}{filteredData?.isFiltered ? ` - ${filterTitle}` : ''}</>}
                 type="crescimento"
                 limit={20}
                 showRegional={!filters.regional || filters.regional === 'todas'}
@@ -272,7 +321,7 @@ export default function App() {
             <div className="space-y-6">
               <PyramidChart
                 data={data?.detailed?.piramide}
-                title={`Pirâmide Etária - ${filterTitle}`}
+                title={<>{'Pirâmide Etária (Censo 2022)'} - {filterTitle}</>}
                 filterMunicipios={filters.municipio ? [filters.municipio] :
                   filteredData?.isFiltered ? filteredData.municipios.map(m => m.codigo) : null}
               />
@@ -283,9 +332,13 @@ export default function App() {
                 </h3>
                 <div className="prose prose-sm text-dark-600">
                   <p>
-                    A pirâmide etária {filters.municipio ? `de ${filters.municipioNome}` :
-                    filters.regional !== 'todas' ? `da regional ${filters.regional}` :
-                    'do Paraná'} tem se transformado ao longo das décadas,
+                    A pirâmide etária{' '}
+                    <span key={filterTitle}>
+                      {filters.municipio ? `de ${filters.municipioNome}` :
+                       filters.regional !== 'todas' ? `da regional ${filters.regional}` :
+                       'do Paraná'}
+                    </span>{' '}
+                    tem se transformado ao longo das décadas,
                     refletindo a queda na taxa de natalidade e o aumento da expectativa de vida.
                     A base mais estreita e o topo mais largo indicam o envelhecimento da população.
                   </p>
@@ -294,9 +347,11 @@ export default function App() {
             </div>
           )}
         </div>
+        </>
+        )}
       </main>
 
-      <Footer />
+      <Footer metadata={data?.metadata} />
     </div>
   )
 }

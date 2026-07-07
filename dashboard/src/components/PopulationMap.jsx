@@ -16,12 +16,11 @@ function MapController({ bounds }) {
   return null
 }
 
-export default function PopulationMap({ data, geoData, title, periodo }) {
+export default function PopulationMap({ data, geoData, title, periodo, geoError = false, onRetry }) {
   // GeoJSON vem por prop (useData já converte o TopoJSON do hub).
   // O fetch local de assets/mun_PR.json quebrava em produção: o arquivo
   // está no .gitignore e nunca era deployado (404 ao vivo).
-  const loading = !geoData
-  const error = null
+  const loading = !geoData && !geoError
 
   // Centro do Paraná
   const center = [-24.5, -51.5]
@@ -118,6 +117,28 @@ export default function PopulationMap({ data, geoData, title, periodo }) {
     return `geojson-${periodo}-${data?.length || 0}`
   }, [periodo, data])
 
+  if (!geoData && geoError) {
+    return (
+      <div className="chart-container">
+        <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
+        <div className="h-[500px] flex flex-col items-center justify-center gap-2 text-center px-6">
+          <p className="font-medium text-dark-700">Não foi possível carregar o mapa</p>
+          <p className="text-sm text-dark-500 max-w-md">
+            Falha ao baixar a malha dos municípios. Verifique sua conexão e tente novamente.
+          </p>
+          {onRetry && (
+            <button
+              onClick={onRetry}
+              className="mt-2 px-4 py-2 text-sm rounded-lg bg-accent-600 text-white hover:bg-accent-700 transition-colors"
+            >
+              Tentar novamente
+            </button>
+          )}
+        </div>
+      </div>
+    )
+  }
+
   if (loading) {
     return (
       <div className="chart-container">
@@ -127,17 +148,6 @@ export default function PopulationMap({ data, geoData, title, periodo }) {
             <div className="w-8 h-8 border-2 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
             <span>Carregando mapa...</span>
           </div>
-        </div>
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div className="chart-container">
-        <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
-        <div className="h-[500px] flex items-center justify-center text-danger-500">
-          Erro ao carregar mapa: {error}
         </div>
       </div>
     )

@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { feature } from 'topojson-client'
 
 const BASE_URL = import.meta.env.BASE_URL || '/censo-parana/'
@@ -17,12 +17,50 @@ function extractAnosFromData(data) {
 }
 
 /**
+ * Processa o TopoJSON em geoData + listas de municípios/regionais.
+ */
+function processGeo(topo, aggregatedMunicipios) {
+  const geoData = feature(topo, topo.objects.municipalities)
+
+  // Extrair lista de municípios com suas regionais
+  const munMap = new Map()
+  geoData.features.forEach(f => {
+    const codigo = f.properties.CodIbge
+    const nome = f.properties.Municipio
+    const regional = f.properties.RegIdr
+    munMap.set(codigo, { codigo, nome, regional })
+  })
+
+  // Combinar com dados dos municípios do censo
+  let municipiosComRegional
+  if (aggregatedMunicipios) {
+    municipiosComRegional = aggregatedMunicipios.map(mun => {
+      const geoInfo = munMap.get(mun.codigo)
+      return {
+        ...mun,
+        regional: geoInfo?.regional || 'Desconhecida'
+      }
+    })
+  } else {
+    municipiosComRegional = Array.from(munMap.values())
+  }
+
+  // Extrair lista única de regionais ordenada
+  const regionais = [...new Set(municipiosComRegional.map(m => m.regional))]
+    .filter(r => r && r !== 'Desconhecida')
+    .sort((a, b) => a.localeCompare(b, 'pt-BR'))
+
+  return { geoData, municipiosComRegional, regionais }
+}
+
+/**
  * Hook principal para carregar dados do censo
  */
 export function useData() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [geoError, setGeoError] = useState(false)
 
   useEffect(() => {
     const controller = new AbortController()
@@ -59,54 +97,30 @@ export function useData() {
         if (signal.aborted) return
 
         // Processar GeoJSON para obter regionais
-        let geoData = null
-        let municipiosComRegional = []
-        let regionais = []
+        let geoParts = null
 
         if (geoResponse?.ok) {
           try {
             const topo = await geoResponse.json()
-            geoData = feature(topo, topo.objects.municipalities)
-
-            // Extrair lista de municípios com suas regionais
-            const munMap = new Map()
-            geoData.features.forEach(f => {
-              const codigo = f.properties.CodIbge
-              const nome = f.properties.Municipio
-              const regional = f.properties.RegIdr
-              munMap.set(codigo, { codigo, nome, regional })
-            })
-
-            // Combinar com dados dos municípios do censo
-            if (aggregated.municipios) {
-              municipiosComRegional = aggregated.municipios.map(mun => {
-                const geoInfo = munMap.get(mun.codigo)
-                return {
-                  ...mun,
-                  regional: geoInfo?.regional || 'Desconhecida'
-                }
-              })
-            } else {
-              municipiosComRegional = Array.from(munMap.values())
-            }
-
-            // Extrair lista única de regionais ordenada
-            regionais = [...new Set(municipiosComRegional.map(m => m.regional))]
-              .filter(r => r && r !== 'Desconhecida')
-              .sort((a, b) => a.localeCompare(b, 'pt-BR'))
+            geoParts = processGeo(topo, aggregated.municipios)
           } catch (e) {
             console.warn('GeoJSON não disponível:', e)
           }
         }
 
         if (!signal.aborted) {
+          // Sem o geo, derivar a lista de municípios dos dados tabulares
+          // para a busca e os rankings continuarem funcionando.
           setData({
             ...aggregated,
             detailed,
-            geoData,
-            municipiosComRegional,
-            regionais
+            geoData: geoParts?.geoData || null,
+            municipiosComRegional: geoParts
+              ? geoParts.municipiosComRegional
+              : (aggregated.municipios || []),
+            regionais: geoParts?.regionais || []
           })
+          setGeoError(!geoParts)
           setError(null)
         }
       } catch (err) {
@@ -125,7 +139,24 @@ export function useData() {
     return () => controller.abort()
   }, [])
 
-  return { data, loading, error }
+  // Refaz apenas o download do TopoJSON (sem recarregar a página).
+  const retryGeo = useCallback(async () => {
+    setGeoError(false)
+    try {
+      const res = await fetch(TOPO_URL)
+      if (!res.ok) throw new Error(`Erro ${res.status} ao carregar o mapa`)
+      const topo = await res.json()
+      setData(prev => {
+        if (!prev) return prev
+        return { ...prev, ...processGeo(topo, prev.municipios) }
+      })
+    } catch (e) {
+      console.warn('GeoJSON não disponível:', e)
+      setGeoError(true)
+    }
+  }, [])
+
+  return { data, loading, error, geoError, retryGeo }
 }
 
 /**
@@ -159,7 +190,12 @@ export function useFilteredData(data, filters) {
     const primeiroAnoCenso = anosDisponiveis[0]
     const ultimoAnoCenso = anosDisponiveis[anosDisponiveis.length - 1]
 
-    if (anoInicial && anoFinal && (anoInicial !== primeiroAnoCenso || anoFinal !== ultimoAnoCenso)) {
+    const isPeriodFiltered = !!(
+      anoInicial && anoFinal && anosDisponiveis.length > 0 &&
+      (anoInicial !== primeiroAnoCenso || anoFinal !== ultimoAnoCenso)
+    )
+
+    if (isPeriodFiltered) {
       municipios = municipios.map(mun => {
         const dadoInicial = mun.dados?.find(d => d.ano === anoInicial)
         const dadoFinal = mun.dados?.find(d => d.ano === anoFinal)
@@ -200,7 +236,8 @@ export function useFilteredData(data, filters) {
       municipios,
       filteredCount: municipios.length,
       totaisFiltrados,
-      isFiltered: !!(municipio || (regional && regional !== 'todas') || (classificacao && classificacao !== 'todos'))
+      isFiltered: !!(municipio || (regional && regional !== 'todas') || (classificacao && classificacao !== 'todos')),
+      isPeriodFiltered
     }
   }, [data, filters])
 }
@@ -250,7 +287,7 @@ export function useStateTotals(data, filteredData = null) {
 
     const anos = Object.keys(totais).map(Number).sort()
 
-    if (anos.length < 2) return null
+    if (anos.length < 1) return null
 
     const primeiroAno = anos[0]
     const ultimoAno = anos[anos.length - 1]

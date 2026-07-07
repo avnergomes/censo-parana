@@ -114,7 +114,15 @@ export default function Filters({
           <Calendar className="w-4 h-4 text-dark-400" />
           <select
             value={filters.anoInicial}
-            onChange={(e) => handleChange('anoInicial', Number(e.target.value))}
+            onChange={(e) => {
+              const ano = Number(e.target.value)
+              // Nunca permitir período invertido: ajusta o ano final junto
+              onChange(prev => ({
+                ...prev,
+                anoInicial: ano,
+                anoFinal: prev.anoFinal < ano ? ano : prev.anoFinal,
+              }))
+            }}
             className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
           >
             {availableYears.map(ano => (
@@ -124,11 +132,17 @@ export default function Filters({
           <span className="text-dark-400">até</span>
           <select
             value={filters.anoFinal}
-            onChange={(e) => handleChange('anoFinal', Number(e.target.value))}
+            onChange={(e) => {
+              const ano = Number(e.target.value)
+              onChange(prev => ({
+                ...prev,
+                anoFinal: ano < prev.anoInicial ? prev.anoInicial : ano,
+              }))
+            }}
             className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
           >
             {availableYears.map(ano => (
-              <option key={ano} value={ano}>{ano}</option>
+              <option key={ano} value={ano} disabled={ano < filters.anoInicial}>{ano}</option>
             ))}
           </select>
         </div>
@@ -136,16 +150,23 @@ export default function Filters({
         {/* Regional */}
         <div className="flex items-center gap-2">
           <MapPin className="w-4 h-4 text-dark-400" />
-          <select
-            value={filters.regional || 'todas'}
-            onChange={(e) => handleRegionalChange(e.target.value)}
-            className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 min-w-[180px]"
-          >
-            <option value="todas">Todas as regionais</option>
-            {regionais.map(reg => (
-              <option key={reg} value={reg}>{reg}</option>
-            ))}
-          </select>
+          {regionais.length > 0 ? (
+            <select
+              value={filters.regional || 'todas'}
+              onChange={(e) => handleRegionalChange(e.target.value)}
+              className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 min-w-[180px]"
+            >
+              <option value="todas">Todas as regionais</option>
+              {regionais.map(reg => (
+                <option key={reg} value={reg}>{reg}</option>
+              ))}
+            </select>
+          ) : (
+            // Sem o mapa (falha do TopoJSON) não há lista de regionais
+            <span className="px-3 py-1.5 text-sm text-dark-400 border border-dashed border-dark-200 rounded-lg">
+              Regionais indisponíveis
+            </span>
+          )}
         </div>
 
         {/* Município - Autocomplete */}

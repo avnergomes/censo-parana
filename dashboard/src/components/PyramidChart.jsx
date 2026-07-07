@@ -1,3 +1,4 @@
+// ATLAS-A11Y-HEX-SWEPT
 import { useMemo, useState } from 'react'
 import {
   BarChart,
@@ -10,6 +11,10 @@ import {
   ReferenceLine,
 } from 'recharts'
 import { formatNumber } from '../utils/format'
+
+// Okabe-Ito (paleta acessível compartilhada do ecossistema, chart-palette.js)
+const COLOR_HOMENS = '#0072B2'   // azul
+const COLOR_MULHERES = '#CC79A7' // rosa arroxeado
 
 // Ordem das faixas etárias
 const FAIXAS_ORDEM = [
@@ -128,10 +133,10 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
       <div className="bg-white p-3 rounded-lg shadow-lg border border-dark-200">
         <p className="font-semibold text-dark-800 mb-2">{data.faixa}</p>
         <div className="space-y-1 text-sm">
-          <p className="text-blue-600">
+          <p style={{ color: COLOR_HOMENS }}>
             Homens: {formatNumber(data.homensAbs)} ({data.homensPct.toFixed(1)}%)
           </p>
-          <p className="text-pink-600">
+          <p style={{ color: COLOR_MULHERES }}>
             Mulheres: {formatNumber(data.mulheresAbs)} ({data.mulheresPct.toFixed(1)}%)
           </p>
         </div>
@@ -157,7 +162,7 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
         <div className="h-96 flex flex-col items-center justify-center text-dark-400">
           <p>Dados da pirâmide etária não disponíveis</p>
           <p className="text-sm mt-2">
-            Execute o script de download para obter os dados do Censo 2022.
+            Tente recarregar a página mais tarde.
           </p>
         </div>
       </div>
@@ -184,11 +189,11 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-4 text-sm">
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded bg-blue-500"></div>
+              <div className="w-3 h-3 rounded" style={{ backgroundColor: COLOR_HOMENS }}></div>
               <span className="text-dark-600">Homens</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded bg-pink-500"></div>
+              <div className="w-3 h-3 rounded" style={{ backgroundColor: COLOR_MULHERES }}></div>
               <span className="text-dark-600">Mulheres</span>
             </div>
           </div>
@@ -217,14 +222,14 @@ export default function PyramidChart({ data, title, filterMunicipios = null }) {
             />
             <Tooltip content={<CustomTooltip />} />
             <ReferenceLine x={0} stroke="#666" />
-            <Bar dataKey="homens" fill="#3b82f6" name="Homens" radius={[4, 0, 0, 4]}>
+            <Bar dataKey="homens" fill={COLOR_HOMENS} name="Homens" radius={[4, 0, 0, 4]}>
               {pyramidData.map((entry, index) => (
-                <Cell key={`homens-${index}`} fill="#3b82f6" />
+                <Cell key={`homens-${index}`} fill={COLOR_HOMENS} />
               ))}
             </Bar>
-            <Bar dataKey="mulheres" fill="#ec4899" name="Mulheres" radius={[0, 4, 4, 0]}>
+            <Bar dataKey="mulheres" fill={COLOR_MULHERES} name="Mulheres" radius={[0, 4, 4, 0]}>
               {pyramidData.map((entry, index) => (
-                <Cell key={`mulheres-${index}`} fill="#ec4899" />
+                <Cell key={`mulheres-${index}`} fill={COLOR_MULHERES} />
               ))}
             </Bar>
           </BarChart>

@@ -25,11 +25,13 @@ export default function KpiCards({ stateTotals, contagens }) {
     return <SkeletonGrid />
   }
 
+  // Subtítulos como fragmentos JSX: as partes fixas viram text nodes
+  // separados, que o runtime de i18n consegue traduzir por igualdade exata.
   const cards = [
     {
       title: 'População Atual',
       value: formatNumber(stateTotals?.populacaoAtual),
-      subtitle: `Censo ${stateTotals?.anoFinal || 2022}`,
+      subtitle: <>Censo {stateTotals?.anoFinal || 2022}</>,
       icon: Users,
       color: 'text-primary-600',
       bgColor: 'bg-primary-100',
@@ -45,7 +47,7 @@ export default function KpiCards({ stateTotals, contagens }) {
     {
       title: 'Taxa de Urbanização',
       value: formatPercent(stateTotals?.taxaUrbanizacaoAtual),
-      subtitle: `Era ${formatPercent(stateTotals?.taxaUrbanizacaoInicial)} em ${stateTotals?.anoInicial || 1991}`,
+      subtitle: <>Era {formatPercent(stateTotals?.taxaUrbanizacaoInicial)} em {stateTotals?.anoInicial || 1991}</>,
       icon: Building2,
       color: 'text-warning-600',
       bgColor: 'bg-amber-100',
@@ -53,7 +55,7 @@ export default function KpiCards({ stateTotals, contagens }) {
     {
       title: 'Municípios com Evasão',
       value: contagens?.municipios_evasao || 0,
-      subtitle: `De ${contagens?.total_municipios || 399} municípios`,
+      subtitle: <>Do total de {contagens?.total_municipios || 399} municípios</>,
       icon: TrendingDown,
       color: 'text-danger-600',
       bgColor: 'bg-orange-100',
