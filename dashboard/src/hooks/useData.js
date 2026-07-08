@@ -2,7 +2,27 @@ import { useState, useEffect, useMemo, useCallback } from 'react'
 import { feature } from 'topojson-client'
 
 const BASE_URL = import.meta.env.BASE_URL || '/censo-parana/'
-const TOPO_URL = 'https://cdn.jsdelivr.net/gh/datageoparana/datageoparana.github.io@main/assets/parana-municipalities.topojson'
+// Malha municipal reduzida self-hosted (749 KB, mesmas propriedades e object key 'municipalities').
+const TOPO_URL = 'https://datageoparana.github.io/assets/parana-municipalities.min.topojson'
+// Fallback para a malha completa no jsdelivr (4,4 MB) caso a self-hosted falhe.
+const TOPO_URL_FALLBACK = 'https://cdn.jsdelivr.net/gh/datageoparana/datageoparana.github.io@main/assets/parana-municipalities.topojson'
+
+/**
+ * Busca o TopoJSON tentando a malha primária (self-hosted) e, em qualquer
+ * falha (rejeição de rede ou resposta não-ok), recorre ao fallback do jsdelivr
+ * antes de propagar o erro. Retorna sempre uma Response para o chamador
+ * verificar `res.ok`, preservando a semântica de erro/retry existente.
+ */
+async function fetchTopo(options) {
+  try {
+    const res = await fetch(TOPO_URL, options)
+    if (res.ok) return res
+    throw new Error(`Erro ${res.status} ao carregar o mapa`)
+  } catch (primaryErr) {
+    // Qualquer falha na malha primária: tentar o fallback antes de propagar.
+    return fetch(TOPO_URL_FALLBACK, options)
+  }
+}
 
 /**
  * Extract available years from municipality data (fallback when metadata.anos_censos is missing)
@@ -74,7 +94,7 @@ export function useData() {
         const [aggResponse, detResponse, geoResponse] = await Promise.all([
           fetch(`${BASE_URL}data/aggregated.json`, { signal }),
           fetch(`${BASE_URL}data/detailed.json`, { signal }).catch(() => null),
-          fetch(TOPO_URL, { signal }).catch(() => null)
+          fetchTopo({ signal }).catch(() => null)
         ])
 
         if (signal.aborted) return
@@ -143,7 +163,7 @@ export function useData() {
   const retryGeo = useCallback(async () => {
     setGeoError(false)
     try {
-      const res = await fetch(TOPO_URL)
+      const res = await fetchTopo()
       if (!res.ok) throw new Error(`Erro ${res.status} ao carregar o mapa`)
       const topo = await res.json()
       setData(prev => {
