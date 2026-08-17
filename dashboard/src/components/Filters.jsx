@@ -123,7 +123,7 @@ export default function Filters({
                 anoFinal: prev.anoFinal < ano ? ano : prev.anoFinal,
               }))
             }}
-            className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
+            className="px-3 py-2.5 sm:py-1.5 text-base sm:text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
           >
             {availableYears.map(ano => (
               <option key={ano} value={ano}>{ano}</option>
@@ -139,7 +139,7 @@ export default function Filters({
                 anoFinal: ano < prev.anoInicial ? prev.anoInicial : ano,
               }))
             }}
-            className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
+            className="px-3 py-2.5 sm:py-1.5 text-base sm:text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500"
           >
             {availableYears.map(ano => (
               <option key={ano} value={ano} disabled={ano < filters.anoInicial}>{ano}</option>
@@ -154,7 +154,7 @@ export default function Filters({
             <select
               value={filters.regional || 'todas'}
               onChange={(e) => handleRegionalChange(e.target.value)}
-              className="px-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 min-w-[180px]"
+              className="px-3 py-2.5 sm:py-1.5 text-base sm:text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 min-w-[180px]"
             >
               <option value="todas">Todas as regionais</option>
               {regionais.map(reg => (
@@ -200,7 +200,7 @@ export default function Filters({
                   }}
                   onFocus={() => setShowDropdown(true)}
                   placeholder="Buscar município..."
-                  className="pl-9 pr-3 py-1.5 text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 w-[200px]"
+                  className="pl-9 pr-3 py-2.5 sm:py-1.5 text-base sm:text-sm border border-dark-200 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 w-[200px]"
                 />
               </div>
             )}
@@ -208,7 +208,7 @@ export default function Filters({
 
           {/* Dropdown de municipios */}
           {showDropdown && !filters.municipio && (
-            <div className="absolute top-full left-0 mt-1 w-[280px] bg-white border border-dark-200 rounded-lg shadow-lg z-50 max-h-[300px] overflow-y-auto">
+            <div className="absolute top-full left-0 mt-1 w-[280px] max-w-[calc(100vw-2rem)] bg-white border border-dark-200 rounded-lg shadow-lg z-50 max-h-[300px] overflow-y-auto">
               {filteredMunicipios.length > 0 ? (
                 filteredMunicipios.map(mun => (
                   <button

@@ -121,7 +121,7 @@ export default function PopulationMap({ data, geoData, title, periodo, geoError 
     return (
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
-        <div className="h-[500px] flex flex-col items-center justify-center gap-2 text-center px-6">
+        <div className="h-[clamp(280px,60vh,480px)] flex flex-col items-center justify-center gap-2 text-center px-6">
           <p className="font-medium text-dark-700">Não foi possível carregar o mapa</p>
           <p className="text-sm text-dark-500 max-w-md">
             Falha ao baixar a malha dos municípios. Verifique sua conexão e tente novamente.
@@ -143,7 +143,7 @@ export default function PopulationMap({ data, geoData, title, periodo, geoError 
     return (
       <div className="chart-container">
         <h3 className="text-lg font-semibold text-dark-800 mb-4">{title}</h3>
-        <div className="h-[500px] flex items-center justify-center text-dark-400">
+        <div className="h-[clamp(280px,60vh,480px)] flex items-center justify-center text-dark-400">
           <div className="flex flex-col items-center gap-2">
             <div className="w-8 h-8 border-2 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
             <span>Carregando mapa...</span>
@@ -164,7 +164,7 @@ export default function PopulationMap({ data, geoData, title, periodo, geoError 
         )}
       </div>
 
-      <div className="h-[500px] rounded-lg overflow-hidden border border-dark-200 shadow-sm">
+      <div className="h-[clamp(280px,60vh,480px)] rounded-lg overflow-hidden border border-dark-200 shadow-sm map-wrapper">
         <MapContainer
           center={center}
           zoom={7}

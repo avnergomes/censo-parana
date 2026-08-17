@@ -19,7 +19,7 @@
           var bar = document.createElement('div');
           bar.setAttribute('role', 'region');
           bar.setAttribute('aria-label', 'Datageo Paran\u00e1');
-          bar.style.cssText = 'position:fixed;bottom:0;left:0;right:0;z-index:9999;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:center;padding:10px 16px;background:#14110c;color:#f1e9d6;font:14px/1.4 "IBM Plex Sans",system-ui,sans-serif;box-shadow:0 -2px 8px rgba(0,0,0,.25)';
+          bar.style.cssText = 'position:fixed;bottom:0;left:0;right:0;z-index:9998;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:center;padding:10px 16px;background:#14110c;color:#f1e9d6;font:14px/1.4 "IBM Plex Sans",system-ui,sans-serif;box-shadow:0 -2px 8px rgba(0,0,0,.25)';
           var span = document.createElement('span');
           span.textContent = 'Este painel faz parte do ecossistema Datageo Paran\u00e1.';
           var a = document.createElement('a');
@@ -151,7 +151,8 @@
         box-shadow: 0 6px 18px -8px rgba(20, 17, 12, 0.35);
       }
       @media (max-width: 640px) {
-        .lang-fixed { top: 8px; right: 8px; }
+        /* Desloca para baixo do header (≈100px) evitando cobrir o botão "Sobre" */
+        .lang-fixed { top: 104px; right: 8px; }
       }
     </style>
   </head>
@@ -253,7 +254,7 @@
     </script>
 
     <!-- LGPD Banner (atlas) -->
-    <div id="lgpd-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:950;background:#14110c;color:#e3d6b6;border-top:1px solid #a8482c;padding:14px clamp(20px,4vw,40px);font-family:'IBM Plex Sans',system-ui,sans-serif;">
+    <div id="lgpd-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:10000;background:#14110c;color:#e3d6b6;border-top:1px solid #a8482c;padding:14px clamp(20px,4vw,40px);font-family:'IBM Plex Sans',system-ui,sans-serif;">
       <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;">
         <p style="margin:0;flex:1;min-width:280px;font-family:'Fraunces','Cormorant Garamond',Georgia,serif;font-size:0.95rem;line-height:1.5;color:#e3d6b6;">
           Este site utiliza apenas dados públicos agregados. Nenhum dado pessoal é coletado ou armazenado.

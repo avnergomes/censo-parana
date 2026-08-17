@@ -207,12 +207,25 @@
     background-color: theme('colors.neutral.400');
     border-radius: 3px;
   }
+
+  /* Esconde a barra de rolagem em WebKit (Chrome/Safari) para containers
+     com overflow-x:auto que usam a classe utilitária scrollbar-none. */
+  .scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
 }
 
 /* Leaflet customizations */
 .leaflet-container {
   font-family: 'IBM Plex Sans', system-ui, sans-serif;
   border: 1px solid rgba(20,17,12,0.18);
+}
+
+/* Mobile: permite scroll vertical da página mesmo com o dedo sobre o mapa;
+   o eixo horizontal ainda arrasta o mapa normalmente. */
+@media (max-width: 639px) {
+  .map-wrapper .leaflet-container {
+    touch-action: pan-y;
+  }
 }
 .leaflet-popup-content-wrapper {
   @apply shadow-soft;

@@ -46,7 +46,7 @@ export default function Tabs({ tabs, activeTab, onChange }) {
       {canScrollLeft && (
         <button
           onClick={() => scroll(-1)}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-1 rounded-full bg-white shadow border border-dark-200 text-dark-500 hover:bg-dark-50 sm:hidden"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow border border-dark-200 text-dark-500 hover:bg-dark-50 sm:hidden"
           aria-label="Rolar para esquerda"
         >
           <ChevronLeft className="w-4 h-4" />
@@ -70,7 +70,7 @@ export default function Tabs({ tabs, activeTab, onChange }) {
               aria-selected={isActive}
               onClick={() => onChange(tab.id)}
               className={`
-                flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm
+                flex items-center gap-2 px-4 py-3 rounded-lg font-medium text-sm
                 whitespace-nowrap transition-all duration-200
                 ${isActive
                   ? 'bg-accent-600 text-white shadow-md scale-[1.03]'
@@ -88,7 +88,7 @@ export default function Tabs({ tabs, activeTab, onChange }) {
       {canScrollRight && (
         <button
           onClick={() => scroll(1)}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-1 rounded-full bg-white shadow border border-dark-200 text-dark-500 hover:bg-dark-50 sm:hidden"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow border border-dark-200 text-dark-500 hover:bg-dark-50 sm:hidden"
           aria-label="Rolar para direita"
         >
           <ChevronRight className="w-4 h-4" />
